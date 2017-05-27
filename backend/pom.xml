@@ -49,13 +49,21 @@
 			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
 		</dependency>
 
-        <!-- Runtime, for Embedded Elasticsearch,
-                    comment this if connect to external elastic search server-->
-        <dependency>
-            <groupId>net.java.dev.jna</groupId>
-            <artifactId>jna</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+        <!--&lt;!&ndash; Runtime, for Embedded Elasticsearch,-->
+                    <!--comment this if connect to external elastic search server&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>net.java.dev.jna</groupId>-->
+            <!--<artifactId>jna</artifactId>-->
+            <!--<scope>runtime</scope>-->
+        <!--</dependency>-->
+
+		<!-- https://mvnrepository.com/artifact/net.sf.dozer/dozer -->
+		<dependency>
+			<groupId>net.sf.dozer</groupId>
+			<artifactId>dozer</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

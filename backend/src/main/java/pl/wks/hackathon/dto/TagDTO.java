@@ -1,7 +1,7 @@
 package pl.wks.hackathon.dto;
 
 /**
- * DTO of
+ * DTO of tags representation
  * <p>
  * Created by Marek Paczóski on 27.05.2017.
  */
@@ -50,7 +50,7 @@ public class TagDTO {
 
     @Override
     public String toString() {
-        return "Tag{" +
+        return "TagDTO{" +
                 "tagId=" + tagId +
                 ", tagName='" + tagName + '\'' +
                 ", frequency=" + frequency +
