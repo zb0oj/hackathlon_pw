@@ -12,7 +12,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 public class Tag {
 
     @Id
-    private Long tagId;
+    private Long tagsValue;
 
     private String tagName;
 
@@ -21,17 +21,17 @@ public class Tag {
     }
 
     // constructor for all fields
-    public Tag(Long tagId, String tagName) {
-        this.tagId = tagId;
+    public Tag(Long tagsValue, String tagName) {
+        this.tagsValue = tagsValue;
         this.tagName = tagName;
     }
 
-    public Long getTagId() {
-        return tagId;
+    public Long getTagsValue() {
+        return tagsValue;
     }
 
-    public void setTagId(Long tagId) {
-        this.tagId = tagId;
+    public void setTagsValue(Long tagsValue) {
+        this.tagsValue = tagsValue;
     }
 
     public String getTagName() {
@@ -45,7 +45,7 @@ public class Tag {
     @Override
     public String toString() {
         return "Tag{" +
-                "tagId=" + tagId +
+                "tagsValue=" + tagsValue +
                 ", tagName='" + tagName + '\'' +
                 '}';
     }

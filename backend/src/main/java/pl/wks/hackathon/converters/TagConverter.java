@@ -3,11 +3,9 @@ package pl.wks.hackathon.converters;
 import org.dozer.DozerConverter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import pl.wks.hackathon.dto.TagDTO;
 import pl.wks.hackathon.model.Tag;
-import pl.wks.hackathon.services.MastersThesisService;
 
 import java.util.Objects;
 
@@ -23,9 +21,6 @@ public class TagConverter extends DozerConverter<Tag, TagDTO> {
      */
     private static final Logger logger = LoggerFactory.getLogger(TagConverter.class);
 
-    @Autowired
-    private MastersThesisService defaultMastersThesisService;
-
     public TagConverter() {
         super(Tag.class, TagDTO.class);
     }
@@ -38,22 +33,17 @@ public class TagConverter extends DozerConverter<Tag, TagDTO> {
         } else {
             result = new TagDTO();
         }
-        result.setTagId(tag.getTagId());
+        result.setTagsValue(tag.getTagsValue());
         result.setTagName(tag.getTagName());
-        //result.setFrequency(getDefaultMastersThesisService().countTag(tag.getTagName()));
         return result;
     }
 
     @Override
     public Tag convertFrom(TagDTO tagDTO, Tag tag) {
         tag.setTagName(tagDTO.getTagName());
-        tag.setTagId(tagDTO.getTagId());
+        tag.setTagsValue(tagDTO.getTagsValue());
 
         return tag;
     }
 
-
-    public MastersThesisService getDefaultMastersThesisService() {
-        return defaultMastersThesisService;
-    }
 }
