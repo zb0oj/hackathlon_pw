@@ -53,6 +53,7 @@ div {
 }
 .char-review {
 	font-size:13px;
+	margin-top:8px;
 }
 .char-review span {
 	vertical-align:middle;
@@ -76,6 +77,19 @@ div {
 .progbar .progress:nth-child(1) div {
 	float:right;
 }
-
-
+.freedom-desc {
+	font-size:10px;
+	font-weight:300;
+	text-align:left;
+}
+.freedom-desc div {
+	padding:0;
+}
+.freedom-desc div:nth-child(2) {
+	text-align:right;
+}
+td span.imie {
+	font-size:16px;
+	font-weight:700;
+}
 
