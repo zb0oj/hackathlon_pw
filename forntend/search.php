@@ -19,7 +19,7 @@
 		var initialQuery = '<?=($_GET['query'])?$_GET['query']:''?>';
 	  </script>
    </head>
-   <body>
+   <body class="loading">
       <div id="navbar" class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
             <li class="active"><a href="search.php">Wyszukiwarka</a></li>
@@ -28,7 +28,7 @@
       </div>
       <a name="about"></a>
       <div class="intro-header">
-      <div class="container">
+      <div class="container hidden">
          <div class="row">
             <div class="col-lg-10 clearmargin">
                <div id="magicsuggest"></div>
@@ -73,6 +73,7 @@
       <script type="text/javascript" src="./js/search-page.js"></script>
 	  
 	  
+	<div class="modal"><!-- Place at bottom of page --></div>
  
    </body>
 </html>

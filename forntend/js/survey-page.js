@@ -64,7 +64,7 @@ $.ajax({
 
 function initMagicsuggest(p) {
     magicsuggest = $('#magicsuggest').magicSuggest({
-		data: 'https://private-d82ca-hackathlon.apiary-mock.com/search',
+		data: tagUrl,
 		method: 'get',
 		displayField: 'tag',
 		valueField: 'tag',
@@ -128,6 +128,7 @@ $('button.save').click(function(e){
 		query.push($(entry).val());
 	});
 	query = query.concat(magicsuggest.getValue());
-	console.log(query);
+	queryString = query.join();
 	
+	location.replace("search.php?query="+queryString);
 });

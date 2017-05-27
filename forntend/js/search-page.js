@@ -1,19 +1,23 @@
-
+var magicsuggest;
 function initMagicsuggest() {
 	var queryArray = initialQuery.split(',');
 	if(queryArray.length == 1 && queryArray[0] == "") {
 		queryArray = [];
 	}
-    $('#magicsuggest').magicSuggest({
+    magicsuggest = $('#magicsuggest').magicSuggest({
 		data: tagUrl,
 		method: 'get',
 		displayField: 'tag',
+		valueField: 'tag',
 		placeholder: 'Wpisz swoje zainteresowania',
 		value: queryArray,
 		renderer: function(data){
 			return data.tag;
 		}
     });
+	$(magicsuggest).on('selectionchange', function(e,m){
+	  initTable();
+	});
 }
 
 
@@ -63,20 +67,24 @@ function relatesTagFormatter(value) {
 initMagicsuggest();
 $('[data-toggle="tooltip"]').tooltip();
 
-$.ajax({
-  url: searchUrl,
-  data: {
-	  "tagsId": [1, 2, 3]
-  },
-  type: 'get',
-  context: document.body
-}).done(function(prace) {
-	$('#table').bootstrapTable({
-		data: prace
-	}).on('all.bs.table', function (e, name, args) {
-        console.log('Event:', name, ', data:', args);
+function initTable() {
+	$.ajax({
+		url: searchUrl,
+		data: {
+			"tags": magicsuggest.getValue()
+		},
+		cache: false,
+		type: 'get',
+		context: document.body
+	}).done(function(prace) {
+		$('#table').bootstrapTable({
+			data: prace
+		}).on('all.bs.table', function (e, name, args) {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
 		$('[data-toggle="tooltip"]').tooltip();
-    });
-	$('[data-toggle="tooltip"]').tooltip();
-});
+		$('body').removeClass('loading');
+		$('div.container').removeClass('hidden');
+	});
+}
 
