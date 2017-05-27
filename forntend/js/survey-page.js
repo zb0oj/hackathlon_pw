@@ -57,10 +57,11 @@ $.ajax({
 		var button = $(this);
 		goToStep(button.data('step-id'))
 	});
+	$('body').removeClass('loading');
+	$('div.container').removeClass('hidden');
 });
 
 function initMagicsuggest(p) {
-	console.log(p);
     $('#magicsuggest').magicSuggest({
 		data: 'https://private-d82ca-hackathlon.apiary-mock.com/search',
 		method: 'get',

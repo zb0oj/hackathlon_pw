@@ -1,3 +1,10 @@
+$body = $("body");
+
+$(document).on({
+    ajaxStart: function() { $body.addClass("loading");    },
+     ajaxStop: function() { $body.removeClass("loading"); }    
+});
+
 (function(){
   $(window).scroll(function () {
       var top = $(document).scrollTop();

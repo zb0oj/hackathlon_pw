@@ -1,0 +1,31 @@
+.promotors {
+height: 55rem;
+overflow: auto;
+}
+
+tr {
+width: 100%;
+display: inline-table;
+table-layout: fixed;
+}
+
+table{
+height:300px;              // <-- Select the height of the table
+display: -moz-groupbox;    // Firefox Bad Effect
+}
+
+tbody{
+overflow-y: scroll;      
+height: 90%;            //  <-- Select the height of the body
+width: 100%;
+position: absolute;
+}
+.center {
+	text-align: center;
+}
+
+span.rate {
+  display: inline-block;
+  width: 20px;
+  text-align: left;
+}
