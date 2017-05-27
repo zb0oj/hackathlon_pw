@@ -6,7 +6,7 @@ function initMagicsuggest() {
 	}
     magicsuggest = $('#magicsuggest').magicSuggest({
 		data: tagUrl,
-		method: 'get',
+		method: 'post',
 		displayField: 'tag',
 		valueField: 'tag',
 		placeholder: 'Wpisz swoje zainteresowania',
@@ -32,7 +32,7 @@ function initTable() {
 			"tags": magicsuggest.getValue()
 		},
 		cache: false,
-		type: 'get',
+		type: 'post',
 		context: document.body
 	}).done(function(prace) {
 		$('#table').bootstrapTable({
