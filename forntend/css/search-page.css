@@ -3,7 +3,7 @@ height: 55rem;
 overflow: auto;
 }
 
-tr {
+/* tr {
 width: 100%;
 display: inline-table;
 table-layout: fixed;
@@ -19,7 +19,7 @@ overflow-y: scroll;
 height: 90%;            //  <-- Select the height of the body
 width: 100%;
 position: absolute;
-}
+} */
 .center {
 	text-align: center;
 }
