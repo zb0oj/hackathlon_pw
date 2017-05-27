@@ -1,10 +1,15 @@
 
 function initMagicsuggest() {
+	var queryArray = initialQuery.split(',');
+	if(queryArray.length == 1 && queryArray[0] == "") {
+		queryArray = [];
+	}
     $('#magicsuggest').magicSuggest({
-		data: 'https://private-d82ca-hackathlon.apiary-mock.com/search',
+		data: tagUrl,
 		method: 'get',
 		displayField: 'tag',
 		placeholder: 'Wpisz swoje zainteresowania',
+		value: queryArray,
 		renderer: function(data){
 			return data.tag;
 		}
