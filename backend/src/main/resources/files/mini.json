@@ -1,0 +1,5624 @@
+[
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Robert Jakubowski",
+    "title": "Analiza możliwości wykorzystania w algorytmie CMA-ES wiedzy o ograniczeniach kostkowych",
+    "promotor": "Jarosław Janusz Arabas",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "uwzględnianie ograniczeń",
+      "algorytmy ewolucyjne",
+      "ograniczenia kostkowe",
+      "optymalizacja"
+    ],
+    "tagsENG": [
+      "constraints handling",
+      "evolutionary algorithm",
+      "box constraint",
+      "optimization"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Witold Henryk Bartnik",
+    "title": "Zastosowanie symulacji komputerowej do analizy potencjału wykorzystania rekuperacji w optymalizacji zużycia energii elektrycznej w warszawskim metrze",
+    "promotor": "Jarosław Janusz Arabas",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "rekuperacja",
+      "optymalizacja zużycia energii",
+      "warszawskie metro"
+    ],
+    "tagsENG": [
+      "regenerative braking",
+      "energy consumption optimisation",
+      "Warsaw metro"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Paulina Auguścik",
+    "title": "Metody statystycznej identyfikacji zmian wariantów splicingowych wraz z przykładami zastosowań w analizie danych RNA-seq",
+    "promotor": "Przemysław Biecek",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "alternatywny splicing",
+      "algorytm Casper",
+      "algorytm EM",
+      "testowanie hipotez",
+      "modele mieszane",
+      "biostatystyka"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marcin Piotr Kosiński",
+    "title": "Estymacja w modelu Coxa metodą stochastycznego spadku gradientu z przykładami zastosowań w analizie danych z The Cancer Genome Atlas",
+    "promotor": "Przemysław Biecek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "model proporcjonalnych hazardów Coxa",
+      "stochastyczny spadek gradientu",
+      "estymacja metodą największej wiarogodności",
+      "częściowa funkcja wiarogodności",
+      "analiza przeżycia",
+      "pakiet statystyczny R",
+      "napływające dane",
+      "nowotworzenie",
+      "The Cancer Genome Atlas"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Agata Czajkowska",
+    "title": "Stworzenie gry adaptacyjnej",
+    "promotor": "Germanas Budnikas",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "gra adaptacyjna",
+      "klasyfikacja",
+      "kNN",
+      "SVM",
+      "bot",
+      "shooter 3D"
+    ],
+    "tagsENG": [
+      "adaptive game",
+      "classification",
+      "kNN",
+      "SVM",
+      "bot",
+      "3D shooter"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Dominika Alicja Ewertowska",
+    "title": "Ocena charakterystyk operacyjnych w adaptacyjnie randomizowanych próbach klinicznych",
+    "promotor": "Tomasz Burzykowski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "adaptacyjna randomizacja",
+      "próba kliniczna",
+      "model bayesowski",
+      "skuteczność",
+      "łańcuch Markowa",
+      "klasyfikacja"
+    ],
+    "tagsENG": [
+      "adaptive randomization",
+      "clinical trial",
+      "Bayesian model",
+      "efficacy",
+      "Markow chain",
+      "classification"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Piotr Prostko",
+    "title": "Wpływ częstości obserwacji na precyzję oszacowań różnic w parametrach rozkładu czasu do wystąpienia zdarzenia dla dwóch grup",
+    "promotor": "Tomasz Burzykowski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Analiza przeżycia",
+      "badania kliniczne",
+      "symulacje statystyczne",
+      "częstotliwość obserwacji",
+      "test logrank",
+      "model proporcjonalnych hazardów"
+    ],
+    "tagsENG": [
+      "Survival analysis",
+      "methodology of clinical trials",
+      "statistical simulations",
+      "logrank test",
+      "proportional hazards model"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Rafał Augustyniak",
+    "title": "Opracowanie i ocena metod wizualizacji przestrzeni konfiguracji w trójwymiarowym ruchu obrotowym",
+    "promotor": "Przemysław Dobrowolski",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "przestrzeń konfiguracji",
+      "ruch obrotowy",
+      "wizualizacja"
+    ],
+    "tagsENG": [
+      "configuration space",
+      "circular motion",
+      "visualization"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marta Maria Charchuła",
+    "title": "Wybrane metody analizy tekstu",
+    "promotor": "Szymon Jaroszewicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "analiza tekstu",
+      "analiza tematyczna",
+      "LDA",
+      "sLDA",
+      "wnioskowanie wariacyjne"
+    ],
+    "tagsENG": [
+      "text mining",
+      "topic analysis",
+      "LDA",
+      "sLDA",
+      "variational inference"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Julia Dorota Jagodzińska",
+    "title": "Metody faktoryzacji macierzy w analizie tekstu",
+    "promotor": "Szymon Jaroszewicz",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "analiza tekstu",
+      "nieujemna faktoryzacja macierzy",
+      "ukryta analiza semantyczna",
+      "rozkład macierzy według wartości szczególnych"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Sylwia Dorota Kołodziejska",
+    "title": "Budowa hierarchicznych modeli regresyjnych",
+    "promotor": "Szymon Jaroszewicz",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Modele regresyjne"
+    ],
+    "tagsENG": []
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Adam Wojciech Biesiada",
+    "title": "Model Bimodalnej sieci społecznej w analizie asocjacji",
+    "promotor": "Mieczysław A Kłopotek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Analiza asocjacji; Bimodalna sieć społeczna; Graf dwudzielny; Bouncing;"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Michel Migas",
+    "title": "Perpetuity o super cienkich ogonach",
+    "promotor": "Bartosz Kołodziejek",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "perpetuity",
+      "cienkie ogony"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Krzysztof Adam Batorski",
+    "title": "Asystent użytkownika sterowany głosem dla systemu Android",
+    "promotor": "Ryszard Stanisław Kozera",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2014",
+    "tagsPL": [
+      "sterowany głosem",
+      "android",
+      "angularjs",
+      "Wit.ai",
+      "rozpoznawanie mowy",
+      "mobile"
+    ],
+    "tagsENG": [
+      "android",
+      "angularjs",
+      "natural language understanding",
+      "mobile",
+      "Wit.at"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Jakub Szostakiewicz",
+    "title": "Instrumenty finansowe wykorzystywane w procesie wypłaty świadczeń emerytalnych",
+    "promotor": "Andrzej Kulik",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "emerytura",
+      "stopa zastąpienia",
+      "prognoza",
+      "instrumenty finansowe"
+    ],
+    "tagsENG": [
+      "pension",
+      "replacement rate",
+      "forecast",
+      "financial instruments"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Mikołaj Jakub Leszczyński",
+    "title": "Agentowy system wspomagania korporacji taksówkowej",
+    "promotor": "Marcin Paprzycki",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "JADE",
+      "agent",
+      "system agentowy",
+      "system rozproszony",
+      "Java",
+      "ASP.NET",
+      "Android",
+      "Google Maps",
+      "korporacja taksówkowa"
+    ],
+    "tagsENG": [
+      "JADE",
+      "agent",
+      "agent system",
+      "distributed system",
+      "Java",
+      "ASP.NET",
+      "Android",
+      "Google Maps",
+      "TAXI corporation"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Ahmed O.A. Abumarasa",
+    "title": "Hybrydowa kompresja danych na użytek serwisów internetowych",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Kompresja danych",
+      "kompresja stron internetowych"
+    ],
+    "tagsENG": [
+      "Data compression",
+      "Web compression"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Santhiya Bakthavasan",
+    "title": "Wizualizacja symptomów udaru niedokrwiennego mózgu w fazie nadostrej",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "1)udar niedokrwienny 2)komputerowo wspomagana diagnoza 3)wizualizacja 3D 4)tomograficzne obrazowanie mózgu"
+    ],
+    "tagsENG": []
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Michał Patryk Grabowski",
+    "title": "Trójwymiarowa symulacja powodzi oparta o system cząsteczkowy",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Powódź",
+      "Renderowanie",
+      "PhysX",
+      "DirectX"
+    ],
+    "tagsENG": [
+      "Flood",
+      "Rendering",
+      "PhysX",
+      "DirectX"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Maciej Dominik Nowakiewicz",
+    "title": "Wizualizacje architektoniczne z wykorzystaniem metod oświetlenia globalnego",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "aplikacja webowa",
+      "grafika 3D",
+      "wizualizacje",
+      "WebGL",
+      "HTML",
+      "JavaScript"
+    ],
+    "tagsENG": [
+      "web application",
+      "3D graphics",
+      "visualisations",
+      "WebGL",
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Konrad Sałkowski",
+    "title": "Optymalizacja modelu źródła danych w kodowaniu arytmetycznym",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "kompresja",
+      "kompresja danych",
+      "kodowanie arytmetyczne",
+      "przewidywanie przez częściowe dopasowanie",
+      "predykcja danych",
+      "kodowanie entropijne"
+    ],
+    "tagsENG": [
+      "compression",
+      "data compression",
+      "arithmetich coding",
+      "prediction by partial matching",
+      "data prediction",
+      "entropic coding"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Vignesh Dhandapani",
+    "title": "Algorytm do ekstrakcji linii papilarnych i minucji na odcisku palca człowieka",
+    "promotor": "Khalid Saeed",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "biometria",
+      "ekstrakcja cech",
+      "odciski palców",
+      "minucja filtry Gabor",
+      "filtr hybrydowy",
+      "przetwarzanie obrazu."
+    ],
+    "tagsENG": [
+      "biometrics",
+      "feature extraction",
+      "fingerprints",
+      "minutiae",
+      "Gabor filter",
+      "hybrid filter",
+      "image processing."
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Paweł Kobojek",
+    "title": "Algorytm do rozpoznawania człowieka na podstawie dynamiki użycia klawiatury",
+    "promotor": "Khalid Saeed",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "dynamika użycia klawiatury; biometria; rekurencyjne sieci neuronowe; sieci LSTM; sieci GRU; weryfikacja użytkownika"
+    ],
+    "tagsENG": [
+      "keystroke dynamics; biometrics; recurrent neural networks; LSTM networks; GRU networks; user verification"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Honorata Maria Rosłanowska",
+    "title": "Algorytm do segmentacji tęczówki i ekstrakcji jej cech",
+    "promotor": "Khalid Saeed",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "rozpoznawanie tęczówki",
+      "segmentacja",
+      "ekstrakcja cech"
+    ],
+    "tagsENG": [
+      "iris recognition",
+      "iris detection",
+      "segmentation",
+      "feature extraction"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Daniel Waszkiewicz",
+    "title": "Dynamiczne szyfrowanie zbiorów danych",
+    "promotor": "Piotr Krzysztof Sapiecha",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "kraty teorioliczbowe",
+      "kryptografia",
+      "szyfrowanie homomorficzne",
+      "pokrycie wierzchołkowe",
+      "poufny algorytm grafowy"
+    ],
+    "tagsENG": [
+      "lattice",
+      "cryptography",
+      "homomorphic encryption",
+      "vertex cover",
+      "confidential algorithm"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Ziad Al Bkhetan",
+    "title": "Porównanie metod przewidujących oddziaływania organizmów w mikrobiomach w oparciu o dane metagenomowe",
+    "promotor": "Joanna Magdalena Sasin-Kurowska",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "przewidywanie genów bakteryjnych; metody ab initio; przewidywanie ścieżek metabolicznych; przewidywanie oddziaływań; KEGG; KAAS; bioinformatyka."
+    ],
+    "tagsENG": [
+      "Prokaryotic genes prediction; ab initio Method; Metabolic pathways finding; Interactions Prediction; KEGG; KAAS; Bioinformatics."
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Anton Lenartovich",
+    "title": "Projekt i implementacja uczelnianej platformy komunikacyjno-informacyjnej opartej o technologię ASP.NET",
+    "promotor": "Piotr Sobecki",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "platforma komunikacyjna",
+      "studenci",
+      "prowadzący",
+      "materiały dydaktyczne",
+      "USOS",
+      "ASP.NET",
+      "Google Drive"
+    ],
+    "tagsENG": [
+      "communication platform",
+      "students",
+      "lecturers",
+      "teaching materials",
+      "USOS",
+      "ASP.NET",
+      "Google Drive"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "MHD Ammar Alratta",
+    "title": "Cyfrowy detector synchroniczny",
+    "promotor": "Tomasz Starecki",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Cyfrowy detektor synchroniczny",
+      "detekcja synchroniczna",
+      "wykrywanie fazowe",
+      "FPGA"
+    ],
+    "tagsENG": [
+      "synchronous detection",
+      "FPGA"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Justyna Magdalena Jankowiak",
+    "title": "Estymacja i wybór parametrów w modelu Isinga",
+    "promotor": "Paweł Roman Teisseyre",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "klasyfikacja wieloetykietowa",
+      "regresja logistyczna",
+      "model Isinga",
+      "sieci Markova",
+      "regularyzacja"
+    ],
+    "tagsENG": [
+      "logistic regression",
+      "Ising model",
+      "Markov networks",
+      "regularization"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Piotr Michał Waszkiewicz",
+    "title": "Zdalnie kontrolowany system nadzoru domu",
+    "promotor": "Wojciech Marek Zabołotny",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Automatyzacja domu",
+      "Internet rzeczy",
+      "Usługi chmurowe"
+    ],
+    "tagsENG": [
+      "Home automation",
+      "Internet of things",
+      "Cloud services"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Sebastian Marek Florczuk",
+    "title": "Twierdzenie Ore o kracie podgrup grupy",
+    "promotor": "Grzegorz Bińczak",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "grupy",
+      "podgrupy",
+      "kraty",
+      "rozdzielność",
+      "cykliczność"
+    ],
+    "tagsENG": [
+      "groups",
+      "subgroups",
+      "lattice",
+      "distributive",
+      "cyclic"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Kamila Anna Kofroń",
+    "title": "Słów kilka o maszynach Turinga",
+    "promotor": "Tomasz Brengos",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Alan Turing",
+      "maszyny Turinga",
+      "język rozpoznawalny",
+      "język rozstrzygalny"
+    ],
+    "tagsENG": [
+      "Alan Turing",
+      "Turing machine",
+      "recognizable language",
+      "decidable language"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Iwona Małkowska",
+    "title": "Słów kilka o lambda rachunku",
+    "promotor": "Tomasz Brengos",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "algebra informatyka teoretyczna"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Joanna Irena Sarwas",
+    "title": "Ciała skończone",
+    "promotor": "Tomasz Brengos",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Twierdzenie Wedderburna",
+      "algebra abstrakcyjna",
+      "algebra",
+      "grupa",
+      "pierścień",
+      "ciało",
+      "przestrzeń wektorowa"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marek Janusz Bogobowicz",
+    "title": "Liczby Van der Waerdena on-line",
+    "promotor": "Jarosław Grytczuk",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Teoria Ramseya",
+      "Liczby Van der Waerdena",
+      "algorytmiczna teoria gier"
+    ],
+    "tagsENG": [
+      "Ramsey theory",
+      "Van der Waerden numbers",
+      "Algorithmic game theory"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Kamil Piotr Romaszko",
+    "title": "Problem pokrycia wielokątów",
+    "promotor": "Konstanty Junosza-Szaniawski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "pokrycie",
+      "wielokąty",
+      "prostokąt"
+    ],
+    "tagsENG": [
+      "cover",
+      "polygons",
+      "rectangle"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Wiktor Ryciuk",
+    "title": "Problem szeregowania lądowań",
+    "promotor": "Konstanty Junosza-Szaniawski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Problem szeregowania lądowań",
+      "programowania liniowe",
+      "optymalizacja liniowa",
+      "samolot",
+      "szeregowanie lądowań"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Adam Bartosz Sienkiewicz",
+    "title": "Zgodne kolorowanie grafów",
+    "promotor": "Konstanty Junosza-Szaniawski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "zgodne kolorowanie pokolorowanie graf wierzchołek krawędź"
+    ],
+    "tagsENG": [
+      "compatible colouring graph vertex edge"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Piotr Wiśniewski",
+    "title": "Zagnieżdżone upakowania",
+    "promotor": "Konstanty Junosza-Szaniawski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "pakowanie",
+      "zagnieżdżone pakowanie",
+      "problem plecakowy"
+    ],
+    "tagsENG": [
+      "packing",
+      "nested packing",
+      "knapsack problem"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Agnieszka Żychowska",
+    "title": "Kolorowanie grafów znakowanych",
+    "promotor": "Konstanty Junosza-Szaniawski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "grafy znakowane",
+      "kolorowanie grafów",
+      "znakowana liczba chromatyczna"
+    ],
+    "tagsENG": [
+      "signed graphs",
+      "graphs colouring",
+      "signed chromatic number"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Michał Antoni Mück",
+    "title": "Zastosowania Lokalnego Lematu Lovása na przykładzie liczby Ramseya",
+    "promotor": "Konstanty Junosza-Szaniawski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Liczba Ramseya",
+      "Lokalny Lemat Lovasa",
+      "metody probabilisyczne",
+      "Teoria Ramseya",
+      "Kombinatoryka",
+      "Teoria Grafów"
+    ],
+    "tagsENG": [
+      "Ramsey Number",
+      "Lovas Local Lemma",
+      "probabilistic methods",
+      "Ramsey Theory",
+      "Combinatorics",
+      "Graph Theory"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Justyna Anna Makaruk",
+    "title": "Trójkąty diadyczne",
+    "promotor": "Anna Mućka",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "trójkąty diadyczne",
+      "przestrzeń diadyczna",
+      "twierdzenie Pitagorasa",
+      "typ brzegowy",
+      "czwórka kodująca"
+    ],
+    "tagsENG": [
+      "dyadic triangles",
+      "dyadic space",
+      "Pythagoras' theorem",
+      "boundary type",
+      "encoding quadruples"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Agnieszka Karolina Wójcik",
+    "title": "Wielokąty wypukłe",
+    "promotor": "Anna Mućka",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "przestrzeń afiniczna",
+      "zbiór wypukły",
+      "wielościan wypukły",
+      "relatywne wnętrze",
+      "hiperpłaszczyzna rozdzielająca",
+      "hiperpłaszczyzna podpierająca"
+    ],
+    "tagsENG": [
+      "affine space",
+      "convex set",
+      "convex polytopes",
+      "relative interior",
+      "separating hyperplane",
+      "supporting hyperplane"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tomasz Feliks Cichawa",
+    "title": "Grafy pierścieni przemiennych",
+    "promotor": "Anna Mućka",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "grafy pierścieni przemiennych"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Michał Mikołaj Król",
+    "title": "Kryptosystem \"Polly Cracker\"",
+    "promotor": "Anna Mućka",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "kryptografia",
+      "algebra",
+      "kryptosystem",
+      "polly cracker",
+      "baza groebnera",
+      "baza grobnera"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Patrycja Małgorzata Osiecka",
+    "title": "Pierwiastki z jedynki, ciała cyklotomiczne",
+    "promotor": "Anna Mućka",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "ciała cyklotomiczne",
+      "pierwiastki z jedynki",
+      "wielomiany cyklotomiczne"
+    ],
+    "tagsENG": [
+      "cyclotomic fields",
+      "roots of unity",
+      "cyclotomic polynomials"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Wojciech Kohut",
+    "title": "Kombinatoryka ekstremalna",
+    "promotor": "Paweł Naroski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Kombinatoryka Ekstremalna Dekompozycja Posetu Twierdzenie Spernera Rodziny Przecinające Twierdzenie Turána"
+    ],
+    "tagsENG": [
+      "Extremal Combinatorics Decomposition of Posets Sperner's Theorem Intersecting Families Turán's Theorem"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Paulina Kostrzewa",
+    "title": "Zagadki matematyczne",
+    "promotor": "Paweł Naroski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "automat komórkowy",
+      "łamigłowka",
+      "ciąg bezsześcianowy",
+      "metody algebraiczne w teorii grafów"
+    ],
+    "tagsENG": [
+      "cellular automaton",
+      "puzzle",
+      "algebraic methods in graph theory"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Krzysztof Patryk Rejmer",
+    "title": "Twierdzenia ramseyowskie dla liczb",
+    "promotor": "Paweł Naroski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Waerden"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Maria Kaeko Czaplicka",
+    "title": "Operatory domknięcia na grupoidach",
+    "promotor": "Agata Pilitowska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "krata zupełna",
+      "krata algebraiczna",
+      "operator domknięcia",
+      "grupoid",
+      "półgrupa",
+      "grupoid potęgowy",
+      "grupoid uporządkowany półkratowo",
+      "kongruencja",
+      "kongruencja w pełni niezmiennicza"
+    ],
+    "tagsENG": [
+      "complete lattice",
+      "algebraic lattice",
+      "closure operator",
+      "groupoid",
+      "semigroup",
+      "power groupoid",
+      "congruence",
+      "fully invariant congruence"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Anna Karolina Rasztawicka",
+    "title": "Pierścienie przemienne i ich ideały",
+    "promotor": "Agata Pilitowska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "pierścienie przemienne z jedynką",
+      "ideały skończenie generowane",
+      "ideały pierwsze",
+      "ideały maksymalne",
+      "chińskie twierdzenie o resztach",
+      "pierścienie noetherowskie",
+      "pierścienie z jednoznacznością rozkładu",
+      "pierścienie lokalne",
+      "moduły nad pierścieniami przemiennymi",
+      "rozszerzenia całkowite pierścieni",
+      "pierścienie Dedekinda"
+    ],
+    "tagsENG": [
+      "commutative rings with a multiplicative identity",
+      "finitely generated ideals",
+      "prime ideals",
+      "maximal ideals",
+      "Chinese Remainder Theorem",
+      "Noetherian rings",
+      "unique factorization domains",
+      "local rings",
+      "modules over commutative rings",
+      "integral ring extensions",
+      "Dedekind rings"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Monika Kinga Kagankiewicz",
+    "title": "Quandle spójne",
+    "promotor": "Agata Pilitowska",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "spójność"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Adam Paweł Komorowski",
+    "title": "Kody Reeda-Solomona",
+    "promotor": "Agata Pilitowska",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "algorytm Euklidesa"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Sonia Pola Grzywacz",
+    "title": "Przekroje wielościanów",
+    "promotor": "Barbara Roszkowska-Lech",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Przekroje",
+      "Płaszczyzna",
+      "Wielościany",
+      "Archipelag Matematyki"
+    ],
+    "tagsENG": [
+      "Plane Section",
+      "Plane",
+      "Polyhedra",
+      "Archipelag Matematyki"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tetiana Kovalska",
+    "title": "Elitarne liczby pierwsze",
+    "promotor": "Barbara Roszkowska-Lech",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "liczby Fermata",
+      "liczby pierwsze",
+      "uogólnione liczby Fermata",
+      "dzielniki liczb Fermata",
+      "elitarne liczby pierwsze"
+    ],
+    "tagsENG": [
+      "Fermat numbers",
+      "prime numbers",
+      "generalized Fermat numbers",
+      "divisors of the Fermat numbers",
+      "elite prime numbers"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Elżbieta Lipowska",
+    "title": "Liczby Fermata",
+    "promotor": "Barbara Roszkowska-Lech",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "liczby Fermata",
+      "liczby pierwsze",
+      "liczby pseudopierwsze",
+      "podzielność liczb",
+      "twierdzenie Gaussa"
+    ],
+    "tagsENG": [
+      "fermat numbers",
+      "prime numbers",
+      "pseudoprime numbers",
+      "divisibility of Fermat numbers",
+      "Gauss's theorem"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Uliński",
+    "title": "Prawie strukturalna zupełność w logice modalnej",
+    "promotor": "Michał Stronkowski",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "algebra",
+      "informatyka teoretyczna"
+    ],
+    "tagsENG": [
+      "algebra",
+      "theoretical computer science"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Marcin Zubilewicz",
+    "title": "Geometria tkanin",
+    "promotor": "Wojciech Domitrz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "foliacje",
+      "formy różniczkowe",
+      "geometria unimodularna",
+      "holonomia",
+      "tkaniny"
+    ],
+    "tagsENG": [
+      "differential forms",
+      "foliations",
+      "holonomy",
+      "unimodular geometry",
+      "webs"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Bartłomiej Henryk Murawski",
+    "title": "Niewłaściwe sfery afiniczne",
+    "promotor": "Wojciech Domitrz",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "geometria afiniczna",
+      "sfery afiniczne"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Grzegorz Sławomir Bardzicki",
+    "title": "Wzór Blacka-Scholesa – wyprowadzenie i zastosowania",
+    "promotor": "Ewa Anna Frankiewicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Drzewa dwumianowe",
+      "Model Tian’a"
+    ],
+    "tagsENG": [
+      "Binomial Trees",
+      "Tian"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Joanna Sobkowiak",
+    "title": "Modele teorii osobliwości w naukach ekonomicznych",
+    "promotor": "Stanisław Janeczko",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "teoria osobliwości"
+    ],
+    "tagsENG": [
+      "catastrophe theory"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Marek Adam Wojtowicz",
+    "title": "Liczby pierwsze w ciągach arytmetycznych - Twierdzenie Dirichleta",
+    "promotor": "Mariusz Zając",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Teoria liczb",
+      "Liczby pierwsze",
+      "funkcja dzeta Riemanna"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Dorota Wedmann",
+    "title": "O półgrupach potęgowych i ich związkach z teorią języków",
+    "promotor": "Anna Zamojska-Dzienio",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "pseudorozmaitosc",
+      "pseudorównosc",
+      "odpowiedniosc Eilenberga",
+      "półgrupa potegowa"
+    ],
+    "tagsENG": [
+      "pseudovariety",
+      "pseudoidentity",
+      "Eilenberg correspondence",
+      "power semigroup"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Kinga Ewelina Jamróz",
+    "title": "O kolorowaniu węzłów przez quandle",
+    "promotor": "Anna Zamojska-Dzienio",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "teoria węzłów",
+      "quandle",
+      "quandle fundamentalne",
+      "trójkolorowanie",
+      "niezmiennik",
+      "ruchy Reidemeistera"
+    ],
+    "tagsENG": [
+      "knot theory",
+      "quandle",
+      "fundamental quandle",
+      "tricoloring",
+      "invariant",
+      "Reidemeister moves"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Ścibor Tomasz Stachyra",
+    "title": "O operatorach domknięcia równościowego",
+    "promotor": "Anna Zamojska-Dzienio",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "operator domknięcia równościowego",
+      "quasirozmaitość",
+      "teoria modeli"
+    ],
+    "tagsENG": [
+      "equaclosure operator",
+      "quasivariety",
+      "model theory"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Mateusz Krubiński",
+    "title": "2-wymiarowe Twierdzenie Whiteheada o drzewach i jego zastosowania",
+    "promotor": "Danuta Kołodziejczyk",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "typ homotopii",
+      "grupa podstawowa",
+      "prezentacja grupy",
+      "operacje Tietzego"
+    ],
+    "tagsENG": [
+      "homotopy type",
+      "fundamental group",
+      "Tietze transformations"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Aleksandra Ziółkowska",
+    "title": "Grupoid transformacji i związane z nim algebry grupoidowe",
+    "promotor": "Leszek Pysiak",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Grupoid",
+      "grupoid transformacji",
+      "grupoid symetrii",
+      "grupoid topologiczny",
+      "lokalnie zwarty grupoid Hausdorffa",
+      "lewostronny układ Haara",
+      "grupoid étale",
+      "grupoid Liego"
+    ],
+    "tagsENG": [
+      "Groupoid",
+      "transformation groupoid",
+      "symmetry groupoid",
+      "topological groupoid",
+      "locally compact Hausdorff groupoid",
+      "left Haar system",
+      "étale groupoid",
+      "Lie groupoid"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Jędrzej Krauze",
+    "title": "Własności integralnych i przemiennych krat rezydualnych",
+    "promotor": "Anna Radzikowska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "kraty",
+      "kraty rezydualne",
+      "algebra",
+      "logika rozmyta"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Lech Treichel",
+    "title": "Jak dzielić tabliczkę czekolady? Zastosowania Kombinatorycznej Teorii Gier",
+    "promotor": "Rafał Górak",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Kombinatoryczna Teoria Gier",
+      "Cutcake",
+      "Hackenbush",
+      "Gry stronnicze",
+      "Wartość gry"
+    ],
+    "tagsENG": [
+      "Combinatorial Games Theory",
+      "Cutcake",
+      "Hackenbush",
+      "Partian Games",
+      "Game Value"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Magdalena Purcka",
+    "title": "Gaussowskie modele graficzne",
+    "promotor": "Konstancja Bobecka-Wesołowska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Gaussowskie modele graficzne",
+      "\"covariance selection model\"",
+      "model Markowa",
+      "estymacja kowariancji",
+      "graf rozkładalny",
+      "formuła Lauritzena",
+      "rozkład Wisharta",
+      "odwrotny rozkład Wisharta",
+      "odwrotny rozkład Wisharta I typu",
+      "estymator największej wiarygodności"
+    ],
+    "tagsENG": [
+      "Gaussian graphical models",
+      "covariance selection model",
+      "Markov model",
+      "estimation of covariance matrix",
+      "decomposable graph",
+      "Lauritzen formula",
+      "Wishart distribution",
+      "inverse Wishart distribution",
+      "type I Wishart distribution",
+      "maximum likelihood estimator"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Agata Sabina Dymek",
+    "title": "Asymptotyka liczby obserwacji bliskich skrajnej statystyce porządkowej",
+    "promotor": "Anna Dembińska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "funkcja tworząca rozkład prawdopodobieństwa",
+      "zbieżność według rozkładu",
+      "statystyki pozycyjne",
+      "rozkład graniczny",
+      "obserwacje bliskie maksymalnej"
+    ],
+    "tagsENG": [
+      "probability generating function",
+      "convergence in distribution",
+      "order statistics",
+      "limit distribution"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Wioleta Kowalska",
+    "title": "Własności asymptotyczne kontraktu reasekuracyjnego pokrywającego roszczenia bliskie roszczeniu maksymalnemu",
+    "promotor": "Anna Dembińska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "kontrakty reasekuracyjne",
+      "liczba roszczeń ubezpieczeniowych",
+      "statystyki porządkowe",
+      "własności asymptotyczne",
+      "zbieżności zmiennych losowych"
+    ],
+    "tagsENG": [
+      "reinsurance contracts",
+      "number of insurance claims",
+      "order statistics",
+      "asymptotic properties",
+      "convergence of random variables"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Paulina Sypiańska",
+    "title": "Własności asymptotyczne kontraktów reasekuracyjnych opartych na statystykach porządkowych",
+    "promotor": "Anna Dembińska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "statystyki porządkowe",
+      "rozkład graniczny maksimum",
+      "rozkład graniczny statystyk porządkowych",
+      "rozkład Gumbela rozkładem granicznym",
+      "kontrakty reasekuracyjne",
+      "wypłata za roszczenia reasekuracyjne",
+      "rozkład Gamma rozkładem granicznym"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Magdalena Ewa Bedełek",
+    "title": "Asymptotyczna, nieparametryczna estymacja kwantyli rozkładu. Zastosowania w analizie value at risk",
+    "promotor": "Anna Dembińska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Estymacja kwantyli rozkładu",
+      "analiza Value at Risk"
+    ],
+    "tagsENG": [
+      "Estimation of distribution quantile",
+      "analysis of Value at Risk"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Bartosz Michał Gawęda",
+    "title": "Wrażliwość modeli aktuarialnych na parametry wejściowe",
+    "promotor": "Elżbieta Ferenstein",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Rezerwy",
+      "ubezpieczenia życiowe",
+      "finanse",
+      "śmiertelność",
+      "Lee i Carter."
+    ],
+    "tagsENG": [
+      "Reserves",
+      "life insurances",
+      "finances",
+      "mortality",
+      "Lee &amp; Carter."
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Piotr Arild Geller",
+    "title": "Modelowanie rezerw uogólnioną metodą trójkątów",
+    "promotor": "Elżbieta Ferenstein",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "rezerwy",
+      "ubezpieczenia",
+      "estymatory"
+    ],
+    "tagsENG": [
+      "reserves",
+      "insurance",
+      "estimators"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Jolanta Szkutnik",
+    "title": "Lokaty strukturyzowane",
+    "promotor": "Elżbieta Ferenstein",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "lokata strukturyzowana",
+      "rachunek prawdopodobieństwa",
+      "statystyka"
+    ],
+    "tagsENG": [
+      "structured deposits",
+      "probability",
+      "statistics"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Katarzyna Grzegrzółka",
+    "title": "Wybrane modele w teorii wiarygodności",
+    "promotor": "Elżbieta Ferenstein",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "składka wiarygodności",
+      "kontrakt",
+      "predyktor"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Natalia Wanda Potocka",
+    "title": "Automatyczna kategoryzacja tematyczna tekstów przy użyciu metryk w przestrzeni ciągów znaków",
+    "promotor": "Marek Gągolewski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "odległości na przestrzeni ciągów znaków",
+      "napis",
+      "kategoryzacja tematyczna",
+      "analiza skupień"
+    ],
+    "tagsENG": [
+      "metrics over space of strings",
+      "strings",
+      "thematic categorization",
+      "clustering"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Piotr Maria Frukacz",
+    "title": "Mobilny asystent komiwojażera na platformie Salesforce i Google API",
+    "promotor": "Marek Gągolewski",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "komiwojażer",
+      "Salesforce",
+      "Google API"
+    ],
+    "tagsENG": [
+      "salesman",
+      "Salesforce",
+      "Google API"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Norbert Michał Ryciak",
+    "title": "Konstrukcja systemu rekomendacyjnego opartego na automatycznym modelowaniu tematyki danych tekstowych przy użyciu metody LDA",
+    "promotor": "Marek Gągolewski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "systemy rekomendacyjne modelowanie tematyczne LDA"
+    ],
+    "tagsENG": [
+      "Recommendation Systems Topic Modeling LDA"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Sylwia Maria Kwiatkowska",
+    "title": "Odwrotna intensywność uszkodzeń - zastosowanie do charakteryzacji rozkładów i wnioskowania statystycznego",
+    "promotor": "Przemysław Grzegorzewski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Funkcja odwrotnej intensywnosci uszkodzen",
+      "niezawodnosc",
+      "odwrotny rozkład Weibulla",
+      "graficzny test zgodnosci",
+      "estymacja parametrów rozkładu",
+      "estymator jadrowy",
+      "charakteryzacja rozkładów",
+      "symulacje w pakiecie statystycznym R"
+    ],
+    "tagsENG": [
+      "Reversed hazard rate",
+      "reliability",
+      "inverse Weibull distribution",
+      "distribution parameters estimation",
+      "kernel estimator",
+      "characterization of distributions",
+      "simulations in statistical R package"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Martyna Śpiewak",
+    "title": "Testy nieparametryczne dla danych przedziałowych",
+    "promotor": "Przemysław Grzegorzewski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "dane przedziałowe",
+      "dane epistemiczne",
+      "dane ontyczne",
+      "testy nieparametryczne",
+      "przedziały losowe",
+      "test znaków",
+      "test rangowanych znaków"
+    ],
+    "tagsENG": [
+      "epistemic sets",
+      "ontic sets",
+      "nonparametric test",
+      "random interval",
+      "sign test"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marta Sommer",
+    "title": "Statystyczne metody regresji porządkowej",
+    "promotor": "Przemysław Grzegorzewski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "regresja porządkowa",
+      "SVM",
+      "sieci neuronowe",
+      "model proporcjonalnych szans",
+      "procesy gaussowskie",
+      "krzywa ROC",
+      "współczynnik AUC",
+      "współczynnik VUS"
+    ],
+    "tagsENG": [
+      "ordinal regression",
+      "SVM",
+      "neural networks",
+      "proportional odds model",
+      "Gaussian processes",
+      "ROC~curve",
+      "AUC",
+      "VUS"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Jakub Tarczyński",
+    "title": "Predykcja ziarnista szeregów czasowych z wykorzystaniem transformaty rozmytej",
+    "promotor": "Przemysław Grzegorzewski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "szeregi czasowe transformata rozmyta"
+    ],
+    "tagsENG": []
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Aleksandra Saliszewska",
+    "title": "Modele stopy LIBOR i rynku kontraktów swap",
+    "promotor": "Jacek Jakubowski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "stopa LIBOR rynek kontraktów swap"
+    ],
+    "tagsENG": [
+      "LIBOR swap Market"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Krzysztof Adam Rudaś",
+    "title": "Własności estymatora LASSO w modelu liniowym z zależnymi błędami",
+    "promotor": "Jan Mielniczuk",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "estymator Lasso",
+      "proces SRD",
+      "proces LRD",
+      "błędy aproksymacji",
+      "błędy predykcji",
+      "proces FARIMA"
+    ],
+    "tagsENG": [
+      "Lasso estimator",
+      "SRD process",
+      "LRD process",
+      "aproximation errors",
+      "prediction errors",
+      "FARIMA process"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marcin Rdzanowski",
+    "title": "Problemy identyfikacji istotnych predyktorów w zadaniach klasyfikacji o wysokim wymiarze",
+    "promotor": "Jan Mielniczuk",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "klasyfikacja logistyczna w wysokim wymiarze"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Maciej Kajetan Czajka",
+    "title": "Wycena opcji opartych na dwóch aktywach metodą Monte Carlo i drzew dwumianowych",
+    "promotor": "Mariusz Niewęgłowski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "opcja europejska",
+      "opcja egzotyczna",
+      "Monte Carlo",
+      "drzewa dwumianowe"
+    ],
+    "tagsENG": [
+      "European option",
+      "Exotic option",
+      "Monte Carlo",
+      "binomial trees"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Wojciech Piotr Raszka",
+    "title": "Wycenianie opcji za pomocą szybkiej transformaty Fouriera",
+    "promotor": "Mariusz Niewęgłowski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "szybka transformata Fouriera",
+      "FFT",
+      "procesy L´evy’ego",
+      "wycena opcji",
+      "funkcja charakterystyczna",
+      "dwustronna transformata Laplace’a"
+    ],
+    "tagsENG": [
+      "fast Fourier transform",
+      "FFT",
+      "L´evy processes",
+      "option pricing",
+      "characteristic function",
+      "birateral Laplace transform"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Michał Andrzej Księżakowski",
+    "title": "Zastosowanie wybranych modeli analizy szeregów czasowych do prognozowania cen energii",
+    "promotor": "Paweł Wilczyński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "analiza szeregów czasowych",
+      "analiza regresji",
+      "AR",
+      "MA",
+      "ARMA",
+      "ARIMA"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Kamil Paweł Moszkowski",
+    "title": "Warunkowy VaR - teoria i praktyka",
+    "promotor": "Paweł Wilczyński",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "wartość zagrożona",
+      "warunkowa wartość zagrożona",
+      "metody kalkulacji VaR",
+      "metody kalkulacji CVaR",
+      "miara ryzyka",
+      "koherentna miara ryzyka",
+      "metoda historyczna",
+      "metoda rozkładu normalnego",
+      "metoda uogólnionego rozkładu Pareto",
+      "teoria wartości estremalnych",
+      "EVT",
+      "POT",
+      "WIG 20"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Maja Olborska",
+    "title": "Metody Monte Carlo - teoria i praktyka",
+    "promotor": "Paweł Wilczyński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "metody Monte Carlo",
+      "wycena opcji",
+      "symulacje Monte Carlo"
+    ],
+    "tagsENG": [
+      "Monte Carlo methods",
+      "option pricing",
+      "Monte Carlo simulations"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Seweryn Saczewski",
+    "title": "Przegląd metod wycen opcji na drzewach",
+    "promotor": "Paweł Wilczyński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "wycena opcji na drzewach",
+      "metody"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Wojciech Jan Stokowiec",
+    "title": "Zastosowanie Modelów Markowa o Maksymalnej Entropii w przetwarzaniu języka naturalnego",
+    "promotor": "Paweł Wilczyński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Modele Markowa",
+      "maksymalna entropia",
+      "zastosowanie",
+      "przetwarzanie języka naturalnego"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Ewelina Elżbieta Wilczewska",
+    "title": "Wartość narażona na ryzyko - aspekty praktyczne wdrożenia modelu",
+    "promotor": "Paweł Wilczyński",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "wartość zagrożona",
+      "metody kalkulacji VaR",
+      "miara ryzyka",
+      "metoda historyczna",
+      "koherentna miara ryzyka",
+      "testowanie wsteczne",
+      "backtesting",
+      "test liczby przekroczeń",
+      "test niezależności przekroczeń",
+      "VaR swapa stopy procentowej",
+      "VaR obligacji",
+      "porównanie modeli VaR"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Anita Katarzyna Kuśmierz",
+    "title": "Skaner Wolumetryczny",
+    "promotor": "Paweł Aszklar",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Kinect",
+      "3D",
+      "skaner",
+      "rekonstrukcja modelu"
+    ],
+    "tagsENG": [
+      "Kinect",
+      "3D",
+      "scanner",
+      "model reconstruction"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Jacek Jerzy Gładysz",
+    "title": "Modelowanie szans wyborczych w wyborach prezydenckich w USA w roku 2016",
+    "promotor": "Przemysław Biecek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "naiwny klasyfikator Bayesa",
+      "regresja logistyczna",
+      "wybory prezydenckie",
+      "prognozowanie wyniku wyborów"
+    ],
+    "tagsENG": [
+      "naive Bayes classifier",
+      "logistic regression",
+      "presidential election",
+      "election forecasting"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Katarzyna Sobiczewska",
+    "title": "Analiza metod uczenia maszynowego wykorzystywanych w budowaniu sygnatur genetycznych",
+    "promotor": "Przemysław Biecek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "uczenie maszynowe",
+      "selekcja zmiennych",
+      "sygnatura genetyczna",
+      "ekspresja genów",
+      "regresja logistyczna",
+      "regularyzacja L1",
+      "lasy losowe",
+      "The Cancer Genome Atlas",
+      "Progenitor Cell Biology Consortium"
+    ],
+    "tagsENG": [
+      "machine learning",
+      "feature selection",
+      "gene expression signature",
+      "genes expression",
+      "logistic regression",
+      "L1 regularization",
+      "Random Forest",
+      "The Cancer Genome Atlas",
+      "Progenitor Cell Biology Consortium"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Monika Elżbieta Łapińska",
+    "title": "Analiza algorytmów identyfikacji biomarkerów wraz z zastosowaniem do wielkoskalowych danych nowotworowych",
+    "promotor": "Przemysław Biecek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Gene Ontology",
+      "funkcje charakterystyczne",
+      "The Cancer Genome Atlas",
+      "ekspresja genów",
+      "dokładny test Fishera",
+      "metoda wektorów podpierających",
+      "sygnatura genowa"
+    ],
+    "tagsENG": [
+      "Gene Ontology",
+      "characterisitc function",
+      "The Cancer Genome Atlas",
+      "gene expression",
+      "the exact Fisher test",
+      "support vector machine",
+      "gene signature"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Barbara Sozańska",
+    "title": "Porównanie statystycznych metod różnicowej analizy danych RNA-Seq na przykładzie pakietów DESeq i edgeR",
+    "promotor": "Przemysław Biecek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "analiza ekspresji genów",
+      "rozkład ujemny dwumianowy",
+      "normalizacja danych",
+      "estymatory sredniej i wariancji genu",
+      "uogólnione modele liniowe",
+      "testowanie różnic w ekspresji genów",
+      "False Discovery Rate"
+    ],
+    "tagsENG": [
+      "Differential Expression Analysis",
+      "Negative Binomial Distribution",
+      "Data Normalization",
+      "Mean and Variance Estimators",
+      "Generalized Linear Models",
+      "False Discovery Rate"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Magdalena Karolina Baracz",
+    "title": "Wieloplatformowa, interaktywna przeglądarka medycznych danych obrazowych",
+    "promotor": "Rafał Jóźwiak",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Xamarin",
+      "wieloplatformowość",
+      "DICOM",
+      "interaktywność",
+      "aplikacje mobilne",
+      "przetwarzanie obrazów"
+    ],
+    "tagsENG": [
+      "Xamarin",
+      "multiplatform",
+      "DICOM",
+      "interactive",
+      "mobile application",
+      "image processing"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Piotr Jacek Wolski",
+    "title": "StrokeBricks – aplikacja na smartfona lokalizująca ognisko udaru mózgu",
+    "promotor": "Rafał Jóźwiak",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Mobilna",
+      "Aplikacja",
+      "Multiplatformowa",
+      "Xamarin",
+      "StrokeBricks",
+      "Mózg",
+      "Udar",
+      "Dopasowanie objawów",
+      "Neurologia"
+    ],
+    "tagsENG": [
+      "Mobile",
+      "Application",
+      "Multiplatform",
+      "Xamarin",
+      "StrokeBricks",
+      "Brain",
+      "Stroke",
+      "Symptom matching",
+      "Neurology"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marek Kozak",
+    "title": "Symulacja głębi obrazu z wykorzystaniem prostych urządzeń we/wy oraz metod sztucznej inligencji",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "grafika komputerowa",
+      "modelowanie 3D",
+      "rozpoznawanie twarzy",
+      "głębia obrazu"
+    ],
+    "tagsENG": [
+      "computer graphics",
+      "3D modeling",
+      "facial recognition",
+      "screen depth"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Rafał Nowakowski",
+    "title": "System kontroli obecności na zajęciach oparty o technologię NFC i platformę Android",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "USOS",
+      "NFC",
+      "system kontroli obecności",
+      "ELS",
+      "Android",
+      "Ruby on Rails"
+    ],
+    "tagsENG": [
+      "USOS",
+      "NFC",
+      "attendance system",
+      "ELS",
+      "Android",
+      "Ruby on Rails"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Piotr Szymon Pełka",
+    "title": "Projekt i implementacja własnego silnika graficznego 3D",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "grafika 3D",
+      "silnik graficzny",
+      "silnik gier",
+      "gry",
+      "skrypty .NET",
+      "OpenGL",
+      "Mono"
+    ],
+    "tagsENG": [
+      "3D graphics",
+      "graphics engine",
+      "post processing effects",
+      "game engine",
+      "video games",
+      ".NET scripts",
+      "OpenGL",
+      "Mono"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Karol Prusinowski",
+    "title": "Projekt i implementacja wirtualnego ekranu z wykorzystaniem gogli do rzeczywistości rozszerzonej/wirtualnej",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "wirtualna rzeczywistość",
+      "rozszerzona rzeczywistość",
+      "Google Cardboard",
+      "MJpeg",
+      "wirtualne pulpity"
+    ],
+    "tagsENG": [
+      "virtual reality",
+      "augmented reality",
+      "Google Cardboard",
+      "MJpeg",
+      "virtual desktops"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Sylwia Nowak",
+    "title": "Gogle do rzeczywistości wirtualnej i rozszerzonej oparte o ekran i kamerę smartfona",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Rzeczywistość rozszerzona",
+      "Android",
+      "Google Cardboard"
+    ],
+    "tagsENG": [
+      "Augmented reality",
+      "Android",
+      "Google Cardboard"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Monika Kogut",
+    "title": "Opracowanie modułu do automatycznego parkowania samochodu",
+    "promotor": "Krzysztof Marciniak",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "automatyczne parkowanie",
+      "diagram Voronoi",
+      "krzywe interpolacyjne",
+      "wyszukiwanie ścieżek"
+    ],
+    "tagsENG": [
+      "automatic parking",
+      "Voronoi diagram",
+      "interpolation curves",
+      "pathfinding"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Adam Janusz Felis",
+    "title": "Opracowanie symulatora walki dwu samolotów wyposażonych w samosterujące pociski powietrze-powietrze",
+    "promotor": "Krzysztof Marciniak",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Dynamika",
+      "Model samolotu",
+      "Równania ruchu",
+      "Równanie stanu",
+      "Regulator",
+      "LQR",
+      "Linearyzacja"
+    ],
+    "tagsENG": [
+      "Dynamics",
+      "Aircraft model(system)",
+      "Equations of motion",
+      "Controller",
+      "Linear Quadratic Regulator",
+      "Linearization"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Marta Kornaszewska",
+    "title": "Opracowanie modułu wyznaczania i wizualizacji obwiedni ruchu bryły sztywnej",
+    "promotor": "Krzysztof Marciniak",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "obwiednia ruchu",
+      "bryła sztywna",
+      "krzywe kwaternionowe",
+      "krzywe parametryczne",
+      "przynależność punktów do brył",
+      "algorytm maszerujących sześcianów"
+    ],
+    "tagsENG": [
+      "motion envelope",
+      "rigid body",
+      "unit quaternion curves",
+      "parametric curves",
+      "points inclusion tests",
+      "marching cubes algorithm"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Łukasz Michał Wrzesiński",
+    "title": "Opracowanie modułu automatycznego planowania ruchu samochodu w obecności ograniczeń na scenie 2D",
+    "promotor": "Krzysztof Marciniak",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "tor ruchu samochodu",
+      "omijanie przeszkód",
+      "parkowanie samochodu",
+      "graf widoczności",
+      "animacja",
+      "Autodesk 3dsMax"
+    ],
+    "tagsENG": [
+      "car path",
+      "obstacle avoidance",
+      "car parking",
+      "visibility graph",
+      "animation",
+      "Autodesk 3dsMax"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Anass Sabri Abed Alhadi Al Ksasbeh",
+    "title": "Bezpieczeństwo w obliczeniach w chmurze",
+    "promotor": "Felicja Okulicka-Dłużewska",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "chmura składowania danych",
+      "maszyny wirtualne",
+      "Infrastrukturę Klucza Publicznego (PKI)",
+      "polityka certyfikacji",
+      "użycie klucza certyfikatu (EKU)",
+      "Internet Protocol Security (IPsec)",
+      "zagrożenie bezpieczeństwa."
+    ],
+    "tagsENG": [
+      "chmura składowania danych",
+      "maszyny wirtualne",
+      "Infrastrukturę Klucza Publicznego (PKI)",
+      "polityka certyfikacji",
+      "użycie klucza certyfikatu (EKU)",
+      "Internet Protocol Security (IPsec)",
+      "zagrożenie bezpieczeństwa."
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Jakub Tomasz Bondyra",
+    "title": "Zaprojektowanie i implementacja turowej gry strategicznej",
+    "promotor": "Joanna Porter-Sobieraj",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "gra",
+      "dwuwymiarowe środowisko graficzne",
+      "Unreal Engine"
+    ],
+    "tagsENG": [
+      "game",
+      "two dimensional graphical environment",
+      "Unreal Engine"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Natalia Justyna Kaźmierczak",
+    "title": "Stworzenie gry platformowej: REM Phase",
+    "promotor": "Joanna Porter-Sobieraj",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "gra",
+      "sen",
+      "faza rem",
+      "podróż",
+      "hero",
+      "las",
+      "jaskinie",
+      "góry"
+    ],
+    "tagsENG": [
+      "game",
+      "dream",
+      "rem phase",
+      "journey",
+      "hero",
+      "woods",
+      "caves",
+      "mountains"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Jakub Bartosz Fijałkowski",
+    "title": "System do przechowywania biomedycznych danych pomiarowych",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Pomiary Biomedyczne",
+      "Biosygnały",
+      "Bazy Danych",
+      "Analiza Danych",
+      "Zarządzanie Danymi",
+      "Elektrokardiografia",
+      "NodeJS",
+      "Electron",
+      "MongoDB"
+    ],
+    "tagsENG": [
+      "Biomedical Measurement",
+      "Biosignals",
+      "Databases",
+      "Data Analysis",
+      "Data Management",
+      "Electrocardiography",
+      "NodeJS",
+      "Electron",
+      "MongoDB"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Michał Marcin Miśniakiewicz",
+    "title": "Ekstrakcja i analiza struktur liniowych w obrazach mammograficznych",
+    "promotor": "Artur Przelaskowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "obraz cyfrowy",
+      "struktura liniowa",
+      "mammogram",
+      "komputerowe wsparcie diagnostyki",
+      "segmentacja",
+      "filtry Gabora",
+      "portret fazowy",
+      "pole wektorowe"
+    ],
+    "tagsENG": [
+      "digital image",
+      "linear structure",
+      "mammogram",
+      "segmentation",
+      "Gabor filters",
+      "phase portrait",
+      "vector field"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Milena Maria Wójcik",
+    "title": "Charakteryzacja Lukacsa na stożku jednorodnym",
+    "promotor": "Bartosz Kołodziejek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Charakteryzacja Lukacsa",
+      "Rozkład Wisharta",
+      "Stożki jednorodne",
+      "Równania funkcyjne",
+      "Rozkład Choleskiego"
+    ],
+    "tagsENG": [
+      "Lukacs characterization",
+      "Wishart distribution",
+      "Homogeneous cones",
+      "Functional equations",
+      "Cholesky decomposition"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Joanna Marta Zaborek",
+    "title": "Czasoprzestrzenne wielomiany martyngałowe generowane przez martyngały z czasem dyskretnym",
+    "promotor": "Joanna Matysiak",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "wielomiany martyngałowe martyngały czas dyskretny"
+    ],
+    "tagsENG": []
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Bartłomiej Mikołaj Droździkowski",
+    "title": "Uogólnione modele liniowe uwzględniające błędy pomiarowe",
+    "promotor": "Wojciech Matysiak",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "uogólnione modele liniowe",
+      "błędy pomiarowe"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Cezary Kiełczewski",
+    "title": "Uogólniony paradoks Bertranda",
+    "promotor": "Jolanta Misiewicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "paradoks Bertranda",
+      "przestrzeń probabilistyczna",
+      "losowość",
+      "miara gaussowska"
+    ],
+    "tagsENG": [
+      "Bertrand paradox",
+      "probability space",
+      "randomness",
+      "gaussian measure"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Michał Henryk Jasiorowski",
+    "title": "Charakteryzacja rozkładów stabilnych wielowymiarowych poprzez własności miary spektralnej",
+    "promotor": "Jolanta Misiewicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Rozkłady stabilne",
+      "wektory stabilne",
+      "rachunek prawdopodobieństwa",
+      "badanie geometrii rozkładów stabilnych",
+      "badanie geometrii funkcji charakterystycznych symetrycznych wektorów stabilnych",
+      "miara spektralna",
+      "przykłady wektorów stabilnych"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Natalia Konieczek",
+    "title": "Operatory infinitezymalne dla procesów Markowa. Szczególne przypadki",
+    "promotor": "Jolanta Misiewicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Operator infinitezymalny",
+      "splot miar probabilistycznych",
+      "splot uogólniony",
+      "nieskończona podzielność miar probabilistycznych",
+      "proces Markowa",
+      "proces Wienera",
+      "proces Poissona w sensie splotu uogólnionego",
+      "złożony proces Poissona w sensie splotu uogólnionego",
+      "procesy stochastyczne",
+      "rachunek prawdopodobieństwa."
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Alicja Lechańska",
+    "title": "Model Craméra - Lundberga dla splotów uogólnionych (sploty stabilne)",
+    "promotor": "Jolanta Misiewicz",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "sploty uogólnione sploty stabilne"
+    ],
+    "tagsENG": [
+      "generalized convolutions",
+      "stable convolutions"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Michał Skowron",
+    "title": "Różne pojęcia całki stochastycznej - próba zastosowania całki względem splotu uogólnionego",
+    "promotor": "Jolanta Misiewicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Całka stochastyczna",
+      "splot uogólniony"
+    ],
+    "tagsENG": [
+      "Stochastic integral",
+      "generalized convolution"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Maria Słowikowska",
+    "title": "Badania statystyczne procesów Lévy'ego w α-splocie",
+    "promotor": "Jolanta Misiewicz",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Rozkłady stabilne jednowymiarowe",
+      "Rozkłady symetryczne stabilne w R^n",
+      "Symulacje komputerowe rozkładów symetrycznych stabilnych",
+      "test Bartela",
+      "Estymatory Zołotariewa."
+    ],
+    "tagsENG": [
+      "Lévy processes in the sense of stable convolution",
+      "computer simulations symmetric stable distributions",
+      "Bartel test",
+      "Zolotariew estimation method."
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Dariusz Stanisław Brzozowski",
+    "title": "Metody analizy regresji w przypadku niespełnienia założeń o normalności rozkładu błędów losowych",
+    "promotor": "Andrzej Sierociński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "analiza regresji",
+      "klasyczny model regresji",
+      "uogólniony model linowy",
+      "regresja kwantylowa"
+    ],
+    "tagsENG": [
+      "regression analysis",
+      "classical regression model",
+      "generalized linear model",
+      "quantile regression"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Jabłoński",
+    "title": "Implementacja systemu generowania dynamicznych raportów opartych na jądrach Jupyter",
+    "promotor": "Marek Gągolewski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "dynamiczne generowanie raportów; programowanie piśmienne; reproducible research; języki znaczników; jądra Jupyter; Jupyweave; knitr"
+    ],
+    "tagsENG": [
+      "dynamic reports generation; literate programming; reproducible research; markup languages; Jupyter kernels; Jupyweave; knitr"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Katarzyna Maria Szarlip",
+    "title": "Zastosowanie alternatywy Fredholma do teorii równań całkowych",
+    "promotor": "Marian Majchrowski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Alternatywa Fredholma równania całkowe"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Izabela Antonina Banaszkiewicz",
+    "title": "Grupy topologiczne",
+    "promotor": "Jan Spaliński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "grupa topologiczna",
+      "grupy topologiczne",
+      "kwaternion",
+      "kwaterniony",
+      "Franciszek Leja",
+      "topologia",
+      "macierze ortogonalne",
+      "obroty",
+      "OpenGL"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Martyna Dziurdziak",
+    "title": "Topologiczna teoria węzłów i ich niezmienniki wielomianowe",
+    "promotor": "Jan Spaliński",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "topologiczna teoria węzłów",
+      "niezmienniki wielomianowe"
+    ],
+    "tagsENG": [
+      "topological theory of knots",
+      "polynomial invariants"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Bartłomiej Zabłocki",
+    "title": "Twierdzenie Seiferta - Van Kampena i jego zastosowanie do obliczania grupy podstawowej wybrancyh przestrzeni",
+    "promotor": "Jan Spaliński",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "topologia algebraiczna",
+      "teoria homotopii"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Eliza Kaczorek",
+    "title": "Nierówności Grunsky'ego i ich związek z hipotezą Bieberbacha",
+    "promotor": "Janina Kotus",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "funkcje holomorficzne",
+      "rozwinięcia analityczne",
+      "twierdzenie Gronwalla",
+      "nierówności Grunsky'ego",
+      "hipoteza Bieberbacha"
+    ],
+    "tagsENG": [
+      "univalent functions",
+      "asymptotic expansions",
+      "Gronwall theorem",
+      "Grunsky inequalities",
+      "Bieberbach conjecture"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Paulina Porucznik",
+    "title": "Własności funkcji konforemnych zdefiniowanych w dysku jednostkowym",
+    "promotor": "Janina Kotus",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "odwzorowanie konforemne",
+      "dysk jednostkowy",
+      "funkcja Koebe",
+      "Bieberbach",
+      "Gronwall",
+      "Koebe",
+      "twierdzenie dystorsyjne"
+    ],
+    "tagsENG": [
+      "conformal mapping",
+      "unit disk",
+      "Koebe function",
+      "Bieberbach",
+      "Gronwall",
+      "Koebe",
+      "distorsion theorem"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Michał Bohn",
+    "title": "Dlaczego metoda Newtona nie musi być zbieżna?",
+    "promotor": "Janina Kotus",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Metoda Newtona"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Agnieszka Pszczółkowska",
+    "title": "Twierdzenie Nevanlinny",
+    "promotor": "Janina Kotus",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Twierdzenie Nevanlinny"
+    ],
+    "tagsENG": [
+      "(brak)"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Przemysław Kosewski",
+    "title": "Stabilność specjalnych osiowosymetrycznych rozwiązań równań Navier-Stokesa",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "osiowosymetryczne",
+      "stabliność",
+      "specjalne rozwiązania"
+    ],
+    "tagsENG": [
+      "axisymmetric",
+      "stability",
+      "special solutions"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Maksymilian Andrzej Mazur",
+    "title": "Istnienie rozwiązań równań Eulera",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Równanie Eulera",
+      "współrzędne Lagrange'a",
+      "przestrzeń Banacha",
+      "teoria potencjału"
+    ],
+    "tagsENG": [
+      "Euler equation",
+      "Lagrange coordinates",
+      "Banach space",
+      "Potential theory"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Dagmara Rojewska",
+    "title": "Twierdzenia o punkcie stałym",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "punkt stały",
+      "retrakcja",
+      "twierdzenie Brouwera'",
+      "Twierdzenie Schauder'a",
+      "otoczka wypukła"
+    ],
+    "tagsENG": [
+      "fixed point",
+      "retraction",
+      "Brouwer's theorem",
+      "Schauder's theorem",
+      "convex hull"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Przemysław Marcin Wiśniewski",
+    "title": "Zastosowania równań całkowych w teorii równań różniczkowych",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Równanie Laplace'a",
+      "potencjał warstwy pojedynczej",
+      "potencjał warstwy podwójnej",
+      "warunek brzegowy Dirichleta i Neumanna",
+      "równania całkowe słabo osobliwe",
+      "twierdzenie Fredholma",
+      "twierdzenie Lapunowa"
+    ],
+    "tagsENG": [
+      "Laplace's equation",
+      "Dirichlet and Neumann boundary condition",
+      "Fredholm's theorem",
+      "Lyapunov's theorem"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Kamil Wołos",
+    "title": "Szczególne globalne rozwiązania równań magnetohydrodynamiki",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "magnetohydrodynamika",
+      "oszacowania",
+      "osiowosymetryczne globalne rozwiazania"
+    ],
+    "tagsENG": [
+      "magnetohydrodynamics",
+      "estimates",
+      "axisymmetric",
+      "global solutions"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Konrad Jabłoński",
+    "title": "Równania eliptyczne w przestrzeniach wagowych",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "przestrzenie wagowe"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Dorota Łępicka",
+    "title": "Metody słabej zbieżności w równaniach różniczkowych cząstkowych",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "słaba zbieżność"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Katarzyna Laura Ryszewska",
+    "title": "Rachunek pochodnych ułamkowych",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Rachunek pochodnych ułamkowych"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Karolina Maria Zwolińska",
+    "title": "Istnienie lokalnych w czasie regularnych rozwiązań równań hydrodynamiki",
+    "promotor": "Adam Kubica",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "lokalne w czasie rozwiązania regularne",
+      "hydrodynamika"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Robert Jakub Jóźwiak",
+    "title": "Zastosowania losowych pól Markowa",
+    "promotor": "Grzegorz Świątek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "losowe pola Markowa",
+      "rozkład Gibbsa",
+      "model Isinga",
+      "maszyny Boltzmanna",
+      "algorytm belief propagation",
+      "analiza obrazów",
+      "klasyfikacja obrazów"
+    ],
+    "tagsENG": [
+      "Markov Random Field",
+      "Gibbs distribution",
+      "Ising model",
+      "Boltzmann machine",
+      "belief propagation algorithm",
+      "image analysis",
+      "classification of images"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Katarzyna Zdon",
+    "title": "Zaburzenia orbit w zagadnieniu Keplera",
+    "promotor": "Grzegorz Świątek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "równania różniczkowe zwyczajne",
+      "prawa dynamiki Newtona",
+      "prawa Keplera",
+      "problem Keplera",
+      "zagadnienie dwóch ciał",
+      "linearyzacja",
+      "równanie na wariację",
+      "równania ruchu",
+      "ograniczone zagadnienie trzech ciał"
+    ],
+    "tagsENG": [
+      "ordinary differential equations",
+      "Newton's laws",
+      "Kepler's laws",
+      "Kepler's problem",
+      "linearized",
+      "variation equation",
+      "motion equations"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Małgorzata Łazęcka",
+    "title": "Analiza na grupie Heisenberga",
+    "promotor": "Przemysław Górka",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "grupa Heisenberga",
+      "grupa Liego",
+      "algebra Liego",
+      "metryka Koranyi",
+      "wymiar Hausdorffa"
+    ],
+    "tagsENG": [
+      "Heisenberg group",
+      "Lie group",
+      "Lie algebra",
+      "Koranyi metric",
+      "Hausdorff dimension"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Katarzyna Maria Niemotko",
+    "title": "Tradycyjny placek ziemniaczany",
+    "promotor": "Przemysław Górka",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Teoria potencjału",
+      "Funkcje harmoniczne",
+      "Własność wartości średniej",
+      "Charakteryzacja kuli",
+      "Charakteryzacja sfery"
+    ],
+    "tagsENG": [
+      "Potential theory",
+      "Harmonic functions",
+      "Mean value property",
+      "Characterization of the ball",
+      "Characterization of the sphere"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Witold Innocenty Kociński",
+    "title": "Zasada maksimum dla równań dyfuzji z ułamkową pochodną czasową",
+    "promotor": "Przemysław Górka",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "ułamkowa pochodna czasowa",
+      "równania dyfuzji"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Cezary Karol Zęgota",
+    "title": "Nierówność Poincaré",
+    "promotor": "Przemysław Górka",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Nierówność Poincaré",
+      "zbiory wypukłe",
+      "Przestrzenie Sobolewa",
+      "analiza funkcjonalna",
+      "równania różniczkowe cząstkowe"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Karolina Maria Ścierka",
+    "title": "Quasistatyczno-paraboliczny model z teorii odkształceń niesprężystych dla materiałów porowatych",
+    "promotor": "Sebastian Owczarek",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Materiały porowate",
+      "liniowa teoria sprężystości",
+      "regularność rozwiązań",
+      "metoda Galerkina",
+      "własność Lipschitza"
+    ],
+    "tagsENG": [
+      "Porous materials",
+      "linear theory of elasticity",
+      "regularity of solution",
+      "Galerkin method",
+      "property Lipschitza"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Aliaksandr Panimash",
+    "title": "Metoda Galerkina w równaniach różniczkowych cząstkowych",
+    "promotor": "Sebastian Owczarek",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Metoda Galerkina",
+      "równania różniczkowe cząstkowe."
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Robert Trąbczyński",
+    "title": "Metody punktu stałego w nieliniowych równaniach różniczkowych cząstkowych",
+    "promotor": "Sebastian Owczarek",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Metody punktu stałego",
+      "nieliniowe równania różniczkowe cząstkowe"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Filip Michał Janicki",
+    "title": "O równaniach Naviera-Stokesa",
+    "promotor": "Ewa Zadrzyńska-Piętka",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Równania różniczkowe cząstkowe",
+      "Słabe rozwiązania",
+      "Mechanika ośrodków ciągłych",
+      "Mechanika płynów."
+    ],
+    "tagsENG": [
+      "Partial differential equations",
+      "Weak solutions",
+      "Continuum mechanics",
+      "Fluid mechanics."
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Łukasz Błaszczyk",
+    "title": "Metody oszczędnego próbkowania w algebrze kwaternionów",
+    "promotor": "Agnieszka Badeńska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "oszczędne próbkowanie",
+      "własność ograniczonej izometrii",
+      "algebra kwaternionów"
+    ],
+    "tagsENG": [
+      "compressed sensing",
+      "restricted isometry property",
+      "quaternion algebra"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Karolina Marcinkowska",
+    "title": "Funkcje przeliczalnie addytywne i miary alsolutnie ciągłe",
+    "promotor": "Agnieszka Badeńska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "funkcje przeliczalnie addytywne",
+      "twierdzenie Hahna",
+      "rozkład kanoniczny Jordana",
+      "miary absolutnie ciągłe"
+    ],
+    "tagsENG": [
+      "Hahn Theorem",
+      "Jordan Decomposition Theorem",
+      "absolutely continuous measures"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Monika Aleksandra Owczarek",
+    "title": "Elementy teorii dystrybucji",
+    "promotor": "Agnieszka Badeńska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Teoria dystrybucji Ciąg podstawowy Dystrybucja skończonego rzędu Funkcjonał liniowy i ciągły Przestrzeń podstawowa"
+    ],
+    "tagsENG": [
+      "Distribution theory Basic sequence Distribution of ﬁnite order Linear and continuous function Tests functions space"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Katarzyna Anna Woźnica",
+    "title": "Koncentracja miary dla funkcji lipschitzowskich",
+    "promotor": "Agnieszka Badeńska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "koncentracja miary",
+      "funkcja lipszycowska",
+      "entropia",
+      "logarytmiczna nierówność Sobolewa",
+      "argument Herbsta"
+    ],
+    "tagsENG": [
+      "concentration of measure phenomenon",
+      "Lipschitz function",
+      "entropy",
+      "logarithmic Sobloev inequality",
+      "Herbst Argument"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Karolina Anna Zimna",
+    "title": "Twierdzenia reprezentacyjne dla funkcji całkowitych i meromorficznych na płaszczyźnie zespolonej",
+    "promotor": "Agnieszka Badeńska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Twierdzenie Weierstrassa",
+      "funkcja całkowita",
+      "funkcja meromorficzna",
+      "iloczyn nieskończony"
+    ],
+    "tagsENG": [
+      "the Weierstrass factorization theorem",
+      "entire functions",
+      "meromorphic functions",
+      "an infinite product"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Anna Sołowiej",
+    "title": "Twierdzenie Koebe o dystorsji",
+    "promotor": "Bogusława Karpińska",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "1. Obszarowe 2. funkcja uniwalentna 3. dysk jednostkowy 4. Koebe 5. Bieberbach"
+    ],
+    "tagsENG": [
+      "1. Area 2. univalent function 3. unit disk 4. Koebe 5. Bieberbach"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Grzegorz Wojciech Bajor",
+    "title": "Nierozkładalne continua w dynamice eksponencjalnej",
+    "promotor": "Bogusława Karpińska",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "dynamika holomorficzna",
+      "zbiór Julii",
+      "ogon",
+      "włos"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Dominik Grabowski",
+    "title": "Zasada wariancyjna Ekelanda i wybrane zastosowania",
+    "promotor": "Andrzej Leśniewski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "1. Wariacyjna zasada Ekelanda 2. Funkcje półcia˛głe 3. Przestrze ´n metryczna 4. Punkt stały 5. Aproksymacja infimum funkcji"
+    ],
+    "tagsENG": [
+      "1. Ekeland variational principle 2. Semicontinuous functions 3. Metric space 4. Fixed point 5. Approximate infimum function"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Adam Nejman",
+    "title": "Metoda subgradientowa w optymalizacji",
+    "promotor": "Andrzej Leśniewski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Subgradient",
+      "Subróżniczka",
+      "Metoda Sbgradientów"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Paulina Justyna Popiołek",
+    "title": "Twierdzenie Michaela dla multifunkcji",
+    "promotor": "Andrzej Leśniewski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "multifunkcja",
+      "selekcja",
+      "Twierdzenie Michaela"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Olga Helena Przypaśniak",
+    "title": "Twierdzenie Borweina-Preissa",
+    "promotor": "Andrzej Leśniewski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "przestrzeń metryczna",
+      "funkcja półciągła z dołu",
+      "aproksymacja"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Ewelina Tkaczyk",
+    "title": "Warunki Eulera-Lagrange’a w rachunku wariacyjnym z zastosowaniami",
+    "promotor": "Andrzej Leśniewski",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "rachunek wariacyjny",
+      "ekstremum",
+      "warunek Jacobiego",
+      "warunek Legendre'a"
+    ],
+    "tagsENG": [
+      "Calculus of Variations",
+      "Euler–Lagrange equation",
+      "Extrema",
+      "Jacobi's condition",
+      "Legendre condition"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Ahmed Abdelkarim",
+    "title": "Projekt aplikacji do ekstremalnego uczenia maszynowego do klasyfikacji big data",
+    "promotor": "Jerzy Balicki",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "big data",
+      "ekstremalne uczenie maszynowe",
+      "klasyfikacja",
+      "Matlab",
+      "Python",
+      "sieci neuronowe",
+      "uczenie maszynowe"
+    ],
+    "tagsENG": [
+      "big data",
+      "classification",
+      "extreme learning machine",
+      "neural network",
+      "machine learning",
+      "Matlab",
+      "Python"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Mateusz Marian Jabłoński",
+    "title": "Projekt automatycznej identyfikacji i korekty błędów programistycznych za pomocą programowania genetycznego",
+    "promotor": "Jerzy Balicki",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "AFix",
+      "AutoFix",
+      "automatyczna identyfikacja błędów",
+      "błąd",
+      "ClearView",
+      "GenProg",
+      "korekta błędów",
+      "programowanie genetyczne"
+    ],
+    "tagsENG": [
+      "AFix",
+      "AutoFix",
+      "Automated bug identification",
+      "bug",
+      "bug fixing",
+      "ClearView",
+      "genetic programming",
+      "GenProg"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Agata Zuzanna Cacko",
+    "title": "Narzędzie do oceniania jakości tekstu w języku naturalnym",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "analiza tekstu",
+      "analiza morfologiczna",
+      "ścieżka zdaniowa",
+      "automatyczne sprawdzanie błędów",
+      "przetwarzanie języka naturalnego",
+      "język polski",
+      "Morfeusz",
+      "Hunspell"
+    ],
+    "tagsENG": [
+      "text analysis",
+      "morphological analysis",
+      "sentence paths",
+      "automatic error checking",
+      "spellchecking",
+      "natural language processing",
+      "Polish language",
+      "Morfeusz",
+      "Hunspell"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Anna Kosiorek",
+    "title": "Język oraz pakiet oprogramowania dla wizualizacji struktur danych",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "struktury danych",
+      "wizualizacja",
+      "parser",
+      "język"
+    ],
+    "tagsENG": [
+      "data structures",
+      "visualization",
+      "parser",
+      "language"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Tomasz Tomczuk",
+    "title": "Program śledzący ruch oczu użytkownika za pomocą kamerki internetowej",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "oko",
+      "zrenica",
+      "połozenie oka"
+    ],
+    "tagsENG": [
+      "eye",
+      "iris",
+      "eye detection alghoritm"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Błażej Adam Bobko",
+    "title": "Symulacje przestrzennego dylematu więźnia",
+    "promotor": "Agnieszka Jastrzębska",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Teoria Gier Dylemat Więźnia Przestrzenny Dylemat Więźnia Automat Komórkowy Strategia"
+    ],
+    "tagsENG": [
+      "Game Theory Prisoner’s Dilemma Spatial Prisoner’s Dilemma Cellular Automaton Strategy"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Rafael Benjaminovich Toro Sluzhenko",
+    "title": "Rozpoznawanie wzorców za pomocą automatu komórkowego",
+    "promotor": "Agnieszka Jastrzębska",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "automat komórkowy",
+      "uczenie nadzorowane",
+      "klasyfikacja obrazów",
+      "rozpoznawanie wzorców"
+    ],
+    "tagsENG": [
+      "cellular automata",
+      "supervised learning",
+      "image classification",
+      "pattern recognition"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Kamil Piotr Breński",
+    "title": "Zły hotspot – czy publiczne punkty dostępowe są bezpieczne?",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Proxy",
+      "Bezpieczeństwo",
+      "Prywatność",
+      "MITM",
+      "HTTP",
+      "Android"
+    ],
+    "tagsENG": [
+      "Proxy",
+      "Security",
+      "Privacy",
+      "MITM",
+      "HTTP",
+      "Android"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Jakub Dutkowski",
+    "title": "Automatyczna estymacja zapotrzebowania cieplnego budynku",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "predykcja zużycia ciepła",
+      "estymacja zużycia ciepła",
+      "bagging",
+      "sieci neuronowe",
+      "regresja",
+      "uczenie nadzorowane",
+      "machine learning"
+    ],
+    "tagsENG": [
+      "building heat estimation",
+      "building heat consumption",
+      "bagging",
+      "artificial neural network",
+      "regression",
+      "supervised learning",
+      "machine learning"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Łukasz Kamil Ławniczak",
+    "title": "Weryfikacja użytkownika na podstawie pisania na klawiaturze oraz dynamiki ruchów myszy komputerowej",
+    "promotor": "Piotr Panasiuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "biometria",
+      "SVM",
+      "kNN",
+      "weryfikacja",
+      "dynamika myszy",
+      "dynamika klawiatury"
+    ],
+    "tagsENG": [
+      "biometrics",
+      "SVM",
+      "kNN",
+      "verification",
+      "keystroke dynamics",
+      "mouse dynamics"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Magda Julia Tatarynowicz",
+    "title": "Transkrypcja fonetyczna, difonowa oraz alofonowa tekstów w języku polskim",
+    "promotor": "Janusz Rafałko",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "synteza mowy",
+      "przetwarzanie tekstów",
+      "transkrypcja fonetyczna",
+      "fonetyka",
+      "fonem",
+      "transkrypcja alofonowa",
+      "alofon",
+      "transkrypcja difonowa",
+      "difon",
+      ".NET",
+      "C#",
+      "WPF"
+    ],
+    "tagsENG": [
+      "speech synthesis",
+      "TTS",
+      "text processing",
+      "phonetic transcription",
+      "phonetics",
+      "phoneme",
+      "allophonic transcription",
+      "alophone",
+      "diphonic transcription",
+      "diphone",
+      ".NET",
+      "C#",
+      "WPF."
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Ada Magdalena Wrońska",
+    "title": "Praktyczny model ekstrakcji cech twarzy użytkownika w celu rozpoznawania tożsamości",
+    "promotor": "Khalid Saeed",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Biometria",
+      "Rozpoznanie twarzy",
+      "Pixel density"
+    ],
+    "tagsENG": [
+      "Biometrics",
+      "Face recognition",
+      "Pixel density"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Krzysztof Sobczak",
+    "title": "Detekcja częstych wzorców zachowań i anomalii w ścieżkach kliknięć",
+    "promotor": "Maciej Grzenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "sesja użytkownika",
+      "ścieżka kliknięć",
+      "wzorzec zachowania",
+      "anomalia",
+      "logi serwera WWW",
+      "BehaviorAI"
+    ],
+    "tagsENG": [
+      "user session",
+      "clickstream",
+      "behaviour pattern",
+      "anomaly",
+      "webserver logs",
+      "BehaviorAI"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Jakub Piórek",
+    "title": "Beat-Glove wraz z oprogramowaniem",
+    "promotor": "Krzysztof Kaczmarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "oprogramowanie",
+      "tworzenie muzyki",
+      "stukanie"
+    ],
+    "tagsENG": [
+      "software",
+      "music creation",
+      "tapping"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Karolina Grażyna Kwasiborska",
+    "title": "Wykorzystanie technologii Hadoop do przechowywania i przetwarzania otwartych danych związanych z transportem publicznym",
+    "promotor": "Jarosław Legierski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Big Data",
+      "Open Data",
+      "dane transportowe",
+      "Apache Hadoop",
+      "detekcja anomalii"
+    ],
+    "tagsENG": [
+      "Big Data",
+      "Open Data",
+      "transport data",
+      "Apache Hadoop",
+      "anomalies detection"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tomasz Maciej Zaremba",
+    "title": "Analiza technik pozyskiwania informacji ze źródeł www dostępnych w Internecie",
+    "promotor": "Jarosław Legierski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "WWW",
+      "Web 2.0",
+      "wydobywanie treści z HTML",
+      "Apache Hadoop",
+      "przetwarzanie języka naturalnego"
+    ],
+    "tagsENG": [
+      "WWW",
+      "Web 2.0",
+      "extracting content from HTML",
+      "Apache Hadoop",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Jakub Adam Kowalczewski",
+    "title": "Aplikacja wizualizująca i porównująca znane metody statystyczne",
+    "promotor": "Maciej Bartoszuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "usuwanie",
+      "wykres",
+      "statystyka"
+    ],
+    "tagsENG": [
+      "outliering",
+      "chart",
+      "statistics"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Przemysław Włodarski",
+    "title": "Rozszerzalna aplikacja umożliwiająca grę w wybrane gry dwuosobowe",
+    "promotor": "Jan Bródka",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "algorytmy",
+      "sztuczna inteligencja",
+      "wtyczki",
+      "rozszerzalność",
+      "gry dwuosobowe"
+    ],
+    "tagsENG": [
+      "algorithms",
+      "artificial intelligence",
+      "extensibility"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Bartosz Witold Woźniak",
+    "title": "System komputerowy wspomagający inwestowanie na Giełdzie Papierów Wartościowych w Warszawie",
+    "promotor": "Jan Bródka",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "giełda",
+      "analiza techniczna",
+      "wskaźniki analizy technicznej",
+      "strategia inwestycyjna"
+    ],
+    "tagsENG": [
+      "stock exchange",
+      "technical analysis",
+      "technical indicators",
+      "investment strategy"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Viktor Modzelevskii",
+    "title": "Emulator konfigurowalnych urządzeń monitorujących Internetu Rzeczy",
+    "promotor": "Maria Ganzha",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Internet Rzeczy",
+      "symulator środowiska Internetu Rzeczy",
+      "sensor",
+      "baza danych"
+    ],
+    "tagsENG": [
+      "Internet of things",
+      "IoT environment simulator",
+      "sensor",
+      "database"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Jan Piotr Zalewski",
+    "title": "Modelowanie użytkownika i dostarczanie spersonalizowanej informacji na podstawie interakcji z systemem opartym o technologie WWW",
+    "promotor": "Maria Ganzha",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "system rekomendacyjny",
+      "gry planszowe",
+      "klasteryzacja",
+      "algorytm centroidów"
+    ],
+    "tagsENG": [
+      "recommender system",
+      "boardgames",
+      "clasterization"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Sławomir Fajer",
+    "title": "Środowisko do definiowania i rozgrywania gier planszowych",
+    "promotor": "Jan Karwowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "gry planszowe",
+      "język opisu gier",
+      "UCT",
+      "MCTS"
+    ],
+    "tagsENG": [
+      "board games",
+      "game description language",
+      "UCT",
+      "MCTS"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Hubert Aleksander Rosiak",
+    "title": "Efektywna implementacja wybranego algorytmu optymalizacji globalnej",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Algorytm optymalizacyjny",
+      "PSO",
+      "CUDA"
+    ],
+    "tagsENG": [
+      "Optimization algorithm",
+      "PSO",
+      "CUDA"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Mateusz Adrian Urbański",
+    "title": "System zarządzania ocenami studentów dla nauczyciela akademickiego",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "ocenianie",
+      "studenci",
+      "zarządzanie"
+    ],
+    "tagsENG": [
+      "grading",
+      "students",
+      "management"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Maciej Dłuś",
+    "title": "Wykorzystanie metaheurystyk w algorytmie UCT/MCTS w grach GGP",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "General Game Playing; Monte Carlo Tree Search; Upper Confidence Bounds; Teoria Decyzji; Gry kombinatoryczne"
+    ],
+    "tagsENG": [
+      "General Game Playing; Monte Carlo Tree Search; Upper Confidence Bounds; Decision theory; Combinatorical games"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Rafał Kobiela",
+    "title": "Macierze stochastyczne- własności i zastosowania",
+    "promotor": "Alicja Smoktunowicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "Macierze stochastyczne",
+      "Macierze bistochastyczne",
+      "wartości własne",
+      "PageRank",
+      "widmo"
+    ],
+    "tagsENG": [
+      "Stochastic matrices",
+      "doubly stochastic matrices",
+      "eigenvalues",
+      "PageRank",
+      "spectrum"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Jacek Rek",
+    "title": "Metody iteracyjne wyznaczania uogólnionych odwrotności Moore’a-Penrose’a",
+    "promotor": "Alicja Smoktunowicz",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "pseudoodwrotność",
+      "uogólniona odwrotność",
+      "metody iteracyjne",
+      "wskaźnik uwarunkowania",
+      "metody numeryczne",
+      "Matlab."
+    ],
+    "tagsENG": [
+      "pseudoinverse",
+      "generalized inverse",
+      "iterative methods",
+      "condition number",
+      "numerical methods",
+      "Matlab."
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Bartłomiej Konrad Dybisz",
+    "title": "Symulacja ruchu statku unoszącego się na powierzchni wody",
+    "promotor": "Paweł Aszklar",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "symulacja",
+      "modele fizyczne",
+      "symulacja wody",
+      "równanie membrany",
+      "równania różniczkowe",
+      "siła wyporności",
+      "model statku",
+      "grafika komputerowa",
+      "grafika 3D",
+      "OpenGL",
+      "renderowanie"
+    ],
+    "tagsENG": [
+      "simulation",
+      "physical model",
+      "water simulation",
+      "heightfield",
+      "shallow water equations",
+      "membrane equations",
+      "differential equations",
+      "buoyancy",
+      "ship model",
+      "computer graphics",
+      "3D graphics",
+      "OpenGL",
+      "rendering",
+      "real time rendering"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Kamil Marcin Sienkiewicz",
+    "title": "Wizualizacja algorytmów grafowych",
+    "promotor": "Jan Bródka",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "graf",
+      "wizualizacja",
+      "algorytm",
+      "C#",
+      ".NET",
+      "Windows Presentation Foundation"
+    ],
+    "tagsENG": [
+      "graph",
+      "visualization",
+      "algorithm",
+      "C#",
+      ".NET",
+      "Windows Presentation Foundation"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Patryk Mundzik",
+    "title": "Prezentacja głównych osiągnięć matematyki w zakresie metod numerycznych",
+    "promotor": "Adam Grabarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2017",
+    "tagsPL": [
+      "matematyka",
+      "metody numeryczne",
+      "kalkulatory numeryczne"
+    ],
+    "tagsENG": [
+      "mathematics",
+      "numerical methods",
+      "numerical calculators"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Łukasz Barciński",
+    "title": "Oprogramowanie metod numerycznych obliczania wartości i wektorów własnych macierzy zespolonych",
+    "promotor": "Adam Grabarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Wartości własne",
+      "macierz zespolona",
+      "algorytm QR",
+      "metoda Hymana",
+      "Metoda potęgowa",
+      "Metody numeryczne"
+    ],
+    "tagsENG": [
+      "Eigenvalues",
+      "Eigenvectors",
+      "complex matrix",
+      "QR algorithm",
+      "Hyman method",
+      "Power method",
+      "Inverse power method",
+      "Numerical methods"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Przemysław Kopka",
+    "title": "Kubiczne funkcje sklejane i ich zastosowanie",
+    "promotor": "Adam Grabarski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Kubiczne funkcje sklejane",
+      "interpolacja",
+      "aproksymacja",
+      "macierz Grama."
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Marek Kozak",
+    "title": "Oprogramowanie metod numerycznych obliczania wartości i wektorów własnych rzeczywistych macierzy symetrycznych",
+    "promotor": "Adam Grabarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "macierze",
+      "wartpści własne",
+      "metody numeryczne",
+      "jacobi",
+      "rotacje givensa",
+      "bisekcja"
+    ],
+    "tagsENG": [
+      "matrix",
+      "eigenvalues",
+      "numerical methods",
+      "jacobi",
+      "givens rotation",
+      "bisection"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Karolina Maria Baltyn",
+    "title": "Wstępne przetwarzanie danych na potrzeby metod uczenia maszynowego bazujących na odległości",
+    "promotor": "Maciej Grzenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "uczenie maszynowe",
+      "wstępne przetwarzanie danych",
+      "redukcja wymiarowości",
+      "selekcja cech",
+      "algorytm genetyczny"
+    ],
+    "tagsENG": [
+      "machine learning",
+      "data preprocessing",
+      "dimensionality reduction",
+      "feature selection",
+      "genetic algorithm"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Eyad Kannout",
+    "title": "Przegląd metod analizy strumieni danych w czasie rzeczywistym",
+    "promotor": "Maciej Grzenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "uczenie maszynowe",
+      "analiza strumieni danych"
+    ],
+    "tagsENG": [
+      "machine learning",
+      "data stream analytics"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tomasz Paweł Łącki",
+    "title": "Zastosowanie częściowo nadzorowanego uczenia do przetwarzania danych pomiarowych",
+    "promotor": "Maciej Grzenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "częściowo nadzorowane uczenie",
+      "uczenie z wykorzystaniem danych etykietowanych i nieetykietowanych",
+      "algorytm maksymalizacji wartości oczekiwanej",
+      "lokalizacja wewnątrz budynku"
+    ],
+    "tagsENG": [
+      "learning from labeled and unlabeled data",
+      "indoor localization",
+      "indoor positioning"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Przemysław Stanisław Rybak",
+    "title": "System wizualizacji i analizy danych z punktów handlowych",
+    "promotor": "Maciej Grzenda",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "baza danych wewnątrzpamięciowa",
+      "system POS"
+    ],
+    "tagsENG": [
+      "analytical and transactional system",
+      "POS system"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Jakub Piotr Ciecierski",
+    "title": "Automaty skończone w problemie rozpoznawania wzorców",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "rozpoznawanie wzorców",
+      "klasyfikator",
+      "klasyfikacja",
+      "deterministyczny automat skończony",
+      "das",
+      "automaty",
+      "klasy równoważności",
+      "elementy obce",
+      "elementy natywne",
+      "particle swarm optimization",
+      "hill climbing"
+    ],
+    "tagsENG": [
+      "pattern recognition",
+      "classifier",
+      "classification",
+      "deterministic finite automaton",
+      "dfa",
+      "automata",
+      "equivalence classes",
+      "native elements",
+      "foreign elements",
+      "particle swarm optimization",
+      "hill climbing"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Michał Dominik Dudeło",
+    "title": "Internetowy system wspomagania nauczania",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "System informatyczny",
+      "interaktywny proces dydaktyczny",
+      "zasady przyjaznej komunikacji człowieka z komputerem",
+      "strona internetowa",
+      "klient",
+      "serwer",
+      "test",
+      "uczeń",
+      "nauczyciel",
+      "architektura systemów komputerowych",
+      ".Net",
+      "Java",
+      "interfejs graficzny",
+      "bazy danych"
+    ],
+    "tagsENG": [
+      "IT system",
+      "interactive process of teaching",
+      "website",
+      "client",
+      "server",
+      "test",
+      "student",
+      "teacher",
+      "IT system architecture",
+      ".Net",
+      "Java",
+      "graphical interface",
+      "databases"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Marcin Krzysztof Fusiara",
+    "title": "Serwis WWW typu system zarządzania treścią (CMS) dla reprezentacji jednostki wydziałowej",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "CMS",
+      "system zarządzania treścią",
+      "obsługa dydaktyki",
+      "forum dyskusyjne",
+      "materiały dydaktyczne",
+      "nauczyciel",
+      "uczeń"
+    ],
+    "tagsENG": [
+      "CMS",
+      "content management system",
+      "teaching service",
+      "forum",
+      "educational materials",
+      "teacher",
+      "student"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tomasz Dariusz Penza",
+    "title": "Konstrukcja odwzorowań strukturalnej analizy informacji",
+    "promotor": "Władysław Homenda",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "skupisko rozmyte",
+      "przestrzeń koncepcji",
+      "przeciwobraz",
+      "błąd średniokwadratowy"
+    ],
+    "tagsENG": [
+      "fuzzy cluster",
+      "fuzzy c–means algorithm",
+      "concept space",
+      "preimage",
+      "mean squared error"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Alexander Artur Rakowski",
+    "title": "Edytor notacji muzycznej z funkcją szybkiego tworzenia nowej notacji",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "notacja muzyczna",
+      "partytura",
+      "czcionka muzyczna",
+      "klawiatura MIDI"
+    ],
+    "tagsENG": [
+      "Musical Notation",
+      "Musical Score",
+      "Musical Font",
+      "MIDI Keyboard"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Łukasz Wójcik",
+    "title": "Automaty skończone w procesie podejmowania decyzji - studium praktyczne",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "podejmowanie decyzji",
+      "automat skonczony",
+      "automaty",
+      "slowa",
+      "przeslanki",
+      "decyzje",
+      "DAS",
+      "przejscie",
+      "stany"
+    ],
+    "tagsENG": [
+      "making decisions",
+      "finite automaton",
+      "automata",
+      "words",
+      "premises",
+      "decisions",
+      "DFA",
+      "transitions",
+      "states"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Jan Bajena",
+    "title": "Zdalny system generowania oraz obsługi ankiet internetowych",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "ankieta",
+      "formularz",
+      "kwestionariusz",
+      "ruby",
+      "rails",
+      "javascript",
+      "generowanie"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Grzegorz Olgierd Pałka",
+    "title": "Algorytm poszukiwania najkorzystniejszego połączenia lotniczego",
+    "promotor": "Władysław Homenda",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2014",
+    "tagsPL": [
+      "Dijkstra",
+      "A*",
+      "przeszukiwanie"
+    ],
+    "tagsENG": [
+      "Dijkstra",
+      "A*",
+      "search"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Piotr Kamoda",
+    "title": "Mobilna aplikacja z prognozą pogody",
+    "promotor": "Agnieszka Jastrzębska",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Prognoza pogody",
+      "Windows Phone",
+      "Aplikacja mobilna"
+    ],
+    "tagsENG": [
+      "Weather forecast",
+      "Windows Phone",
+      "Mobile application"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Karol Robert Dzitkowski",
+    "title": "Optymalizator kompresji szeregów czasowych dla GPU",
+    "promotor": "Krzysztof Kaczmarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "GPU",
+      "optymalizator kompresji",
+      "szeregi czasowe"
+    ],
+    "tagsENG": [
+      "GPU",
+      "compression optimizer",
+      "time series"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tomasz Kamiński",
+    "title": "Przetwarzanie danych algorytmem map-reduce w systemie Cassandra",
+    "promotor": "Krzysztof Kaczmarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Hadoop",
+      "NoSQL",
+      "Cassandra",
+      "Big Data"
+    ],
+    "tagsENG": [
+      "Hadoop",
+      "NoSQL",
+      "Cassandra",
+      "Big Data"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Tomasz Marcin Wesołowski",
+    "title": "Silnik gier 2D na platformę Android",
+    "promotor": "Krzysztof Kaczmarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "android",
+      "game",
+      "engine",
+      "2d",
+      "skrypty",
+      "lua"
+    ],
+    "tagsENG": [
+      "android",
+      "game",
+      "engine",
+      "2d",
+      "scripts",
+      "lua"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Albert Kazimierz Wolant",
+    "title": "Znajdowanie interakcji genomicznych metodą wielowymiarowej regresji na GPU",
+    "promotor": "Krzysztof Kaczmarski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "GPU",
+      "GWAS",
+      "obliczenia rozproszone"
+    ],
+    "tagsENG": [
+      "GPU",
+      "GWAS",
+      "distributed computation"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Mateusz Flis",
+    "title": "System konferencji internetowej oparty o HTML5",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "wideo konferencje",
+      "webrtc",
+      "web socket",
+      "single page application"
+    ],
+    "tagsENG": [
+      "video conference",
+      "webrtc",
+      "web socket",
+      "single page application"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Paweł Krogulec",
+    "title": "Algorytmy redukcji kolorów z wykorzystaniem architektury CUDA",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "cuda",
+      "redukcja kolorów",
+      "floyd steinberg",
+      "median cut",
+      "octree"
+    ],
+    "tagsENG": [
+      "cuda",
+      "color reduction",
+      "floyd steinberg",
+      "median cut",
+      "octree"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Magdalena Poterała",
+    "title": "Symulacja fontanny w czasie rzeczywistym przy użyciu systemu cząsteczkowego",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "fontanna",
+      "system cząsteczkowy",
+      "grafika czasu rzeczywistego",
+      "grafika komputerowa",
+      "OpenGL",
+      "GLSL",
+      "Compute Shader",
+      "mapowanie normalnych",
+      "pole wysokości"
+    ],
+    "tagsENG": [
+      "fountain",
+      "particle system",
+      "real time rendering",
+      "computer graphics",
+      "OpenGL",
+      "GLSL",
+      "Compute Shader",
+      "normal mapping",
+      "height fields"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Magdalena Wiktoria Tytkowska",
+    "title": "Opracowanie i ocena algorytmów optymalizacji rozkładu (nestingu)",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "problem rozkładu nestingu metody sztucznej inteligencji algorytm genetyczny rojowy"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Katarzyna Daria Węgiełek",
+    "title": "Projekt i implementacja aplikacji rozszerzonej rzeczywistości wspomagającej układanie puzzli",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "puzzle",
+      "wykrywanie obiektów na obrazie",
+      "dopasowywanie tekstur",
+      "dopasowywanie kształtów",
+      "uczenie się ze wzmocnieniem"
+    ],
+    "tagsENG": [
+      "jigsaw puzzle",
+      "detecting objects on image",
+      "pattern matching",
+      "shape matching",
+      "reinforcement learning"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Hanna Barbara Bojarska",
+    "title": "Wykorzystanie testów penetracyjnych do wykrywania podatności usług TCP/IP w sieci klasy medium enterprise; analiza wybranych aspektów bezpieczeństwa sieci wydziału MiNI",
+    "promotor": "Marek Kozłowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "sieci komputerowe",
+      "bezpieczeństwo",
+      "testy penetracyjne",
+      "usługi TCP/IP"
+    ],
+    "tagsENG": [
+      "computer networks",
+      "vulnerabilities",
+      "systems security",
+      "network protection"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Fares Alahmar",
+    "title": "Księgarnia internetowa",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "księgarnia internetowa",
+      "program partnerów",
+      "program lojalnościowy",
+      "system płatności online",
+      "systemy bezpieczeństwa"
+    ],
+    "tagsENG": [
+      "Internet bookstore",
+      "partners program",
+      "loyalty system",
+      "online payment system",
+      "security solutions"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Wojciech Jankowski",
+    "title": "Ocena tricków piłkarskich",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "tricki piłkarskie",
+      "Microsoft Kinect",
+      "gra",
+      "wykrywanie gestów w czasie rzeczywistym",
+      "sieć neuronowa"
+    ],
+    "tagsENG": [
+      "soccer tricks",
+      "Microsoft Kinect",
+      "video game",
+      "neural network"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Skalniak",
+    "title": "System inteligentnego doradcy biegacza",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "aplikacja www",
+      "plany treningowe",
+      "bieganie",
+      "doradca treningowy",
+      "system ekspercki",
+      "zbiory rozmyte"
+    ],
+    "tagsENG": [
+      "web application",
+      "training plans",
+      "running",
+      "training advisor",
+      "expert system",
+      "fuzzy sets"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Paweł Przemysław Mitruś",
+    "title": "Mobilny monitor giełdowy",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "monitor giełdowy",
+      "aplikacja mobilna"
+    ],
+    "tagsENG": [
+      "stock exchange monitor",
+      "mobile application"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Michał Piwowarski",
+    "title": "Implementacja mobilnej aplikacji USOS dla Windows Phone 8",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "mobilna aplikacja USOS",
+      "Windows Phone 8"
+    ],
+    "tagsENG": [
+      "USOS mobile application",
+      "Windows Phone 8"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Mateusz Flis",
+    "title": "System konferencji internetowej oparty o HTML5",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "wideo konferencje",
+      "webrtc",
+      "web socket",
+      "single page application"
+    ],
+    "tagsENG": [
+      "video conference",
+      "webrtc",
+      "web socket",
+      "single page application"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Paweł Krogulec",
+    "title": "Algorytmy redukcji kolorów z wykorzystaniem architektury CUDA",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "cuda",
+      "redukcja kolorów",
+      "floyd steinberg",
+      "median cut",
+      "octree"
+    ],
+    "tagsENG": [
+      "cuda",
+      "color reduction",
+      "floyd steinberg",
+      "median cut",
+      "octree"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Magdalena Poterała",
+    "title": "Symulacja fontanny w czasie rzeczywistym przy użyciu systemu cząsteczkowego",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "fontanna",
+      "system cząsteczkowy",
+      "grafika czasu rzeczywistego",
+      "grafika komputerowa",
+      "OpenGL",
+      "GLSL",
+      "Compute Shader",
+      "mapowanie normalnych",
+      "pole wysokości"
+    ],
+    "tagsENG": [
+      "fountain",
+      "particle system",
+      "real time rendering",
+      "computer graphics",
+      "OpenGL",
+      "GLSL",
+      "Compute Shader",
+      "normal mapping",
+      "height fields"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Magdalena Wiktoria Tytkowska",
+    "title": "Opracowanie i ocena algorytmów optymalizacji rozkładu (nestingu)",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "problem rozkładu nestingu metody sztucznej inteligencji algorytm genetyczny rojowy"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Katarzyna Daria Węgiełek",
+    "title": "Projekt i implementacja aplikacji rozszerzonej rzeczywistości wspomagającej układanie puzzli",
+    "promotor": "Paweł Kotowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "puzzle",
+      "wykrywanie obiektów na obrazie",
+      "dopasowywanie tekstur",
+      "dopasowywanie kształtów",
+      "uczenie się ze wzmocnieniem"
+    ],
+    "tagsENG": [
+      "jigsaw puzzle",
+      "detecting objects on image",
+      "pattern matching",
+      "shape matching",
+      "reinforcement learning"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Hanna Barbara Bojarska",
+    "title": "Wykorzystanie testów penetracyjnych do wykrywania podatności usług TCP/IP w sieci klasy medium enterprise; analiza wybranych aspektów bezpieczeństwa sieci wydziału MiNI",
+    "promotor": "Marek Kozłowski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "sieci komputerowe",
+      "bezpieczeństwo",
+      "testy penetracyjne",
+      "usługi TCP/IP"
+    ],
+    "tagsENG": [
+      "computer networks",
+      "vulnerabilities",
+      "systems security",
+      "network protection"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Fares Alahmar",
+    "title": "Księgarnia internetowa",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "księgarnia internetowa",
+      "program partnerów",
+      "program lojalnościowy",
+      "system płatności online",
+      "systemy bezpieczeństwa"
+    ],
+    "tagsENG": [
+      "Internet bookstore",
+      "partners program",
+      "loyalty system",
+      "online payment system",
+      "security solutions"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Wojciech Jankowski",
+    "title": "Ocena tricków piłkarskich",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "tricki piłkarskie",
+      "Microsoft Kinect",
+      "gra",
+      "wykrywanie gestów w czasie rzeczywistym",
+      "sieć neuronowa"
+    ],
+    "tagsENG": [
+      "soccer tricks",
+      "Microsoft Kinect",
+      "video game",
+      "neural network"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Skalniak",
+    "title": "System inteligentnego doradcy biegacza",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "aplikacja www",
+      "plany treningowe",
+      "bieganie",
+      "doradca treningowy",
+      "system ekspercki",
+      "zbiory rozmyte"
+    ],
+    "tagsENG": [
+      "web application",
+      "training plans",
+      "running",
+      "training advisor",
+      "expert system",
+      "fuzzy sets"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Paweł Przemysław Mitruś",
+    "title": "Mobilny monitor giełdowy",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "monitor giełdowy",
+      "aplikacja mobilna"
+    ],
+    "tagsENG": [
+      "stock exchange monitor",
+      "mobile application"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Michał Piwowarski",
+    "title": "Implementacja mobilnej aplikacji USOS dla Windows Phone 8",
+    "promotor": "Marcin Luckner",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "mobilna aplikacja USOS",
+      "Windows Phone 8"
+    ],
+    "tagsENG": [
+      "USOS mobile application",
+      "Windows Phone 8"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Ewa Zaremba",
+    "title": "Sieci neuronowe komórkowe w zadaniach przetwarzania obrazów",
+    "promotor": "Bohdan Macukow",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Sieci Neuronowe Komórkowe",
+      "SNK",
+      "CNN",
+      "przetwarzanie obrazów",
+      "rozpoznawanie liter"
+    ],
+    "tagsENG": [
+      "Cellular Neural Networks",
+      "CNN",
+      "image processing",
+      "letters recognition"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Piotr Iwanek",
+    "title": "Zastosowanie metody UCT w problemach transportowych z uwzględnieniem korków drogowych (DCVRPwTJ)",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "UCT",
+      "CVRP",
+      "DCVRPwTJ",
+      "Problemy transportowe"
+    ],
+    "tagsENG": [
+      "UCT",
+      "CVRP",
+      "DCVRPwTJ",
+      "Vehicle Routing Problems"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Maciej Kachniarz",
+    "title": "Wpływ danych z Twittera na przewidywanie zmian indeksów giełdowych przy pomocy sieci neuronowych",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "sieć neuronowa",
+      "predykcja giełdy",
+      "indeks giełdowy",
+      "S&amp;P500",
+      "Twitter"
+    ],
+    "tagsENG": [
+      "neural network",
+      "stock prediction",
+      "stock market index",
+      "S&amp;P500",
+      "Twitter"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Mateusz Tomasz Kilos",
+    "title": "Implementacja automatycznego systemu inwestowania na giełdzie z wykorzystaniem metod sztucznej inteligencji",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Giełda papierów wartościowych",
+      "dane wysokiej częstotliwości",
+      "analiza techniczna",
+      "testowanie strategii inwestowania na danych historycznych",
+      "sztuczne sieci neuronowe",
+      "metody sztucznej inteligencji",
+      "inteligencja obliczeniowa",
+      "algorytm propagacji wstecznej."
+    ],
+    "tagsENG": [
+      "Stock exchange",
+      "high frequency data",
+      "technical analysis",
+      "backtesting investment strategy",
+      "artificial neural networks",
+      "computational intelligence",
+      "backpropagation algorithm."
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Patryk Dominik Tenderenda",
+    "title": "Robot dokonujący pomiarów natężenia siły sygnału WiFi",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "android",
+      "lego",
+      "lego mindstorms",
+      "robot",
+      "java",
+      "wifi",
+      "bluetooth",
+      "natężenie sygnału",
+      "automatyzacja pomiarów"
+    ],
+    "tagsENG": [
+      "android",
+      "lego",
+      "lego mindstorms",
+      "robot",
+      "java",
+      "wifi",
+      "bluetooth",
+      "signal strength",
+      "measurement automatization"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Michał Cwienczek",
+    "title": "Aplikacja typu SPA wspierająca tworzenie map myśli",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "mapa myśli",
+      "aplikacja typu SPA",
+      "ASP.NET WEB API"
+    ],
+    "tagsENG": [
+      "mind mapping",
+      "ASP.NET WEB API"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Krzysztof Kachniarz",
+    "title": "Wykorzystanie sieci neuronowych w grze Texas Hold’em",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "sieci neuronowe",
+      "gra Texas Hold'em"
+    ],
+    "tagsENG": [
+      "neural networks",
+      "Texas Hold'em game"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Tomasz Luśtyk",
+    "title": "Klasyfikacja wielokategorialna przy pomocy sieci neuronowych",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "klasyfikacja wielokategorialna",
+      "sieci neuronowe"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Jarosław Jan Mazur",
+    "title": "Model pamięci skojarzeniowej bazujący na regule Hebba",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "pamięć asocjacyjna",
+      "sieć Hopfielda",
+      "reguła Hebba"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Paweł Michał Paradowski",
+    "title": "Sortowanie przykładów treningowych w procesie uczenia sieci neuronowych",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "sortowanie",
+      "uczenie",
+      "sieć"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Paweł Wielądek",
+    "title": "Porównanie wybranych algorytmów sztucznej inteligencji grających w grę 2048",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "uczenie ze wzmocnieniem",
+      "sztuczna inteligencja",
+      "2048",
+      "gra"
+    ],
+    "tagsENG": [
+      "reinforcement learning",
+      "ai",
+      "artificial intelligence",
+      "2048",
+      "game"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Adam Żychowski",
+    "title": "Algorytmy memetyczne w dynamicznych problemach marszrutyzacji",
+    "promotor": "Jacek Mańdziuk",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "algorytmy memetyczne",
+      "dynamiczne problemy marszrutyzacji",
+      "algorytmy genetyczne"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Radosław Łukasz Markiewicz",
+    "title": "Ocena przydatności algorytmów szukania bezkolizyjnej drogi bryły sztywnej na scenie 3D",
+    "promotor": "Krzysztof Marciniak",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "planowanie trasy",
+      "wyszukiwanie drogi",
+      "probabilistyczna mapa",
+      "przestrzeń konfiguracji",
+      "bryła sztywna",
+      "porównanie",
+      "CUDA",
+      "GPU"
+    ],
+    "tagsENG": [
+      "motion planning",
+      "path planning",
+      "pathfinding",
+      "configuration space",
+      "rigid body",
+      "probabilistic roadmap",
+      "CUDA",
+      "GPU"
+    ]
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Hubert Kordulewski",
+    "title": "Wykorzystanie maszyny wektorów nośnych do określenia pokrycia terenu na zobrazowaniach satelitarnych",
+    "promotor": "Artur Nowakowski",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "optymalizacja nieliniowa",
+      "algorytm SVM",
+      "klasyfikacja zdjęć"
+    ],
+    "tagsENG": [
+      "nonlinear optimization",
+      "algorithm SVM",
+      "images's classification"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Małgorzata Malinowska",
+    "title": "Zastosowanie wielomianów Bernsteina do znajdowania zer rzeczywistych wielomianu",
+    "promotor": "Ewa Pawelec",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "wielomiany Bernsteina",
+      "zera rzeczywiste wielomianów"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Sylwia Michalczyk",
+    "title": "Metoda gradientów sprzężonych do rozwiązywania układów równań liniowych",
+    "promotor": "Ewa Pawelec",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "gradienty sprężone",
+      "układy równań liniowych"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca magisterska",
+    "author": "Łukasz Kadej",
+    "title": "Modelowanie i renderowanie w czasie rzeczywistym realistycznie wyglądającego deszczu w trójwymiarowym środowisku wirtualnym",
+    "promotor": "Joanna Porter-Sobieraj",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "grafika komputerowa",
+      "czas rzeczywisty",
+      "renderowanie",
+      "modelowanie geometryczne",
+      "deszcz",
+      "środowisko wirtualne 3D"
+    ],
+    "tagsENG": [
+      "computer graphics",
+      "rendering",
+      "geometric modelling",
+      "rain",
+      "3D virtual environment."
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Stanisław Mikołaj Peryt",
+    "title": "Aplikacja webowa do zbierania głosów zawierająca analizę koszykową",
+    "promotor": "Tomasz Rudny",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "aplikacja webowa",
+      "analiza koszykowa",
+      "aplikacja do zbierania głosów"
+    ],
+    "tagsENG": [
+      "web application",
+      "affinity analysis",
+      "application for vote gathering"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Charles Ifeadi",
+    "title": "Projektowanie aplikacji przeprowadzania analizy koszyka",
+    "promotor": "Tomasz Rudny",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2014",
+    "tagsPL": [
+      "Analiza koszyka",
+      "analiza danych",
+      "algorytm Apriori",
+      "bazy danych Microsoft SQL"
+    ],
+    "tagsENG": [
+      "Market basket analysis",
+      "data mining",
+      "Apriori algorythm",
+      "entity framework",
+      "Microsoft SQ database"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Wojciech Ireneusz Kowalik",
+    "title": "Symulacja ruchu robota w labiryncie",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "a*",
+      "graf",
+      "suma",
+      "minkowskiego",
+      "symulacja",
+      "symulator",
+      "planowanie",
+      "ścieżki",
+      "wyszukiwanie",
+      "robot",
+      "labirynt"
+    ],
+    "tagsENG": [
+      "a*",
+      "graph",
+      "minkowski",
+      "sum",
+      "robot",
+      "simulation",
+      "simulator",
+      "planning",
+      "path",
+      "finder",
+      "labirynth"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Viet Ba Mai",
+    "title": "Wieloplatformowa gra zręcznościowa z modułem analizującym muzykę",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "wieloplatformowa",
+      "Unity",
+      "FFT",
+      "gra"
+    ],
+    "tagsENG": [
+      "multiplatform",
+      "Unity",
+      "FFT",
+      "game"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Michał Piotr Słupczyński",
+    "title": "Gra akcji typu MMO oparta na protokole P2P",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "Wieloosobowa",
+      "Gra",
+      "Unity 3D"
+    ],
+    "tagsENG": [
+      "Multiplayer",
+      "Game",
+      "Unity 3D"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Adam Babik",
+    "title": "Wizualizacja zjawisk pogodowych",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "wizualizacja",
+      "zjawiska pogodowe"
+    ],
+    "tagsENG": [
+      "visualization",
+      "meteorological data"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Mateusz Mazurkiewicz",
+    "title": "Biblioteka równoległych algorytmów grafowych",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka (Computer Science)",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "grafy",
+      "algorytmy równoległe",
+      "Neo4J",
+      "SignalR"
+    ],
+    "tagsENG": [
+      "graph",
+      "parallel algorithms",
+      "Neo4J",
+      "SignalR"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Maciej Bogumił Spychała",
+    "title": "Internetowa gra strategiczna",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "gra przeglądarkowa",
+      "gra strateginczna",
+      "node.js",
+      "JavaScript",
+      "HTML5 canvas",
+      "WebSocket"
+    ],
+    "tagsENG": [
+      "web browser game",
+      "strategy game",
+      "node.js",
+      "JavaScript",
+      "HTML5 canvas",
+      "WebSocket"
+    ]
+  },
+  {
+    "diplomeType": "Praca inżynierska",
+    "author": "Kamil Mateusz Żak",
+    "title": "Kolorowanie grafów na GPU",
+    "promotor": "Paweł Rzążewski",
+    "studies": "Informatyka Gospodarcza",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Kolorowanie grafów",
+      "algorytmy równoległe",
+      "programowanie CUDA"
+    ],
+    "tagsENG": [
+      "Graph colouring",
+      "parallel algorithms",
+      "CUDA programming"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Dominik Chmielarz",
+    "title": "Metody kompresji danych na przykładzie algorytmu Huffmana",
+    "promotor": "Małgorzata Śleszyńska-Nowak",
+    "studies": "Matematyka w Finansach i Ubezpieczeniach",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2015",
+    "tagsPL": [
+      "Huffman Huffmana kod kody algorytm algorytmy metoda metody kompresja kompresji danych"
+    ],
+    "tagsENG": null
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Justyna Borek",
+    "title": "Funkcje sklejane i ich zastosowania w interpolacji",
+    "promotor": "Iwona Wróbel",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "interpolacja",
+      "funkcje sklejane",
+      "interpolacyjne kubiczne funkcje sklejane",
+      "interpolacja wielomianowa"
+    ],
+    "tagsENG": [
+      "interpolation",
+      "splines",
+      "interpolating cubic splines",
+      "polynomial interpolation"
+    ]
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Karolina Chmielecka",
+    "title": "Wielopunktowe metody wyznaczania miejsc zerowych funkcji jednej zmiennej",
+    "promotor": "Iwona Wróbel",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "1. Pierwiastek równania 2. Metoda szukania pierwiastka równania 3. Metoda iteracyjna 4. Metoda wielopunktowa 5. Rząd zbieżności"
+    ],
+    "tagsENG": []
+  },
+  {
+    "diplomeType": "Praca licencjacka",
+    "author": "Marta Słowik",
+    "title": "Kwadratury adaptacyjne",
+    "promotor": "Iwona Wróbel",
+    "studies": "Matematyka",
+    "department": "Wydział Matematyki i Nauk Informacyjnych (WMiNI)",
+    "year": "2016",
+    "tagsPL": [
+      "kwadratura",
+      "adaptacyjna",
+      "całkowanie",
+      "numeryczne",
+      "przybliżenie"
+    ],
+    "tagsENG": [
+      "quadrature",
+      "adaptive",
+      "integration",
+      "numeric",
+      "approximation"
+    ]
+  }
+]

@@ -29,6 +29,8 @@ public class MastersThesis {
     @Field(type = FieldType.Nested)
     private List<Tag> tags;
 
+    private Boolean isDone;
+
     public MastersThesis() {
         // default constructor
     }
@@ -79,6 +81,14 @@ public class MastersThesis {
 
     public void setTags(List<Tag> tags) {
         this.tags = tags;
+    }
+
+    public Boolean getDone() {
+        return isDone;
+    }
+
+    public void setDone(Boolean done) {
+        isDone = done;
     }
 
     @Override
