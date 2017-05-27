@@ -41,17 +41,36 @@ $.ajax({
 			questionToAppend = '<div class="form-group question" data-question-id="'+entry.questionId+'"><div class="col-lg-10 col-lg-offset-2"><p>' + entry.question + '</p><button type="reset" class="btn btn-default">Tak</button>&nbsp;<button type="submit" class="btn btn-primary">Nie</button></div></div>';
 		}
 		
+		if(entry.type == "tags") {
+			questionToAppend = '<div class="form-group question" data-question-id="'+entry.questionId+'"><div class="col-lg-12"><div id="magicsuggest"></div></div></div>';
+			initMagicsuggest(entry.question);
+		}
+		
 		questions.append(questionToAppend);
 		steps.append(stepToAppend);
 		stepCounter++;
 		
 	});
-	refreshFormState()
+	refreshFormState();
+	initMagicsuggest();
 	$('.step').click(function(e) {
 		var button = $(this);
 		goToStep(button.data('step-id'))
 	});
 });
+
+function initMagicsuggest(p) {
+	console.log(p);
+    $('#magicsuggest').magicSuggest({
+		data: 'https://private-d82ca-hackathlon.apiary-mock.com/search',
+		method: 'get',
+		displayField: 'tag',
+		placeholder: 'Wpisz swoje zainteresowania',
+		renderer: function(data){
+			return data.tag;
+		}
+    });
+}
 
 function nextStep(e) {
 	currentStep += 1;	
