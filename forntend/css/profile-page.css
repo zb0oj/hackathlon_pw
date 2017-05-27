@@ -56,8 +56,8 @@ div {
 	margin-top:8px;
 }
 .char-review span {
-	vertical-align:middle;
 }
+
 .review {
 	font-size:16px;
 	font-weight:700;
@@ -67,7 +67,6 @@ div {
 	padding:0;
 }
 .progbar {
-	margin-top:8px;
 	height:18px;
 	vertical-align:middle;
 }
@@ -91,5 +90,8 @@ div {
 td span.imie {
 	font-size:16px;
 	font-weight:700;
+}
+.char-review i.fa { 
+	font-size: 2em;
 }
 
