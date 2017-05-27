@@ -8,7 +8,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
  * <p>
  * Created by Marek Paczóski on 27.05.2017.
  */
-@Document(indexName = "tag", type = "tags")
+@Document(indexName = "hackathlon_pw", type = "tags")
 public class Tag {
 
     @Id

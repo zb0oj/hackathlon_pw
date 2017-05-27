@@ -13,7 +13,7 @@ import java.util.List;
  * <p>
  * Created by Marek Paczóski on 27.05.2017.
  */
-@Document(indexName = "mastersthesis", type = "mastershhesises")
+@Document(indexName = "hackathlon_pw", type = "mastershhesises")
 public class MastersThesis {
 
     @Id

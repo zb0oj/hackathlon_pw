@@ -14,7 +14,7 @@ import java.util.List;
  * <p>
  * Created by Marek Paczóski (marek.paczoski@execon.pl) on 27.05.2017.
  */
-@Document(indexName = "supervisor", type = "thesisSupervisors")
+@Document(indexName = "hackathlon_pw", type = "thesisSupervisors")
 public class ThesisSupervisor {
 
     @Id

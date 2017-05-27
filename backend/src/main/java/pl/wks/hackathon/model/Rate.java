@@ -10,7 +10,7 @@ import java.math.BigDecimal;
  * <p>
  * Created by Marek Paczóski on 27.05.2017.
  */
-@Document(indexName = "rate", type = "rates")
+@Document(indexName = "hackathlon_pw", type = "rates")
 public class Rate {
 
     @Id

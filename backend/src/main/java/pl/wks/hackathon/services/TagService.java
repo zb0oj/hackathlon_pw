@@ -1,5 +1,6 @@
 package pl.wks.hackathon.services;
 
+import pl.wks.hackathon.dto.TagDTO;
 import pl.wks.hackathon.model.Tag;
 
 import java.util.List;
@@ -18,4 +19,6 @@ public interface TagService {
     List<Tag> getAll();
 
     void delete(Tag tag);
+
+    List<TagDTO> inlineSearch(String query);
 }
