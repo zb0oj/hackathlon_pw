@@ -22,7 +22,7 @@ div {
 	width:200px;
 	height:200px;
 	display:inline-block;
-	background: url(../img/profesor.jpg) no-repeat;
+	background: url(../img/default-profile.png) no-repeat;
 	background-position: top;
 	background-size: cover;
 }
