@@ -34,9 +34,9 @@ div#navbar {
 	background: #eee;
 }
 
-span.green { color: green; }
-span.red { color: red; }
-span.orange { color: orange; }
+.orange {color:#999999;}
+.red {color:#B3B3B3;}
+.green {color:#4D4D4D;}
 
 div.tooltip {
 	z-index: 99999999999999999999;

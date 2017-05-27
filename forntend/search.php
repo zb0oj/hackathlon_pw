@@ -68,6 +68,7 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
 	  
       <script type="text/javascript" src="./js/search-page.js"></script>
+      <script type="text/javascript" src="./js/tables-functions.js"></script>
 	  
 	  
 	<div class="modal"><!-- Place at bottom of page --></div>

@@ -10,6 +10,9 @@
       <!-- Custom CSS -->
       <link href="css/review-page.css" rel="stylesheet">
       <script src="https://use.fontawesome.com/34f4721ea9.js"/></script>
+	  <script>
+		var promotorId = '<?=($_GET['id'])?$_GET['id']:''?>';
+	  </script>
    </head>
    <body>
       <div id="navbar" class="navbar-collapse collapse">
@@ -42,11 +45,11 @@
                            </tr>
                            <tr>
                               <td><span>Promotor:</span></td>
-                              <td><span class="imie">prof. nzw. dr hab. inż. Piękny Tomasz</span></td>
+                              <td><span class="imie" id="name">prof. nzw. dr hab. inż. Piękny Tomasz</span></td>
                            </tr>
                            <tr>
                               <td><span>Wydział:</span></td>
-                              <td>WEiTI</td>
+                              <td id="department">WEiTI</td>
                            </tr>
                            <tr>
                               <td><span>Stopień:</span></td>
@@ -65,9 +68,9 @@
                            <td>
                               <div class="progbar">
 							  <div class="freedom-desc">
-					<div class="col-sm-6">Daje dużą wolność</div>
-					<div class="col-sm-6">Prowadzi studenta</div>
-				</div>
+									<div class="col-sm-6">Daje dużą wolność</div>
+									<div class="col-sm-6">Prowadzi studenta</div>
+								</div>
                                  <div class="progress col-sm-2">
                                     <div class="progress-bar progress-bar-success hidden" style="width:100%;"></div>
 								</div>

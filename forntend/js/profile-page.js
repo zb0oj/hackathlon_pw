@@ -8,7 +8,7 @@ $.ajax({
 		$('#department').html(promotor.department);
 		$('#mail').html(promotor.mail);
 		$('#roomInfo').html(promotor.roomInfo);
-		console.log(promotor.photo);
+		
 		$('#profile').load(promotor.photo, function(response, status, xhr) {
 			if (status != "error") {
 				photo = '<img src="'+promotor.photo+'" alt="" />';
@@ -124,12 +124,41 @@ $.ajax({
 			.text(function(d) {
 				return d.id + "\n" + format(d.value);
 			});
-
+		initTables();
 	
-		$('body').removeClass('loading');
-		$('div.container').removeClass('hidden');
 	});
 	
+	
+function initTables() {
+	$.ajax({
+		url: searchPromotorUrl + promotorId,
+		cache: false,
+		type: 'get',
+		context: document.body
+	}).done(function(prace) {
+		$('#table').bootstrapTable({
+			data: prace
+		}).on('all.bs.table', function (e, name, args) {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+		$.ajax({
+			url: searchPromotorArchiveUrl + promotorId,
+			cache: false,
+			type: 'get',
+			context: document.body
+		}).done(function(prace) {
+			$('#tableArchive').bootstrapTable({
+				data: prace
+			}).on('all.bs.table', function (e, name, args) {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+			$('[data-toggle="tooltip"]').tooltip();
+			$('body').removeClass('loading');
+			$('div.container').removeClass('hidden');
+		});
+	});
+}
+	
 function seeTag(value) {
-	location.replace("search.php?query="+value);
+	window.location.href = "search.php?query="+value;
 }

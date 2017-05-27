@@ -131,5 +131,5 @@ $('button.save').click(function(e){
 	query = query.concat(magicsuggest.getValue());
 	queryString = query.join();
 	
-	location.replace("search.php?query="+queryString);
+	window.location.href = "search.php?query="+queryString;
 });

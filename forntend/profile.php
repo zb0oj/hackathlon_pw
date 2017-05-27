@@ -7,7 +7,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
       <link rel="stylesheet" href="./css/custom.min.css">
-      <link rel="stylesheet" href="./css/jqcloud.css">
+	  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jqc-1.12.4/dt-1.10.15/fc-3.2.2/fh-3.1.2/r-2.1.1/datatables.min.css"/>
       <!-- Custom CSS -->
       <link href="css/profile-page.css" rel="stylesheet">
       <script src="https://use.fontawesome.com/34f4721ea9.js"/></script>
@@ -88,146 +88,24 @@
             </ul>
             <div id="myTabContent" class="tab-content">
                <div class="tab-pane fade active in" id="open">
-                  <table class="table table-striped table-hover">
-                     <thead>
-                        <tr>
-                           <th>LP</th>
-                           <th>Temat</th>
-                           <th>Tagi</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>1</td>
-                           <td>Pierwsza praca</td>
-                           <td>
-							 <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a>
-						   </td>
-                        </tr>
-                        <tr>
-                           <td>2</td>
-                           <td>Druga praca</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                        <tr>
-                           <td>3</td>
-                           <td>Trzecia praca</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                        <tr>
-                           <td>4</td>
-                           <td>Czwarta praca</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                        <tr>
-                           <td>5</td>
-                           <td>Piąta praca</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-						<tr>
-                           <td>6</td>
-                           <td>Szósta praca</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-						<tr>
-                           <td>7</td>
-                           <td>Siódma praca</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                     </tbody>
-                  </table>
+					<table id="table" class="table table-striped table-hover table-condensed">
+						<thead>
+							<tr>
+								<th data-field="title" data-sortable="true">Tytuł pracy</th>
+								<th data-field="author.relatedTags" data-formatter="relatesTagFormatter2">Tagi</th>
+							</tr>
+						</thead>
+					</table> 
                </div>
                <div class="tab-pane fade" id="defenced">
-                  <table class="table table-striped table-hover ">
-                     <thead>
-                        <tr>
-                           <th>LP</th>
-                           <th>Temat</th>
-                           <th>Tagi</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>1</td>
-                           <td>Pierwsza praca obroniona</td>
-                           <td>
-							 <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a>
-						   </td>
-                        </tr>
-                        <tr>
-                           <td>2</td>
-                           <td>Druga praca obroniona</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                        <tr>
-                           <td>3</td>
-                           <td>Trzecia praca obroniona</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                        <tr>
-                           <td>4</td>
-                           <td>Czwarta praca obroniona</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                        <tr>
-                           <td>5</td>
-                           <td>Piąta praca obroniona</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-						<tr>
-                           <td>6</td>
-                           <td>Szósta praca obroniona</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-						<tr>
-                           <td>7</td>
-                           <td>Siódma praca obroniona</td>
-                           <td> <a class="btn btn-default btn-xs">JAVA</a>
-						   <a class="btn btn-default btn-xs">jQuery</a>
-						   <a class="btn btn-default btn-xs">HTML</a>
-						   <a class="btn btn-default btn-xs">CSS</a></td>
-                        </tr>
-                     </tbody>
-                  </table>
+					<table id="tableArchive" class="table table-striped table-hover table-condensed">
+						<thead>
+							<tr>
+								<th data-field="title" data-sortable="true">Tytuł pracy</th>
+								<th data-field="author.relatedTags" data-formatter="relatesTagFormatter2">Tagi</th>
+							</tr>
+						</thead>
+					</table> 
                </div>
             </div>
          </div>
@@ -238,6 +116,17 @@
       <script src="./js/bootstrap.min.js"></script>
       <script src="./js/properties.js"></script>
       <script src="./js/d3.v4.min.js"></script>
+	  
+	  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+
+	<!-- Latest compiled and minified Locales -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
+      <script type="text/javascript" src="./js/tables-functions.js"></script>
+	  
       <script src="./js/profile-page.js"></script>
 	  
 	  
