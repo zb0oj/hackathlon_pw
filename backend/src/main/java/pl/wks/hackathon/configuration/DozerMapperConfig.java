@@ -5,8 +5,6 @@ import org.dozer.DozerBeanMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import pl.wks.hackathon.converters.TagConverter;
-import pl.wks.hackathon.dto.TagDTO;
-import pl.wks.hackathon.model.Tag;
 
 import java.util.Arrays;
 import java.util.HashMap;

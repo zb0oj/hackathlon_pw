@@ -13,4 +13,19 @@
         </custom-converters>
     </configuration>
 
+    <mapping>
+        <class-a>pl.wks.hackathon.model.Rate</class-a>
+        <class-b>pl.wks.hackathon.dto.RateDTO</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>pl.wks.hackathon.model.ThesisSupervisor</class-a>
+        <class-b>pl.wks.hackathon.dto.ThesisSupervisorDTO</class-b>
+    </mapping>
+
+    <mapping>
+        <class-a>pl.wks.hackathon.model.MastersThesis</class-a>
+        <class-b>pl.wks.hackathon.dto.MastersThesisDTO</class-b>
+    </mapping>
+
 </mappings>

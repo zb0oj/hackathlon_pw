@@ -1,23 +1,17 @@
-package pl.wks.hackathon.model;
+package pl.wks.hackathon.dto;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
 import pl.wks.hackathon.enums.PWDepartment;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Supervisor entity
+ * DTO of ThesisSupervisor representation.
  * <p>
- * Created by Marek Paczóski (marek.paczoski@execon.pl) on 27.05.2017.
+ * Created by Marek Paczóski on 27.05.2017.
  */
-@Document(indexName = "supervisor", type = "thesisSupervisors")
-public class ThesisSupervisor {
+public class ThesisSupervisorDTO {
 
-    @Id
     private Long id;
 
     private String name;
@@ -30,17 +24,15 @@ public class ThesisSupervisor {
 
     private String phone;
 
-    @Field(type = FieldType.Nested)
-    private List<Tag> relatedTags;
+    private List<TagDTO> relatedTags;
 
-    @Field(type = FieldType.Nested)
-    private List<Rate> rates;
+    private List<RateDTO> rates;
 
-    public ThesisSupervisor() {
+    public ThesisSupervisorDTO() {
         // default constructor
     }
 
-    public ThesisSupervisor(Long id, String name, BigDecimal rate, PWDepartment department, String mail, String phone, List<Tag> relatedTags, List<Rate> rates) {
+    public ThesisSupervisorDTO(Long id, String name, BigDecimal rate, PWDepartment department, String mail, String phone, List<TagDTO> relatedTags, List<RateDTO> rates) {
         this.id = id;
         this.name = name;
         this.rate = rate;
@@ -99,25 +91,25 @@ public class ThesisSupervisor {
         this.phone = phone;
     }
 
-    public List<Tag> getRelatedTags() {
+    public List<TagDTO> getRelatedTags() {
         return relatedTags;
     }
 
-    public void setRelatedTags(List<Tag> relatedTags) {
+    public void setRelatedTags(List<TagDTO> relatedTags) {
         this.relatedTags = relatedTags;
     }
 
-    public List<Rate> getRates() {
+    public List<RateDTO> getRates() {
         return rates;
     }
 
-    public void setRates(List<Rate> rates) {
+    public void setRates(List<RateDTO> rates) {
         this.rates = rates;
     }
 
     @Override
     public String toString() {
-        return "ThesisSupervisor{" +
+        return "ThesisSupervisorDTO{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", rate=" + rate +
