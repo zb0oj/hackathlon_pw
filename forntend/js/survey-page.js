@@ -31,9 +31,10 @@ $.ajax({
 		}
 		
 		if(entry.type == "radio") {
+			console.log(entry);
 			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10">';
 			entry.choices.forEach(function(choice) {
-				questionToAppend += '<div class="radio"><label><input type="radio" name="'+choice.questionId+'" id="'+choice.questionId+'" value="'+choice.value+'" checked="">'+choice.value+'</label></div>';
+				questionToAppend += '<div class="radio"><label><input type="radio" name="'+entry.questionId+'" id="'+entry.questionId+'" value="'+choice.value+'" checked="">'+choice.value+'</label></div>';
 			});
 			questionToAppend += '</div></div>';
 		}
