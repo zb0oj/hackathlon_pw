@@ -1,0 +1,81 @@
+div {
+	//border: 1px solid red;
+}
+.main {
+	margin:0 50px;
+}
+.top-section{
+	margin:10px 0 30px;
+}
+.profile-picture {
+	width:100%;
+	overflow:hidden;
+	height:auto;
+}
+.thesis-list{
+	margin:10px 0 70px;
+}
+#profile {
+	width:270px;
+	height:270px;
+	display:inline-block;
+	background: url(../img/profesor.jpg) no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+#tag-cloud {
+	width:400px;
+	height:270px;
+	display:inline-block;
+}
+.contact-table {
+	min-width:450px;
+}
+#contact-info {
+	padding:50px;
+	width:auto;
+	display:inline-block;
+}
+@media screen and (max-width:767px){
+	.main { 
+		margin:10px;
+	}
+}
+.contact-table tr td:nth-child(1) {
+	text-align:right;
+}
+.chars {
+	margin:20px 0;
+}
+.char-title {
+	font-size:18px;
+	padding:5px 0;
+}
+.char-review {
+	font-size:13px;
+}
+.char-review span {
+	vertical-align:middle;
+}
+.review {
+	font-size:16px;
+	font-weight:700;
+}
+.progress.col-sm-6 {
+	border-radius:0;
+	padding:0;
+}
+.progbar {
+	margin-top:8px;
+	height:18px;
+	vertical-align:middle;
+}
+.progbar .progress {
+	margin:0;
+}
+.progbar .progress:nth-child(1) div {
+	float:right;
+}
+
+
+
