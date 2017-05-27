@@ -65,6 +65,7 @@ function relatesTagFormatter(value) {
 }
  
 initMagicsuggest();
+initTable();
 $('[data-toggle="tooltip"]').tooltip();
 
 function initTable() {

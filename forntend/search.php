@@ -28,7 +28,7 @@
       </div>
       <a name="about"></a>
       <div class="intro-header">
-      <div class="container hidden">
+      <div class="container">
          <div class="row">
             <div class="col-lg-10 clearmargin">
                <div id="magicsuggest"></div>
