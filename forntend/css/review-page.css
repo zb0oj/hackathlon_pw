@@ -1,0 +1,62 @@
+.thesis-info{
+	margin:20px 0;
+	min-height:160px;
+}
+.container > .well {
+	margin-top:30px;
+	padding:40px;
+}
+.topic {
+	font-size:14px;
+	font-weight:700;
+}
+.review-table {
+	margin: 20px 0;
+}
+.info {
+	padding:0;
+}
+i.fa-2 {
+	font-size:2em;
+}
+table.thesis-table td:nth-child(1) span{
+	float:right;
+}
+table.review-table td:nth-child(2) span{
+	float:right;
+}
+table.review-table > tbody > tr > td{
+	vertical-align:middle;
+}
+table.review-table td:nth-child(1) {
+	width:5%;
+}
+table.review-table td:nth-child(2) {
+	width:17%;
+}
+.progbar {
+	width:200px;
+	min-height:33px;
+}
+.freedom-desc {
+	font-size:10px;
+	font-weight:300;
+	text-align:left;
+}
+.freedom-desc div {
+	padding:0;
+}
+.freedom-desc div:nth-child(2) {
+	text-align:right;
+}
+.progbar .col-sm-6 {
+	padding:0;
+}
+.progress {
+	margin:0;
+	padding:0;
+	border-radius:0;
+}
+.summary a {
+	float:right;
+}
