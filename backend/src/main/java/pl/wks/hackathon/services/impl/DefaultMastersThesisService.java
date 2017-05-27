@@ -2,6 +2,7 @@ package pl.wks.hackathon.services.impl;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang.math.NumberUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import pl.wks.hackathon.model.MastersThesis;
 import pl.wks.hackathon.repository.MastersThesisRepository;
@@ -47,4 +48,12 @@ public class DefaultMastersThesisService implements MastersThesisService {
         List<MastersThesis> lists = mastersThesisRepository.findByTagNames(tagName);
         return Objects.nonNull(lists) ? lists.size() : NumberUtils.INTEGER_ZERO;
     }
+
+    @Override
+    public List<MastersThesis> inlineSearch(List<String> tags) {
+        List<MastersThesis> list = mastersThesisRepository.inlineSearch(StringUtils.join(tags, StringUtils.SPACE));
+        return list;
+    }
+
+
 }

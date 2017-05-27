@@ -13,7 +13,9 @@ import java.util.List;
  */
 public interface MastersThesisRepository extends ElasticsearchRepository<MastersThesis, Long> {
 
-    @Query("{\"bool\": {\"must\": [{\"match\": {\"tags.tagName\": \"?0\"}}]}}")
+    @Query("{\"query\":{\"bool\":{\"must\":[{\"nested\":{\"path\":\"tags\",\"query\":{\"bool\":{\"must\":[{\"match\":{\"tags.tagName\":\"?0\"}}]}}}}]}}}")
     List<MastersThesis> findByTagNames(String name);
 
+    @Query("{\"query\":{\"query_string\":{\"query\":\"?0\"}}}")
+    List<MastersThesis> inlineSearch(String name);
 }

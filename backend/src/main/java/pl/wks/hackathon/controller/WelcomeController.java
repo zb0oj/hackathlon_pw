@@ -42,8 +42,11 @@ public class WelcomeController {
 //        ThesisSupervisor thesisSupervisor = preparMock();
 //        defaultThesisSupervisorServices.save(thesisSupervisor);
         MastersThesis mastersThesis = prepareMockMaster();
-        defaultMastersThesisService.save(mastersThesis);
+        //defaultMastersThesisService.save(mastersThesis);
         defaultMastersThesisService.countTag("Pingwiny");
+
+        //System.out.print(defaultMastersThesisService.inLineFind(Arrays.asList("Mateuszka","dupa")));
+
         MastersThesisDTO dto = new MastersThesisDTO();
         mapper.map(mastersThesis, dto);
         return ResponseEntity.ok(dto.toString());
@@ -56,14 +59,14 @@ public class WelcomeController {
 
     private static MastersThesis prepareMockMaster() {
         MastersThesis mastersThesis = new MastersThesis();
-        mastersThesis.setId(1L);
-        mastersThesis.setTitle("Wpływ zorzy na akty masturbacji pingwinów Adeli");
+        mastersThesis.setId(2L);
+        mastersThesis.setTitle("Wpływ Mateuszka na rozwój developmentu");
         mastersThesis.setDifficulity(BigDecimal.valueOf(5));
         mastersThesis.setAuthor(preparMock());
 
         //tags
-        Tag tag1 = new Tag(12L, "Pingwiny");
-        Tag tag2 = new Tag(2L, "Adeli");
+        Tag tag1 = new Tag(30L, "matueszek");
+        Tag tag2 = new Tag(31L, "makarena");
 
         mastersThesis.setTags(Arrays.asList(tag1, tag2));
 
@@ -72,22 +75,22 @@ public class WelcomeController {
 
     private static ThesisSupervisor preparMock() {
         ThesisSupervisor thesisSupervisor = new ThesisSupervisor();
-        thesisSupervisor.setId(1L);
-        thesisSupervisor.setRate(BigDecimal.valueOf(4.4));
-        thesisSupervisor.setName("Tomasz Rębelski");
-        thesisSupervisor.setDepartment(PWDepartment.EITI);
-        thesisSupervisor.setMail("piekny.tom@gmail.com");
-        thesisSupervisor.setPhone("0700-880-774");
+        thesisSupervisor.setId(2L);
+        thesisSupervisor.setRate(BigDecimal.valueOf(4.5));
+        thesisSupervisor.setName("Super Kieras");
+        thesisSupervisor.setDepartment(PWDepartment.MINI);
+        thesisSupervisor.setMail("filong.bjutiful@gmail.com");
+        thesisSupervisor.setPhone("123-123-123");
 
         // Rates
-        Rate rate1 = new Rate(1L, "Dostępność", "fa-dupa", BigDecimal.valueOf(4.4));
-        Rate rate2 = new Rate(2L, "Komunikatywność", "fa-dupa", BigDecimal.valueOf(3.5));
+        Rate rate1 = new Rate(3L, "Yoł", "fa-cyka", BigDecimal.valueOf(4.6));
+        Rate rate2 = new Rate(4L, "Elo", "fa-cyka", BigDecimal.valueOf(3.8));
         thesisSupervisor.setRates(Arrays.asList(rate1, rate2));
 
         //tags
-        Tag tag1 = new Tag(12L, "Pingwiny");
-        Tag tag2 = new Tag(3L, "ESB");
-        Tag tag3 = new Tag(4L, "Mercedes");
+        Tag tag1 = new Tag(20L, "mat");
+        Tag tag2 = new Tag(21L, "szynka");
+        Tag tag3 = new Tag(22L, "LPG");
 
         thesisSupervisor.setRelatedTags(Arrays.asList(tag1, tag2, tag3));
 

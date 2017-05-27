@@ -19,4 +19,6 @@ public interface MastersThesisService {
     void delete(MastersThesis mastersThesis);
 
     Integer countTag(String tagName);
+
+    List<MastersThesis> inlineSearch(List<String> tags);
 }
