@@ -1,0 +1,15 @@
+.container {
+	padding-top:40px;
+}
+.container > .well {
+	padding:0 40px 40px ;
+}
+.info {
+	padding:0;
+}
+i.fa-2 {
+	font-size:2em;
+}
+.add-topic-desc {
+	padding:20px 0;
+}

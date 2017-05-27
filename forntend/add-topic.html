@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Dodaj nowy temat pracy dyplomowej</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+      <link rel="stylesheet" href="./css/custom.min.css">
+      <!-- Custom CSS -->
+      <link href="css/add-topic-page.css" rel="stylesheet">
+      <script src="https://use.fontawesome.com/34f4721ea9.js"/></script>
+   </head>
+   <body>
+      <div id="navbar" class="navbar-collapse collapse">
+         <ul class="nav navbar-nav">
+            <li class="active">
+               <a href="#search">Wyszukiwarka</a>
+            </li>
+            <li>
+               <a href="#about">Ankieta</a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">O projekcie</a>
+            </li>
+         </ul>
+      </div>
+      <div class="container">
+         <div class="well bs-component promotors table-responsive">
+            <div class="main">
+               <h1><i class="fa fa-plus fa-2" aria-hidden="true">&nbsp;</i>Zaproponuj nowy temat pracy dyplomowej</h1>
+               <div class="add-topic-desc">Wypełnij formularz by dodać temat pracy. Jeżeli komuś się spodoba, możecie nawiązać współpracę i razem doprowadzić do realizacji tematu.</div>
+               <form class="form-horizontal">
+                  <fieldset>
+                     <legend>Nowa praca dyplomowa</legend>
+                     <div class="form-group">
+                        <label for="inputTitle" class="col-lg-2 control-label">*&nbsp;Temat:</label>
+                        <div class="col-lg-10">
+                           <input type="text" class="form-control" id="inputTitle" placeholder="Temat pracy" autocomplete="off">
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label class="col-lg-2 control-label">* Stopień</label>
+                        <div class="col-lg-10">
+                           <div class="radio">
+                              <label>
+                              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                              Praca licencjacka/inżynierska
+                              </label>
+                           </div>
+                           <div class="radio">
+                              <label>
+                              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                              Praca magisterska
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label for="select" class="col-lg-2 control-label">* Wydział:</label>
+                        <div class="col-lg-10">
+                           <select class="form-control" id="select">
+                              <option>Wydział Budownictwa</option>
+                              <option>Wydział Administracji i Nauk Społecznych</option>
+                              <option>Wydział Architektury</option>
+                              <option>Wydział Chemiczny</option>
+                              <option>Wydział Elektroniki i Technik Informacyjnych</option>
+                              <option>Wydział Elektryczny</option>
+                              <option>Wydział Fizyki</option>
+                              <option>Wydział Geodezji i Kartografii</option>
+                              <option>Wydział Instalacji Budowlanych, Hydrotechniki i Inżynierii Środowiska</option>
+                              <option>Wydział Inżynierii Chemicznej i Procesowej</option>
+                              <option>Wydział Inżynierii Materiałowej</option>
+                              <option>Wydział Inżynierii Produkcji</option>
+                              <option>Wydział Matematyki i Nauki Informacyjnych</option>
+                              <option>Wydział Mechaniczny Energetyki i Lotnictwa</option>
+                              <option>Wydział Mechatroniki</option>
+                              <option>Wydział Samochodów i Maszyn Roboczych</option>
+                              <option>Wydział Transportu</option>
+                              <option>Wydział Zarządzania</option>
+                              <option>Wydział Budownictwa, Mechaniki i Petrochemii</option>
+                              <option>Kolegium Nauk Ekonomicznych i Społecznych</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label for="inputTags" class="col-lg-2 control-label">*&nbsp;Tagi:</label>
+                        <div class="col-lg-10">
+                           <input type="text" class="form-control" id="inputTags" placeholder="Tagi" autocomplete="off">
+                           <span class="help-block">Dodaj jak najwięcej tagów, by ułatwić odnalezienie pracy potencjalnie zainteresowanym</span>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label for="select" class="col-lg-2 control-label">* Język:</label>
+                        <div class="col-lg-10">
+                           <select class="form-control" id="select">
+                              <option>Polski</option>
+                              <option>Angielski</option>
+                              <option>Inny</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label for="textArea" class="col-lg-2 control-label">Streszczenie</label>
+                        <div class="col-lg-10">
+                           <textarea class="form-control" rows="3" id="textArea"></textarea>
+                           <span class="help-block">Krótki opis podejmowanej problematyki oraz metodyki badań</span>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                           <button type="reset" class="btn btn-default">Anuluj</button>
+                           <button type="submit" class="btn btn-primary">Dodaj</button>
+                        </div>
+                     </div>
+                  </fieldset>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script src="./js/jquery-1.10.2.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/properties.js"></script>
+      <script src="./js/profile-page.js"></script>
+   </body>
+</html>
