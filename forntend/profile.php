@@ -237,7 +237,7 @@
       <script src="./js/jquery-1.10.2.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
       <script src="./js/properties.js"></script>
-      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="./js/d3.v4.min.js"></script>
       <script src="./js/profile-page.js"></script>
 	  
 	  
