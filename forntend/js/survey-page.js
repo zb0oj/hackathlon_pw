@@ -1,6 +1,7 @@
 
 var currentStep = 0;
 var stepCounter = 0;
+var magicsuggest;
 
 $.ajax({
   url: surveyUrl,
@@ -15,30 +16,30 @@ $.ajax({
 		var questionToAppend = '';
 		
 		if(entry.type == "checkbox") {
-			questionToAppend = '<div class="form-group question" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label>';
+			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label>';
 			entry.choices.forEach(function(choice) {
-				questionToAppend += '<div class="col-lg-3"><label><input type="checkbox" name="optionsRadios" id="checkbox" value="checkbox" checked="">'+choice.value+'</label></div>';
+				questionToAppend += '<div class="col-lg-3"><label><input type="checkbox" name="'+choice.value+'" id="'+choice.value+'" value="'+choice.value+'" checked="">'+choice.value+'</label></div>';
 			});
 			questionToAppend += '</div>';
 		}
 		if(entry.type == "select") {
-			questionToAppend = '<div class="form-group question" data-question-id="'+entry.questionId+'"><label for="select" class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10"><select class="form-control" id="select">';
+			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label for="select" class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10"><select class="form-control" id="select">';
 			entry.choices.forEach(function(choice) {
-				questionToAppend += '<option>'+choice.value+'</option>';
+				questionToAppend += '<option value="'+choice.value+'">'+choice.value+'</option>';
 			});
 			questionToAppend += '</select></div></div>';
 		}
 		
 		if(entry.type == "radio") {
-			questionToAppend = '<div class="form-group question" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10">';
+			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10">';
 			entry.choices.forEach(function(choice) {
-				questionToAppend += '<div class="radio"><label><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">'+choice.value+'</label></div>';
+				questionToAppend += '<div class="radio"><label><input type="radio" name="'+choice.questionId+'" id="'+choice.questionId+'" value="'+choice.value+'" checked="">'+choice.value+'</label></div>';
 			});
 			questionToAppend += '</div></div>';
 		}
 		
 		if(entry.type == "yesno") {
-			questionToAppend = '<div class="form-group question" data-question-id="'+entry.questionId+'"><div class="col-lg-10 col-lg-offset-2"><p>' + entry.question + '</p><button type="reset" class="btn btn-default">Tak</button>&nbsp;<button type="submit" class="btn btn-primary">Nie</button></div></div>';
+			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><div class="col-lg-10 col-lg-offset-2"><p>' + entry.question + '</p><button type="reset" class="btn btn-default">Tak</button>&nbsp;<button type="submit" class="btn btn-primary">Nie</button></div></div>';
 		}
 		
 		if(entry.type == "tags") {
@@ -62,10 +63,12 @@ $.ajax({
 });
 
 function initMagicsuggest(p) {
-    $('#magicsuggest').magicSuggest({
+    magicsuggest = $('#magicsuggest').magicSuggest({
 		data: 'https://private-d82ca-hackathlon.apiary-mock.com/search',
 		method: 'get',
 		displayField: 'tag',
+		valueField: 'tag',
+		cls: 'magic',
 		placeholder: 'Wpisz swoje zainteresowania',
 		renderer: function(data){
 			return data.tag;
@@ -118,3 +121,13 @@ function refreshFormState() {
 		$($('.step')[i]).addClass('done');
 	}
 }
+
+$('button.save').click(function(e){
+	var query = new Array();
+	$('form .questionToForm input[type!=radio], form .questionToForm select, form .questionToForm input[type=radio]:checked').each(function(i, entry) {
+		query.push($(entry).val());
+	});
+	query = query.concat(magicsuggest.getValue());
+	console.log(query);
+	
+});

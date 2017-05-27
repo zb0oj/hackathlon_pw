@@ -11,8 +11,6 @@ function initMagicsuggest() {
     });
 }
 
-initMagicsuggest();
-$('[data-toggle="tooltip"]').tooltip();
 
 function diffFormatter(value) {
 	width = value * 2 * 10;
@@ -53,9 +51,13 @@ function relatesTagFormatter(value) {
 	});	 
     if (sumA < sumB) return 1;
     if (sumA > sumB) return -1;
+	$('[data-toggle="tooltip"]').tooltip();
     return 0;
 }
  
+initMagicsuggest();
+$('[data-toggle="tooltip"]').tooltip();
+
 $.ajax({
   url: searchUrl,
   data: {
@@ -66,7 +68,10 @@ $.ajax({
 }).done(function(prace) {
 	$('#table').bootstrapTable({
 		data: prace
-	});
-$('[data-toggle="tooltip"]').tooltip();
+	}).on('all.bs.table', function (e, name, args) {
+        console.log('Event:', name, ', data:', args);
+		$('[data-toggle="tooltip"]').tooltip();
+    });
+	$('[data-toggle="tooltip"]').tooltip();
 });
 
