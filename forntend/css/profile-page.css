@@ -1,6 +1,11 @@
 div {
 	//border: 1px solid red;
 }
+
+.orange {color:orange;}
+.red {color:red;}
+.green {color:green;}
+
 .main {
 	margin:0 20px;
 }
@@ -25,8 +30,19 @@ div {
 	background: url(../img/default-profile.png) no-repeat;
 	background-position: top;
 	background-size: cover;
+	overflow: hidden;
 }
-#tag-cloud {
+#profile img {
+	width: 100%;
+}
+#cloud {
+	width: 235px;
+	height: 200px;
+	z-index:99999;
+	position: absolute;
+}
+#cloud *, #cloud * * {
+	z-index:99999;
 }
 .contact-table {
 	min-width:450px;

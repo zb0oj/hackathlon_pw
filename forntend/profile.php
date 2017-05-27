@@ -7,54 +7,56 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
       <link rel="stylesheet" href="./css/custom.min.css">
+      <link rel="stylesheet" href="./css/jqcloud.css">
       <!-- Custom CSS -->
       <link href="css/profile-page.css" rel="stylesheet">
       <script src="https://use.fontawesome.com/34f4721ea9.js"/></script>
+	  <script>
+		var promotorId = '<?=($_GET['id'])?$_GET['id']:''?>';
+	  </script>
    </head>
-   <body>
+   <body class="loading">
       <div id="navbar" class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
             <li class="active">
-               <a href="#search">Wyszukiwarka</a>
+               <a href="search.php">Wyszukiwarka</a>
             </li>
             <li>
-               <a href="#about">Ankieta</a>
-            </li>
-         </ul>
-         <ul class="nav navbar-nav navbar-right">
-            <li>
-               <a href="#">O projekcie</a>
+               <a href="survey.php">Ankieta</a>
             </li>
          </ul>
       </div>
-      <div class="container">
+				
+      <div class="container hidden">
          <div class="well bs-component promotors table-responsive">
       <div class="main">
          <div class="top-section row">
-            <div id="profile" class="col-sm-3">&nbsp;</div>
+            <div id="profile" class="col-sm-3"></div>
             <div id="contact-info" class="col-sm-3">
 				<table class="table table-striped contact-table">
                      <tbody>
                         <tr>
                            <td>Imię i nazwisko:</td>
-                           <td><span class="imie">prof. nzw. dr hab. Marian Jajecznica</span></td>
+                           <td><span class="imie" id="name">prof. nzw. dr hab. Marian Jajecznica</span></td>
                         </tr>
                         <tr>
                            <td>Wydział:</td>
-                           <td>WEiTI, MEL</td>
+                           <td id="department">WEiTI, MEL</td>
                         </tr>
 						<tr>
                            <td>e-mail:</td>
-                           <td><a href="mailto:mjajecznica@eiti.pw.edu.pl">mjajecznica@eiti.pw.edu.pl</a></td>
+                           <td><a href="mailto:mjajecznica@eiti.pw.edu.pl" id="mail">mjajecznica@eiti.pw.edu.pl</a></td>
                         </tr>
 						<tr>
                            <td>pokój:</td>
-                           <td>WEiTI: 503, MEL:317</td>
+                           <td id="roomInfo">WEiTI: 503, MEL:317</td>
                         </tr>
                      </tbody>
                   </table>
 			</div>
-			<div id="tag-cloud" class="col-sm-3">Chmura tagów</div>
+			<div class="col-sm-3">
+				<svg width="235" height="200" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+			</div>
          </div>
 		 <div class="chars row">
 			<div class="col-sm-3 freedom">
@@ -65,32 +67,14 @@
 				</div>
 				<div class="progbar">
 					<div class="progress col-sm-6">
-						<div class="progress-bar progress-bar-success " style="width: 40%"></div>
+						<div class="progress-bar progress-bar-success " style="width: 40%" id="friendlyMinus"></div>
 					</div>
 					<div class="progress col-sm-6">
-						<div class="progress-bar progress-bar-success hidden" style="width: 40%"></div>
+						<div class="progress-bar progress-bar-success" style="width: 40%" id="friendlyPlus"></div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-3">
-				<div class="char-title">Konstruktywność uwag</div>
-				<div class="char-review">
-					<i class="fa fa-exclamation-triangle fa-2" aria-hidden="true"></i><span>
-						<span class="review">2,7</span>/5</span>
-				</div>
-			</div><div class="col-sm-3">
-				<div class="char-title">Komunikatywność</div>
-				<div class="char-review">
-					<i class="fa fa-comments fa-2" aria-hidden="true"></i><span>
-						<span class="review">1,8</span>/5</span>
-				</div>
-			</div><div class="col-sm-3">
-				<div class="char-title">Zaangażowanie</div>
-				<div class="char-review">
-					<i class="fa fa-thumbs-up fa-2" aria-hidden="true"></i><span>
-						<span class="review">4,6</span>/5</span>
-				</div>
-			</div>
+			<div id="rates"></div>
 
 		 </div>
          <div class="thesis-list">
@@ -253,6 +237,10 @@
       <script src="./js/jquery-1.10.2.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
       <script src="./js/properties.js"></script>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
       <script src="./js/profile-page.js"></script>
+	  
+	  
+	<div class="modal"><!-- Place at bottom of page --></div>
    </body>
 </html>

@@ -48,6 +48,12 @@ function relatesTagFormatter(value) {
 	});
 	return '<a class="" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" data-html="true" title="'+tags+'"><i class="fa fa-question-circle" ></i></a>';
 }
+
+function authorNameFormatter(value) {
+	id = value.id;
+	name = value.name;
+	return '<a target="_BLANK" href="profile.php?id=' + id + '">' + name + '</a>';
+}
  
  function ratesSorter(a, b) {
 	sumA = 0;

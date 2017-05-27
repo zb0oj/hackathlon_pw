@@ -30,11 +30,8 @@
       <div class="intro-header">
       <div class="container">
          <div class="row">
-            <div class="col-lg-10 clearmargin">
+            <div class="col-lg-12 clearmargin">
                <div id="magicsuggest"></div>
-            </div>
-            <div class="col-lg-2">
-               <button class="btn btn-success save">Szukaj w bazie</button>
             </div>
          </div>
          <br />
@@ -44,7 +41,7 @@
 					<tr>
 						<th data-field="title" data-sortable="true">Tytuł pracy</th>
 						<th data-field="difficulity" data-sortable="true" data-formatter="diffFormatter">Poziom trudności</th>
-						<th data-field="author.name" data-sortable="true">Promotor</th>
+						<th data-field="author" data-formatter="authorNameFormatter" data-sortable="true">Promotor</th>
 						<th data-field="author.department" data-sortable="true">Wydział</th>
 						<th data-field="author.rates" data-sortable="true" data-formatter="rateFormatter" data-sorter="ratesSorter">Ocena promotora</th>
 						<th data-field="author.relatedTags" data-formatter="relatesTagFormatter">Powiązania</th>
