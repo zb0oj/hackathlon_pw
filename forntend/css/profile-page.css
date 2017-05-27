@@ -4,6 +4,9 @@ div {
 .main {
 	margin:0 20px;
 }
+.container {
+	padding-top:50px;
+}
 .top-section{
 	margin:0 0 30px;
 }
