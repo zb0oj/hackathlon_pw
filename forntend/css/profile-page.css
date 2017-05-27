@@ -2,10 +2,10 @@ div {
 	//border: 1px solid red;
 }
 .main {
-	margin:0 50px;
+	margin:0 20px;
 }
 .top-section{
-	margin:10px 0 30px;
+	margin:0 0 30px;
 }
 .profile-picture {
 	width:100%;
@@ -16,23 +16,20 @@ div {
 	margin:10px 0 70px;
 }
 #profile {
-	width:270px;
-	height:270px;
+	width:200px;
+	height:200px;
 	display:inline-block;
 	background: url(../img/profesor.jpg) no-repeat;
 	background-position: top;
 	background-size: cover;
 }
 #tag-cloud {
-	width:400px;
-	height:270px;
-	display:inline-block;
 }
 .contact-table {
 	min-width:450px;
 }
 #contact-info {
-	padding:50px;
+	padding:0 15px;
 	width:auto;
 	display:inline-block;
 }
