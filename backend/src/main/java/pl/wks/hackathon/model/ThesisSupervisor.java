@@ -7,6 +7,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 import pl.wks.hackathon.enums.PWDepartment;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -128,4 +129,21 @@ public class ThesisSupervisor {
                 ", rates=" + rates +
                 '}';
     }
+
+    public ThesisSupervisor clone() {
+        ThesisSupervisor ts = new ThesisSupervisor();
+        ts.setId(this.id);
+        ts.setRates(this.rates);
+        ts.setRate(this.rate);
+        ts.setPhone(this.phone);
+        ts.setName(this.name);
+        ts.setMail(this.mail);
+        ts.setDepartment(this.department);
+        ts.setRelatedTags(new ArrayList<>());
+        this.getRelatedTags().forEach(k ->
+                ts.getRelatedTags().add(k.clone())
+        );
+        return ts;
+    }
+
 }

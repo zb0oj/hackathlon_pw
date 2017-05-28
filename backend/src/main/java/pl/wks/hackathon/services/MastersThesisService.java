@@ -2,7 +2,9 @@ package pl.wks.hackathon.services;
 
 import pl.wks.hackathon.dto.MastersThesisDTO;
 import pl.wks.hackathon.model.MastersThesis;
+import pl.wks.hackathon.model.Tag;
 
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -18,6 +20,8 @@ public interface MastersThesisService {
     List<MastersThesisDTO> getAll();
 
     void delete(MastersThesis mastersThesis);
+
+    void saveCollection(Collection<MastersThesis> lists);
 
     Integer countTag(String tagName);
 

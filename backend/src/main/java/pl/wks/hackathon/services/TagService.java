@@ -3,6 +3,7 @@ package pl.wks.hackathon.services;
 import pl.wks.hackathon.dto.TagDTO;
 import pl.wks.hackathon.model.Tag;
 
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -16,7 +17,7 @@ public interface TagService {
 
     Tag save(Tag tag);
 
-    void saveCollection(List<Tag> lists);
+    void saveCollection(Collection<Tag> lists);
 
     List<Tag> getAll();
 

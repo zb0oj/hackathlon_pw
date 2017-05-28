@@ -49,4 +49,12 @@ public class Tag {
                 ", tagName='" + tagName + '\'' +
                 '}';
     }
+
+    public Tag clone() {
+        Tag tag = new Tag();
+        tag.setTagsValue(this.tagsValue);
+        tag.setTagName(this.tagName);
+        return tag;
+    }
+
 }

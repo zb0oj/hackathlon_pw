@@ -13,6 +13,7 @@ import pl.wks.hackathon.services.MastersThesisService;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -45,6 +46,12 @@ public class DefaultMastersThesisService implements MastersThesisService {
     public void delete(MastersThesis mastersThesis) {
         mastersThesisRepository.delete(mastersThesis);
     }
+
+    @Override
+    public void saveCollection(Collection<MastersThesis> lists) {
+        mastersThesisRepository.save(lists);
+    }
+
 
     @Override
     public Integer countTag(String tagName) {

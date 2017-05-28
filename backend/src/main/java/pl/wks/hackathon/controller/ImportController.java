@@ -15,6 +15,8 @@ import pl.wks.hackathon.model.MastersThesis;
 import pl.wks.hackathon.model.Tag;
 import pl.wks.hackathon.model.ThesisSupervisor;
 import pl.wks.hackathon.services.MastersThesisService;
+import pl.wks.hackathon.services.ThesisSupervisorServices;
+import pl.wks.hackathon.services.impl.DefaultTagService;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,6 +38,13 @@ public class ImportController {
     @Autowired
     private MastersThesisService defaultMastersThesisService;
 
+    @Autowired
+    private DefaultTagService defaultTagService;
+
+    @Autowired
+    private ThesisSupervisorServices thesisSupervisorServices;
+
+
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<String> importer() throws IOException {
         LOG.info("Welcome in import method.");
@@ -45,7 +54,9 @@ public class ImportController {
         });
         List<MastersThesis> masters = new ArrayList<>();
         Map<String, ThesisSupervisor> promotors = new HashMap<>();
+        Map<String, ThesisSupervisor> promotorsToSave = new HashMap<>();
         Map<String, Tag> tags = new HashMap<>();
+        Map<String, Tag> tagTOSave = new HashMap<>();
         AtomicLong iterator = new AtomicLong(0L);
         dimplomes.forEach(k -> {
             MastersThesis mt = new MastersThesis();
@@ -58,6 +69,7 @@ public class ImportController {
                     tag.setTagName(l);
                     tag.setTagsValue(iterator.incrementAndGet());
                     tags.put(l, tag);
+                    tagTOSave.put(l, tag.clone());
                     tempTags.add(tag);
 
                 }
@@ -75,12 +87,15 @@ public class ImportController {
                 ts.setMail(k.getAuthor().replace(" ", ".").concat("@pw.edu.pl"));
                 ts.setRelatedTags(tempTags);
                 ts.setDepartment(PWDepartment.MINI);
+                promotorsToSave.put(k.getAuthor(), ts.clone());
                 mt.setAuthor(ts);
                 promotors.put(k.getAuthor(), ts);
             }
             masters.add(mt);
         });
-        masters.forEach(k -> defaultMastersThesisService.save(k));
+        defaultMastersThesisService.saveCollection(masters);
+        defaultTagService.saveCollection(tagTOSave.values());
+        thesisSupervisorServices.saveCollection(promotorsToSave.values());
         return ResponseEntity.ok("OK");
     }
 

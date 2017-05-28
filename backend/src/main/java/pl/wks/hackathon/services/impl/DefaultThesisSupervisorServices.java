@@ -7,6 +7,7 @@ import pl.wks.hackathon.repository.ThesisSupervisorRepository;
 import pl.wks.hackathon.services.ThesisSupervisorServices;
 
 import javax.annotation.Resource;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -34,6 +35,11 @@ public class DefaultThesisSupervisorServices implements ThesisSupervisorServices
     @Override
     public List<ThesisSupervisor> getAll() {
         return Lists.newArrayList(thesisSupervisorRepository.findAll());
+    }
+
+    @Override
+    public void saveCollection(Collection<ThesisSupervisor> lists) {
+        thesisSupervisorRepository.save(lists);
     }
 
     @Override

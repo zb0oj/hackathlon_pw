@@ -1,7 +1,9 @@
 package pl.wks.hackathon.services;
 
+import pl.wks.hackathon.model.Tag;
 import pl.wks.hackathon.model.ThesisSupervisor;
 
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -16,6 +18,8 @@ public interface ThesisSupervisorServices {
     ThesisSupervisor save(ThesisSupervisor thesisSupervisor);
 
     List<ThesisSupervisor> getAll();
+
+    void saveCollection(Collection<ThesisSupervisor> lists);
 
     void delete(ThesisSupervisor thesisSupervisor);
 

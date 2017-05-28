@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import pl.wks.hackathon.dto.TagDTO;
 import pl.wks.hackathon.services.TagService;
 
@@ -24,8 +25,8 @@ public class TagsRestController {
     @Autowired
     private TagService defaultTagService;
 
-    @RequestMapping(value = "/{query}", method = RequestMethod.GET)
-    public ResponseEntity<List<TagDTO>> getListTagsByQuery(@PathVariable(name = "query") String query) {
+    @RequestMapping(value = "/search", method = RequestMethod.POST)
+    public ResponseEntity<List<TagDTO>> getListTagsByQuery(@RequestParam(name = "query") String query) {
         return ResponseEntity.ok(defaultTagService.inlineSearch(query));
     }
 }
