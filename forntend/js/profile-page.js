@@ -9,12 +9,12 @@ $.ajax({
 		$('#mail').html(promotor.mail);
 		$('#roomInfo').html(promotor.roomInfo);
 		
-		$('#profile').load(promotor.photo, function(response, status, xhr) {
+		/* $('#profile').load(promotor.photo, function(response, status, xhr) {
 			if (status != "error") {
 				photo = '<img src="'+promotor.photo+'" alt="" />';
 				$('#profile').html(photo);
 			}
-		});
+		}); */
 		
 		if(promotor.friendly > 0) {
 			$('#friendlyMinus').css({width: 0});
