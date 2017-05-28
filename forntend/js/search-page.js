@@ -10,7 +10,7 @@ function initMagicsuggest() {
 		method: 'post',
 		displayField: 'tagName',
 		valueField: 'tagName',
-		placeholder: 'Wpisz swoje zainteresowania',
+		placeholder: 'Wpisz wyszukiwaną frazę',
 		value: queryArray,
 		renderer: function(data){
 			return data.tagName;
