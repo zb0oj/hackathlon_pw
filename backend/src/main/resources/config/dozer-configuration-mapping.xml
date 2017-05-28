@@ -10,6 +10,10 @@
                 <class-a>pl.wks.hackathon.model.Tag</class-a>
                 <class-b>pl.wks.hackathon.dto.TagDTO</class-b>
             </converter>
+            <converter type="pl.wks.hackathon.converters.MastersThesisTableConverter">
+                <class-a>pl.wks.hackathon.model.MastersThesis</class-a>
+                <class-b>pl.wks.hackathon.dto.mini.MasterThesisTableDTO</class-b>
+            </converter>
         </custom-converters>
     </configuration>
 

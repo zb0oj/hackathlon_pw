@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 /**
  * Implementation of {@link TagService}
  * <p>
- * Created by Marek Paczóski (marek.paczoski@execon.pl) on 27.05.2017.
+ * Created by Marek Paczóski on 27.05.2017.
  */
 @Service
 public class DefaultTagService implements TagService {

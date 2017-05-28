@@ -4,6 +4,7 @@ import org.dozer.CustomConverter;
 import org.dozer.DozerBeanMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import pl.wks.hackathon.converters.MastersThesisTableConverter;
 import pl.wks.hackathon.converters.TagConverter;
 
 import java.util.Arrays;
@@ -28,6 +29,7 @@ public class DozerMapperConfig {
         // custom converters.
         Map<String, CustomConverter> customConverters = new HashMap<>();
         customConverters.put("tagConverter", tagConverter());
+        customConverters.put("mastersThesisTableConverter", mastersThesisTableConverter());
         dozerBean.setCustomConvertersWithId(customConverters);
 
         return dozerBean;
@@ -36,6 +38,11 @@ public class DozerMapperConfig {
     @Bean
     public CustomConverter tagConverter() {
         return new TagConverter();
+    }
+
+    @Bean
+    public CustomConverter mastersThesisTableConverter() {
+        return new MastersThesisTableConverter();
     }
 
 }

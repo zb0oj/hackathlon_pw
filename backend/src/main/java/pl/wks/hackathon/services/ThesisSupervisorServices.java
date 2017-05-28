@@ -1,6 +1,6 @@
 package pl.wks.hackathon.services;
 
-import pl.wks.hackathon.model.Tag;
+import pl.wks.hackathon.dto.ThesisSupervisorDTO;
 import pl.wks.hackathon.model.ThesisSupervisor;
 
 import java.util.Collection;
@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface ThesisSupervisorServices {
 
-    ThesisSupervisor getById(Long thesisSupervisorId);
+    ThesisSupervisorDTO getById(Long thesisSupervisorId);
 
     ThesisSupervisor save(ThesisSupervisor thesisSupervisor);
 

@@ -22,17 +22,20 @@ public class MastersThesisDTO {
 
     private Boolean isDone;
 
+    private String diplomeType;
+
     public MastersThesisDTO() {
         // default constructor
     }
 
-    public MastersThesisDTO(Long id, String title, BigDecimal difficulity, ThesisSupervisorDTO author, List<TagDTO> tags, Boolean isDone) {
+    public MastersThesisDTO(Long id, String title, BigDecimal difficulity, ThesisSupervisorDTO author, List<TagDTO> tags, Boolean isDone, String diplomeType) {
         this.id = id;
         this.title = title;
         this.difficulity = difficulity;
         this.author = author;
         this.tags = tags;
         this.isDone = isDone;
+        this.diplomeType = diplomeType;
     }
 
     public Long getId() {
@@ -83,6 +86,14 @@ public class MastersThesisDTO {
         isDone = done;
     }
 
+    public String getDiplomeType() {
+        return diplomeType;
+    }
+
+    public void setDiplomeType(String diplomeType) {
+        this.diplomeType = diplomeType;
+    }
+
     @Override
     public String toString() {
         return "MastersThesisDTO{" +
@@ -92,6 +103,7 @@ public class MastersThesisDTO {
                 ", author=" + author +
                 ", tags=" + tags +
                 ", isDone=" + isDone +
+                ", diplomeType='" + diplomeType + '\'' +
                 '}';
     }
 }

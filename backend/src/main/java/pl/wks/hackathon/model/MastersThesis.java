@@ -31,16 +31,20 @@ public class MastersThesis {
 
     private Boolean isDone;
 
+    private String diplomeType;
+
     public MastersThesis() {
         // default constructor
     }
 
-    public MastersThesis(Long id, String title, BigDecimal difficulity, ThesisSupervisor author, List<Tag> tags) {
+    public MastersThesis(Long id, String title, BigDecimal difficulity, ThesisSupervisor author, List<Tag> tags, Boolean isDone, String diplomeType) {
         this.id = id;
         this.title = title;
         this.difficulity = difficulity;
         this.author = author;
         this.tags = tags;
+        this.isDone = isDone;
+        this.diplomeType = diplomeType;
     }
 
     public Long getId() {
@@ -91,6 +95,14 @@ public class MastersThesis {
         isDone = done;
     }
 
+    public String getDiplomeType() {
+        return diplomeType;
+    }
+
+    public void setDiplomeType(String diplomeType) {
+        this.diplomeType = diplomeType;
+    }
+
     @Override
     public String toString() {
         return "MastersThesis{" +
@@ -99,6 +111,8 @@ public class MastersThesis {
                 ", difficulity=" + difficulity +
                 ", author=" + author +
                 ", tags=" + tags +
+                ", isDone=" + isDone +
+                ", diplomeType='" + diplomeType + '\'' +
                 '}';
     }
 }

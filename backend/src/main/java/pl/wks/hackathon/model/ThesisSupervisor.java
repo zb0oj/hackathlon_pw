@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Supervisor entity
  * <p>
- * Created by Marek Paczóski (marek.paczoski@execon.pl) on 27.05.2017.
+ * Created by Marek Paczóski on 27.05.2017.
  */
 @Document(indexName = "hackathlon_pw", type = "thesisSupervisors")
 public class ThesisSupervisor {
