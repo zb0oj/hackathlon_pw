@@ -64,6 +64,11 @@ public class DefaultMastersThesisService implements MastersThesisService {
     }
 
     @Override
+    public List<MastersThesisDTO> findArchivedByAuthorId(Long id) {
+        return findByAuthorId(id).stream().filter(dto -> Boolean.TRUE.equals(dto.getDone())).collect(Collectors.toList());
+    }
+
+    @Override
     public List<MastersThesisDTO> inlineSearch(List<String> tags) {
         List<MastersThesis> lists = mastersThesisRepository.inlineSearch(StringUtils.join(tags, StringUtils.SPACE));
         List<MastersThesisDTO> dtos = new ArrayList<>();

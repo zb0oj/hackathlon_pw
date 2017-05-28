@@ -23,5 +23,7 @@ public interface MastersThesisService {
 
     List<MastersThesisDTO> findByAuthorId(Long id);
 
+    List<MastersThesisDTO> findArchivedByAuthorId(Long id);
+
     List<MastersThesisDTO> inlineSearch(List<String> tags);
 }

@@ -37,4 +37,9 @@ public class MastersThesisRestController {
         return ResponseEntity.ok(defaultMastersThesisService.findByAuthorId(id));
     }
 
+    @RequestMapping(value = "/byPromotorIdArchive/{id}", method = RequestMethod.GET)
+    public ResponseEntity<List<MastersThesisDTO>> getArchiveListByAuthorId(@PathVariable Long id) {
+        return ResponseEntity.ok(defaultMastersThesisService.findArchivedByAuthorId(id));
+    }
+
 }
