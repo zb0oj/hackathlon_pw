@@ -15,7 +15,7 @@ public interface MastersThesisService {
 
     MastersThesis save(MastersThesis mastersThesis);
 
-    List<MastersThesis> getAll();
+    List<MastersThesisDTO> getAll();
 
     void delete(MastersThesis mastersThesis);
 

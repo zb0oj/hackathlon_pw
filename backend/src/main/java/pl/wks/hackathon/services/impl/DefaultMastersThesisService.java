@@ -42,11 +42,6 @@ public class DefaultMastersThesisService implements MastersThesisService {
     }
 
     @Override
-    public List<MastersThesis> getAll() {
-        return Lists.newArrayList(mastersThesisRepository.findAll());
-    }
-
-    @Override
     public void delete(MastersThesis mastersThesis) {
         mastersThesisRepository.delete(mastersThesis);
     }
@@ -60,6 +55,16 @@ public class DefaultMastersThesisService implements MastersThesisService {
     @Override
     public List<MastersThesisDTO> inlineSearch(List<String> tags) {
         List<MastersThesis> lists = mastersThesisRepository.inlineSearch(StringUtils.join(tags, StringUtils.SPACE));
+        List<MastersThesisDTO> dtos = new ArrayList<>();
+        if (CollectionUtils.isNotEmpty(lists)) {
+            dtos = lists.stream().map(tag -> mapper.map(tag, MastersThesisDTO.class)).collect(Collectors.toList());
+        }
+        return dtos;
+    }
+
+    @Override
+    public List<MastersThesisDTO> getAll() {
+        List<MastersThesis> lists = Lists.newArrayList(mastersThesisRepository.findAll());
         List<MastersThesisDTO> dtos = new ArrayList<>();
         if (CollectionUtils.isNotEmpty(lists)) {
             dtos = lists.stream().map(tag -> mapper.map(tag, MastersThesisDTO.class)).collect(Collectors.toList());

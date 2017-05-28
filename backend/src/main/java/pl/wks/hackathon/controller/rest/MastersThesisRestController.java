@@ -7,10 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import pl.wks.hackathon.dto.MastersThesisDTO;
+import pl.wks.hackathon.dto.request.TagsQuery;
 import pl.wks.hackathon.services.MastersThesisService;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Marek Paczóski on 28.05.2017.
@@ -23,7 +25,12 @@ public class MastersThesisRestController {
     private MastersThesisService defaultMastersThesisService;
 
     @RequestMapping(value = "/inlineSearch", method = RequestMethod.POST)
-    public ResponseEntity<List<MastersThesisDTO>> getListTagsByQuery(@RequestParam(name = "tags") String[] tags) {
-        return ResponseEntity.ok(defaultMastersThesisService.inlineSearch(Arrays.asList(tags)));
+    public ResponseEntity<List<MastersThesisDTO>> getListTagsByQuery(@RequestParam(required = false) TagsQuery tags) {
+        if (Objects.nonNull(tags))
+            return ResponseEntity.ok(defaultMastersThesisService.inlineSearch(tags.getTags()));
+        else
+            return ResponseEntity.ok(defaultMastersThesisService.getAll());
     }
+
+
 }
