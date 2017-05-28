@@ -18,7 +18,6 @@ function initMagicsuggest() {
     });
 	$(magicsuggest).on('selectionchange', function(e,m){
 	  updateTable();
-	  console.log('lorem');
 	});
 }
 
@@ -28,7 +27,6 @@ initTable();
 $('[data-toggle="tooltip"]').tooltip();
 
 function initTable() {
-	console.log(magicsuggest.getValue());
 	$.ajax({
 		url: searchUrl,
 		data:JSON.stringify({
@@ -41,7 +39,7 @@ function initTable() {
 		//async: false,
 		context: document.body
 	}).done(function(prace) {
-		$('#table').bootstrapTable({
+		btable = $('#table').bootstrapTable({
 			data: prace
 		}).on('all.bs.table', function (e, name, args) {
 			$('[data-toggle="tooltip"]').tooltip();
@@ -68,8 +66,12 @@ function updateTable() {
 		context: document.body
 	}).done(function(prace) {
 		if(btable) {
-			btable.clear();
-			btable.load(prace);
+			$('.well').html('<table id="table" class="table table-striped table-hover table-condensed"><thead><tr><th data-field="title" data-sortable="true">Tytuł pracy</th><th data-field="difficulity" data-sortable="true" data-formatter="diffFormatter">Poziom trudności</th><th data-field="author" data-formatter="authorNameFormatter" data-sortable="true">Promotor</th><th data-field="author.department" data-sortable="true">Wydział</th><th data-field="author.relatedTags" data-formatter="relatesTagFormatter">Powiązania</th><th data-field="author.relatedTags" data-formatter="actionsFormatter">Akcje</th></tr></thead></table>');
+			btable = $('#table').bootstrapTable({
+				data: prace
+			}).on('all.bs.table', function (e, name, args) {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
 		}
 	});
 }

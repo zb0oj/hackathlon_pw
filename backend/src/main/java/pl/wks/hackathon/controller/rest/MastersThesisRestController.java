@@ -1,18 +1,20 @@
 package pl.wks.hackathon.controller.rest;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import pl.wks.hackathon.dto.MastersThesisDTO;
 import pl.wks.hackathon.dto.mini.MasterThesisTableDTO;
 import pl.wks.hackathon.dto.request.TagsQuery;
 import pl.wks.hackathon.services.MastersThesisService;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -26,9 +28,14 @@ public class MastersThesisRestController {
     private MastersThesisService defaultMastersThesisService;
 
     @RequestMapping(value = "/inlineSearch", method = RequestMethod.POST)
-    public ResponseEntity<List<MastersThesisDTO>> getListTagsByQuery(@RequestParam(required = false) TagsQuery tags) {
-        if (Objects.nonNull(tags))
-            return ResponseEntity.ok(defaultMastersThesisService.inlineSearch(tags.getTags()));
+    public ResponseEntity<List<MastersThesisDTO>> getListTagsByQuery(@RequestParam Map<String, String> body) throws IOException {
+        ObjectMapper om = new ObjectMapper();
+        List<String> temp = new ArrayList<>();
+        temp.addAll(body.keySet());
+        TagsQuery tq = om.readValue(temp.get(0), TagsQuery.class);
+
+        if (Objects.nonNull(tq) && CollectionUtils.isNotEmpty(tq.getTags()))
+            return ResponseEntity.ok(defaultMastersThesisService.inlineSearch(tq.getTags()));
         else
             return ResponseEntity.ok(defaultMastersThesisService.getAll());
     }
