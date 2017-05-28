@@ -67,6 +67,9 @@ function updateTable() {
 		//async: false,
 		context: document.body
 	}).done(function(prace) {
-		btable.load(prace);
+		if(btable) {
+			btable.clear();
+			btable.load(prace);
+		}
 	});
 }
