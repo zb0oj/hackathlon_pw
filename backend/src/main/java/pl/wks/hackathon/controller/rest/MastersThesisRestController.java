@@ -22,7 +22,7 @@ public class MastersThesisRestController {
     @Autowired
     private MastersThesisService defaultMastersThesisService;
 
-    @RequestMapping(value = "/inlineSearch", method = RequestMethod.GET)
+    @RequestMapping(value = "/inlineSearch", method = RequestMethod.POST)
     public ResponseEntity<List<MastersThesisDTO>> getListTagsByQuery(@RequestParam(name = "tags") String[] tags) {
         return ResponseEntity.ok(defaultMastersThesisService.inlineSearch(Arrays.asList(tags)));
     }
