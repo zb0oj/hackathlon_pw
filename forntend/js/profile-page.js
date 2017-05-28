@@ -26,6 +26,7 @@ $.ajax({
 			$('#friendlyPlus').addClass('hidden');			
 		}
 		
+		if(promotor.rates)
 		promotor.rates.forEach(function(entry) {
 			color = 'red';
 			if(entry.frequency > 3.0) {
@@ -41,6 +42,7 @@ $.ajax({
 		
 		var classes = [];
 		
+		if(promotor.relatedTags)
 		promotor.relatedTags.forEach(function(entry){
 			classes[classes.length] = {"id": entry.tagName, "value": entry.frequency};			
 		});

@@ -1,5 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+	<?php
+		error_reporting(0);
+	?>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>Promotor - {name}</title>

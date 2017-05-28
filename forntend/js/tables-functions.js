@@ -7,6 +7,7 @@ function diffFormatter(value) {
 
 function rateFormatter(value) {
 	val = '';
+	if(value)
 	value.forEach(function(entry) {
 		color = 'red';
 		if(entry.frequency > 3.0) {
@@ -24,6 +25,7 @@ function relatesTagFormatter(value) {
 	i=0;
 	tags = '';
 	shortTags = '';
+	if(value)
 	value.forEach(function(entry) {
 		tags += entry.tagName + ' ';
 		shortTags += (i<2)?entry.tagName+' ':'';
@@ -34,6 +36,7 @@ function relatesTagFormatter(value) {
 
 function relatesTagFormatter2(value) {
 	tags = '<div style="line-height: 21px;">';
+	if(value)
 	value.forEach(function(entry) {
 		tags +=  '<a href="search.php?query='+entry.tagName+'" class="btn btn-default btn-xs">'+entry.tagName+'</a>&nbsp;';
 	});
@@ -50,9 +53,11 @@ function authorNameFormatter(value) {
  function ratesSorter(a, b) {
 	sumA = 0;
 	sumB = 0;
+	if(a)
 	a.forEach(function(entry) {
 		sumA += entry.frequency;
 	});
+	if(b)
 	b.forEach(function(entry) {
 		sumB += entry.frequency;
 	});	 

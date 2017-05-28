@@ -11,12 +11,14 @@ $.ajax({
 	var questions = $('form#questions');
 	var data = surveyQuestions[0];
 	
+	if(data)
 	data.forEach(function(entry) {
 		var stepToAppend = '<div class="step" data-step-id="'+stepCounter+'">Krok ' + (stepCounter+1) + '</div>';
 		var questionToAppend = '';
 		
 		if(entry.type == "checkbox") {
 			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label>';
+			if(entry.choices)
 			entry.choices.forEach(function(choice) {
 				questionToAppend += '<div class="col-lg-3"><label><input type="checkbox" name="'+choice.value+'" id="'+choice.value+'" value="'+choice.value+'" checked="">'+choice.value+'</label></div>';
 			});
@@ -24,6 +26,7 @@ $.ajax({
 		}
 		if(entry.type == "select") {
 			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label for="select" class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10"><select class="form-control" id="select">';
+			if(entry.choices)
 			entry.choices.forEach(function(choice) {
 				questionToAppend += '<option value="'+choice.value+'">'+choice.value+'</option>';
 			});
@@ -33,6 +36,7 @@ $.ajax({
 		if(entry.type == "radio") {
 			console.log(entry);
 			questionToAppend = '<div class="form-group question questionToForm" data-question-id="'+entry.questionId+'"><label class="col-lg-2 control-label">' + entry.question + '</label><div class="col-lg-10">';
+			if(entry.choices)
 			entry.choices.forEach(function(choice) {
 				questionToAppend += '<div class="radio"><label><input type="radio" name="'+entry.questionId+'" id="'+entry.questionId+'" value="'+choice.value+'" checked="">'+choice.value+'</label></div>';
 			});

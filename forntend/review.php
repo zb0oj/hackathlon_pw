@@ -1,5 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+	<?php
+		error_reporting(0);
+	?>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>Ocena współpracy</title>
@@ -41,19 +44,19 @@
                         <tbody>
                            <tr>
                               <td><span>Temat:</span></td>
-                              <td><span class="topic">Weryfikacja korelacji poziomu wód gruntowych w Korei a wydajnością ESB</span></td>
+                              <td><span class="topic" id="title"></span></td>
                            </tr>
                            <tr>
                               <td><span>Promotor:</span></td>
-                              <td><span class="imie" id="name">prof. nzw. dr hab. inż. Piękny Tomasz</span></td>
+                              <td><span class="imie" id="name"></span></td>
                            </tr>
                            <tr>
                               <td><span>Wydział:</span></td>
-                              <td id="department">WEiTI</td>
+                              <td id="department"></td>
                            </tr>
                            <tr>
                               <td><span>Stopień:</span></td>
-                              <td>Magisterskie</td>
+                              <td id="stage"></td>
                            </tr>
                         </tbody>
                      </table>
@@ -71,25 +74,25 @@
 									<div class="col-sm-6">Daje dużą wolność</div>
 									<div class="col-sm-6">Prowadzi studenta</div>
 								</div>
-                                 <div class="progress col-sm-2">
-                                    <div class="progress-bar progress-bar-success hidden" style="width:100%;"></div>
+                                 <div class="progress col-sm-2" onmouseover="setFriendly(-3)" onclick="saveFriendly(-3)" onmouseout="friendlySaved=false;">
+                                    <div class="progress-bar progress-bar-success hidden" style="width:100%;" id="friendly-3"></div>
 								</div>
-                                 <div class="progress col-sm-2">
-                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%"></div>
+                                 <div class="progress col-sm-2" onmouseover="setFriendly(-2)" onclick="saveFriendly(-2)" onmouseout="friendlySaved=false;">
+                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%" id="friendly-2"></div>
                                  </div>
-								 <div class="progress col-sm-2">
-                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%"></div>
+								 <div class="progress col-sm-2" onmouseover="setFriendly(-1)" onclick="saveFriendly(-1)" onmouseout="friendlySaved=false;">
+                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%" id="friendly-1"></div>
                                  </div>
-                                 <div class="progress col-sm-2">
-                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%"></div>
+                                 <div class="progress col-sm-2" onmouseover="setFriendly(1)" onclick="saveFriendly(1)" onmouseout="friendlySaved=false;">
+                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%" id="friendly1"></div>
                                  </div>
-								 <div class="progress col-sm-2">
-                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%"></div>
+								 <div class="progress col-sm-2" onmouseover="setFriendly(2)" onclick="saveFriendly(2)" onmouseout="friendlySaved=false;">
+                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%" id="friendly2"></div>
                                  </div>
-								 <div class="progress col-sm-2">
-                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%"></div>
+								 <div class="progress col-sm-2" onmouseover="setFriendly(3)" onclick="saveFriendly(3)" onmouseout="friendlySaved=false;">
+                                    <div class="progress-bar progress-bar-success hidden" style="width: 100%" id="friendly3"></div>
                                  </div>
-
+								<input type="hidden" name="friendly" />
                               </div>
                            </td>
                         </tr>

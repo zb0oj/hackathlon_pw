@@ -5,3 +5,4 @@ var searchPromotorUrl =  backendUrl + 'byPromotorId/'; // +id
 var searchPromotorArchiveUrl =  backendUrl + 'byPromotorIdArchive/'; // +id
 var tagUrl =  backendUrl + 'search';
 var profileUrl = backendUrl + 'promotor/'; // +id
+var reviewUrl = backendUrl + 'promotor/praca/'; // +id
