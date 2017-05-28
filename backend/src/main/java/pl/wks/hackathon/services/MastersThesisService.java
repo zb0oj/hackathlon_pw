@@ -1,5 +1,6 @@
 package pl.wks.hackathon.services;
 
+import pl.wks.hackathon.dto.MastersThesisDTO;
 import pl.wks.hackathon.model.MastersThesis;
 
 import java.util.List;
@@ -20,5 +21,5 @@ public interface MastersThesisService {
 
     Integer countTag(String tagName);
 
-    List<MastersThesis> inlineSearch(List<String> tags);
+    List<MastersThesisDTO> inlineSearch(List<String> tags);
 }

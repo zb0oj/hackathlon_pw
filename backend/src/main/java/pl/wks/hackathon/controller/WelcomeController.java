@@ -4,6 +4,7 @@ import org.dozer.Mapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +17,7 @@ import pl.wks.hackathon.model.Rate;
 import pl.wks.hackathon.model.Tag;
 import pl.wks.hackathon.model.ThesisSupervisor;
 import pl.wks.hackathon.services.MastersThesisService;
+import pl.wks.hackathon.services.TagService;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -33,19 +35,23 @@ public class WelcomeController {
     private MastersThesisService defaultMastersThesisService;
 
     @Autowired
+    private TagService defaultTagService;
+
+    @Autowired
     private Mapper mapper;
+
+    @Autowired
+    private ElasticsearchTemplate elasticsearchTemplate;
 
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<String> getHelloPage() {
         LOG.info("Welcome in hello controller.");
 
-//        ThesisSupervisor thesisSupervisor = preparMock();
-//        defaultThesisSupervisorServices.save(thesisSupervisor);
         MastersThesis mastersThesis = prepareMockMaster();
         //defaultMastersThesisService.save(mastersThesis);
-        defaultMastersThesisService.countTag("Pingwiny");
+        //defaultMastersThesisService.countTag("Pingwiny");
 
-        //System.out.print(defaultMastersThesisService.inLineFind(Arrays.asList("Mateuszka","dupa")));
+        System.out.print(defaultMastersThesisService.inlineSearch(Arrays.asList("Mateuszka", "dupa")));
 
         MastersThesisDTO dto = new MastersThesisDTO();
         mapper.map(mastersThesis, dto);
@@ -57,7 +63,12 @@ public class WelcomeController {
         return ResponseEntity.ok(mapper.map(defaultMastersThesisService.getById(id), MastersThesisDTO.class));
     }
 
-    private static MastersThesis prepareMockMaster() {
+    @RequestMapping(value = "/tag/{id}", method = RequestMethod.GET)
+    public ResponseEntity<Tag> getTagJSON(@PathVariable Long id) {
+        return ResponseEntity.ok(defaultTagService.getById(id));
+    }
+
+    private MastersThesis prepareMockMaster() {
         MastersThesis mastersThesis = new MastersThesis();
         mastersThesis.setId(2L);
         mastersThesis.setTitle("Wpływ Mateuszka na rozwój developmentu");
@@ -67,13 +78,35 @@ public class WelcomeController {
         //tags
         Tag tag1 = new Tag(30L, "matueszek");
         Tag tag2 = new Tag(31L, "makarena");
+        Tag tag3 = new Tag(30L, "pik");
+        Tag tag4 = new Tag(31L, "gik");
 
-        mastersThesis.setTags(Arrays.asList(tag1, tag2));
+        Tag tag11 = new Tag(30L, "matueszek");
+        Tag tag21 = new Tag(31L, "makarena");
+        Tag tag31 = new Tag(30L, "pik");
+        Tag tag41 = new Tag(31L, "gik");
+
+        mastersThesis.setTags(Arrays.asList(tag1, tag2, tag3, tag4));
+        defaultTagService.saveCollection(Arrays.asList(tag11, tag21, tag31, tag41));
+//
+//        IndexQuery indexQuery = new IndexQuery();
+//        indexQuery.setId(mastersThesis.getId().toString());
+//        indexQuery.setObject(mastersThesis);
+//
+//        //creating mapping
+//        elasticsearchTemplate.putMapping(MastersThesis.class);
+//        //indexing document
+//        elasticsearchTemplate.index(indexQuery);
+//        //refresh
+//        elasticsearchTemplate.refresh(MastersThesis.class);
+//
+//        elasticsearchTemplate.putMapping(Tag.class);
+        elasticsearchTemplate.refresh("hackathlon_pw");
 
         return mastersThesis;
     }
 
-    private static ThesisSupervisor preparMock() {
+    private ThesisSupervisor preparMock() {
         ThesisSupervisor thesisSupervisor = new ThesisSupervisor();
         thesisSupervisor.setId(2L);
         thesisSupervisor.setRate(BigDecimal.valueOf(4.5));

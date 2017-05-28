@@ -16,6 +16,8 @@ public interface TagService {
 
     Tag save(Tag tag);
 
+    void saveCollection(List<Tag> lists);
+
     List<Tag> getAll();
 
     void delete(Tag tag);

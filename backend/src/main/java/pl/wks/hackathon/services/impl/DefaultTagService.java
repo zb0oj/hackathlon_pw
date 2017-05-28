@@ -13,7 +13,6 @@ import pl.wks.hackathon.services.TagService;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
@@ -38,6 +37,11 @@ public class DefaultTagService implements TagService {
     @Override
     public Tag save(Tag tag) {
         return tagRepository.save(tag);
+    }
+
+    @Override
+    public void saveCollection(List<Tag> lists){
+        tagRepository.save(lists);
     }
 
     @Override
