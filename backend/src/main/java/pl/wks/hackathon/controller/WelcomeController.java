@@ -48,7 +48,7 @@ public class WelcomeController {
         LOG.info("Welcome in hello controller.");
 
         MastersThesis mastersThesis = prepareMockMaster();
-        //defaultMastersThesisService.save(mastersThesis);
+        defaultMastersThesisService.save(mastersThesis);
         //defaultMastersThesisService.countTag("Pingwiny");
 
         System.out.print(defaultMastersThesisService.inlineSearch(Arrays.asList("Mateuszka", "dupa")));
@@ -101,7 +101,7 @@ public class WelcomeController {
 //        elasticsearchTemplate.refresh(MastersThesis.class);
 //
 //        elasticsearchTemplate.putMapping(Tag.class);
-        elasticsearchTemplate.refresh("hackathlon_pw");
+       // elasticsearchTemplate.refresh("hackathlon_pw");
 
         return mastersThesis;
     }

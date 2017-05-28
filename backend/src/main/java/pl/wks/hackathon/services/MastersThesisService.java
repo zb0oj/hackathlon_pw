@@ -21,5 +21,7 @@ public interface MastersThesisService {
 
     Integer countTag(String tagName);
 
+    List<MastersThesisDTO> findByAuthorId(Long id);
+
     List<MastersThesisDTO> inlineSearch(List<String> tags);
 }

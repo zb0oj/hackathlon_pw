@@ -53,6 +53,17 @@ public class DefaultMastersThesisService implements MastersThesisService {
     }
 
     @Override
+    public List<MastersThesisDTO> findByAuthorId(Long id) {
+        List<MastersThesis> lists = Lists.newArrayList(mastersThesisRepository.findAll());
+        List<MastersThesisDTO> dtos = new ArrayList<>();
+        if (CollectionUtils.isNotEmpty(lists)) {
+            dtos = lists.stream().filter(mastersThesis -> id.equals(mastersThesis.getAuthor().getId()))
+                    .map(tag -> mapper.map(tag, MastersThesisDTO.class)).collect(Collectors.toList());
+        }
+        return dtos;
+    }
+
+    @Override
     public List<MastersThesisDTO> inlineSearch(List<String> tags) {
         List<MastersThesis> lists = mastersThesisRepository.inlineSearch(StringUtils.join(tags, StringUtils.SPACE));
         List<MastersThesisDTO> dtos = new ArrayList<>();
