@@ -70,13 +70,14 @@ $.ajax({
 function initMagicsuggest(p) {
     magicsuggest = $('#magicsuggest').magicSuggest({
 		data: tagUrl,
-		method: 'get',
-		displayField: 'tagValue',
-		valueField: 'tagValue',
+		method: 'post',
+		displayField: 'tagName',
+		valueField: 'tagName',
 		cls: 'magic',
 		placeholder: 'Wpisz swoje zainteresowania',
 		renderer: function(data){
-			return data.tag;
+			
+			return data.tagName;
 		}
     });
 }

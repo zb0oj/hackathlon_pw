@@ -7,12 +7,13 @@ function initMagicsuggest() {
     magicsuggest = $('#magicsuggest').magicSuggest({
 		data: tagUrl,
 		method: 'post',
-		displayField: 'tagValue',
-		valueField: 'tagValue',
+		displayField: 'tagName',
+		valueField: 'tagName',
 		placeholder: 'Wpisz swoje zainteresowania',
 		value: queryArray,
 		renderer: function(data){
-			return data.tag;
+			console.log(data);
+			return data.tagName;
 		}
     });
 	$(magicsuggest).on('selectionchange', function(e,m){
