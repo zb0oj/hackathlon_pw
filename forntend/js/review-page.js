@@ -80,3 +80,12 @@ function saveFriendly(value) {
 	$('input[name=friendly]').val(value);
 	friendlySaved = true;
 } 	
+
+function setStar(field, value) {
+	$('#'+field+', #'+field+'2, #'+field+'3, #'+field+'4, #'+field+'5').removeClass('fa-star').addClass('fa-star-o');
+	for(i=1; i<=value; i++) {
+		$('#'+field+i).removeClass('fa-star-o');
+		$('#'+field+i).addClass('fa-star');
+	}
+	$('input[name='+field+']').val(value);
+}

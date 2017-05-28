@@ -28,11 +28,12 @@ $('[data-toggle="tooltip"]').tooltip();
 function initTable() {
 	$.ajax({
 		url: searchUrl,
-		data: {
+		data:JSON.stringify({
 			"tags": magicsuggest.getValue()
-		},
+		}),
 		cache: false,
 		type: 'post',
+		dataType: 'json',
 		context: document.body
 	}).done(function(prace) {
 		$('#table').bootstrapTable({

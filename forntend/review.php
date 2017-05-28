@@ -100,33 +100,36 @@
                            <td><i class="fa fa-exclamation-triangle fa-2" aria-hidden="true"></i></td>
                            <td><span>*&nbsp;Konstruktywność uwag:</span></td>
                            <td>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="konstruktywnosc1" onclick="setStar('konstruktywnosc', 1)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="konstruktywnosc2" onclick="setStar('konstruktywnosc', 2)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="konstruktywnosc3" onclick="setStar('konstruktywnosc', 3)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="konstruktywnosc4" onclick="setStar('konstruktywnosc', 4)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="konstruktywnosc5" onclick="setStar('konstruktywnosc', 5)"></i>
+							  <input type="hidden" name="konstruktywnosc" />
                            </td>
                         </tr>
                         <tr>
                            <td><i class="fa fa-comments fa-2" aria-hidden="true"></i></td>
                            <td><span>*&nbsp;Komunikatywność:</span></td>
                            <td>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="komunikatywnosc1" onclick="setStar('komunikatywnosc', 1)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="komunikatywnosc2" onclick="setStar('komunikatywnosc', 2)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="komunikatywnosc3" onclick="setStar('komunikatywnosc', 3)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="komunikatywnosc4" onclick="setStar('komunikatywnosc', 4)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="komunikatywnosc5" onclick="setStar('komunikatywnosc', 5)"></i>
+							  <input type="hidden" name="komunikatywnosc" />
                            </td>
                         </tr>
                         <tr>
                            <td><i class="fa fa-thumbs-up fa-2" aria-hidden="true"></i></td>
                            <td><span>*&nbsp;Zaangażowanie:</span></td>
                            <td>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
-                              <i class="fa fa-star-o" aria-hidden="true"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="zaangazowanie1" onclick="setStar('zaangazowanie', 1)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="zaangazowanie2" onclick="setStar('zaangazowanie', 2)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="zaangazowanie3" onclick="setStar('zaangazowanie', 3)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="zaangazowanie4" onclick="setStar('zaangazowanie', 4)"></i>
+                              <i class="fa fa-star-o" aria-hidden="true" id="zaangazowanie5" onclick="setStar('zaangazowanie', 5)"></i>
+							  <input type="hidden" name="zaangazowanie" />
                            </td>
                         </tr>
                      </tbody>
