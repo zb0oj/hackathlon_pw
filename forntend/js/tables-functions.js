@@ -1,7 +1,7 @@
 
 
 function diffFormatter(value) {
-	width = value * 2 * 10;
+	width = value * 2 * 100;
 	return '<div class="progress"><div class="progress-bar progress-bar-success" style="width: '+width+'%"></div></div>'
 }
 

@@ -19,9 +19,6 @@
 		<li><a href="search.php">Wyszukiwarka</a></li>
 		<li><a href="survey.php">Ankieta</a></li>
 	  </ul>
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="#">O projekcie</a></li>
-	  </ul>
 	</div>
 	
     <a name="about"></a>

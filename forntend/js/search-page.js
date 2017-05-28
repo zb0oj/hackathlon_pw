@@ -1,3 +1,4 @@
+var btable;
 var magicsuggest;
 function initMagicsuggest() {
 	var queryArray = initialQuery.split(',');
@@ -17,6 +18,7 @@ function initMagicsuggest() {
     });
 	$(magicsuggest).on('selectionchange', function(e,m){
 	  initTable();
+	  console.log('lorem');
 	});
 }
 
@@ -26,6 +28,7 @@ initTable();
 $('[data-toggle="tooltip"]').tooltip();
 
 function initTable() {
+	console.log(magicsuggest.getValue());
 	$.ajax({
 		url: searchUrl,
 		data:JSON.stringify({
@@ -49,3 +52,21 @@ function initTable() {
 	});
 }
 
+
+function updateTable() {
+	console.log(magicsuggest.getValue());
+	$.ajax({
+		url: searchUrl,
+		data:JSON.stringify({
+			"tags": magicsuggest.getValue()
+		}),
+		cache: false,
+		type: 'post',
+		dataType: 'json',
+		//contentType: "application/json",
+		//async: false,
+		context: document.body
+	}).done(function(prace) {
+		btable.load(prace);
+	});
+}

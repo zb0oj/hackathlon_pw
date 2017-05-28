@@ -5,7 +5,7 @@ $.ajax({
 		context: document.body
 	}).done(function(promotor) {
 		console.log(promotor);
-		$('#name').html('<a href="profile.php?id='+promotor.authorId+'">'+promotor.authorName'</a>');
+		$('#name').html('<a href="profile.php?id='+promotor.authorId+'">'+promotor.authorName+'</a>');
 		$('#department').html(promotor.department);
 		$('#mail').html(promotor.mail);
 		$('#roomInfo').html(promotor.roomInfo);

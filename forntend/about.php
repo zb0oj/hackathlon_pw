@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Praca dyplomowa</h1>
+                        <h1>Wybrze¿e Klatki Schodowej</h1>
                         <h3>ZnajdŸ z nami swój temat i promotora</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
