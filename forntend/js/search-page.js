@@ -34,8 +34,8 @@ function initTable() {
 		cache: false,
 		type: 'post',
 		dataType: 'json',
-		contentType: "application/json",
-		async: false,
+		//contentType: "application/json",
+		//async: false,
 		context: document.body
 	}).done(function(prace) {
 		$('#table').bootstrapTable({
