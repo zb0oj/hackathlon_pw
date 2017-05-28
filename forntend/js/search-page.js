@@ -12,7 +12,6 @@ function initMagicsuggest() {
 		placeholder: 'Wpisz swoje zainteresowania',
 		value: queryArray,
 		renderer: function(data){
-			console.log(data);
 			return data.tagName;
 		}
     });
@@ -35,6 +34,8 @@ function initTable() {
 		cache: false,
 		type: 'post',
 		dataType: 'json',
+		contentType: "application/json",
+		async: false,
 		context: document.body
 	}).done(function(prace) {
 		$('#table').bootstrapTable({

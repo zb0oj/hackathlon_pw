@@ -76,7 +76,6 @@ function initMagicsuggest(p) {
 		cls: 'magic',
 		placeholder: 'Wpisz swoje zainteresowania',
 		renderer: function(data){
-			
 			return data.tagName;
 		}
     });
