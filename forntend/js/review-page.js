@@ -89,3 +89,35 @@ function setStar(field, value) {
 	}
 	$('input[name='+field+']').val(value);
 }
+
+function saveRate() {
+	objectToSave = {};
+	objectToSave['id'] = promotorId;
+	objectToSave['friendly'] = $('input[name=friendly]').val();
+	objectToSave['rates'] = [];
+	objectToSave['rates'][0] = {};
+	objectToSave['rates'][0]['icon'] = "fa-exclamation-triangle"; 
+	objectToSave['rates'][0]['rate'] = $('input[name=konstruktywnosc]').val();
+	objectToSave['rates'][1] = {};
+	objectToSave['rates'][1]['icon'] = "fa-comments"; 
+	objectToSave['rates'][1]['rate'] = $('input[name=komunikatywnosc]').val();
+	objectToSave['rates'][2] = {};
+	objectToSave['rates'][2]['icon'] = "fa-thumbs-up"; 
+	objectToSave['rates'][2]['rate'] = $('input[name=zaangazowanie]').val();
+		
+	$.ajax({
+		url: saveReviewUrl,
+		data:JSON.stringify(objectToSave),
+		cache: false,
+		type: 'post',
+		dataType: 'json',
+		context: document.body
+	}).done(function() {
+		$('.main').addClass('hidden');
+		$('.thank-you').removeClass('hidden');
+	}).error(function(e) {
+		$('.main').addClass('hidden');
+		$('.thank-you').removeClass('hidden');
+	});
+
+}

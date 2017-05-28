@@ -25,6 +25,10 @@ body.loading {
     overflow: hidden;   
 }
 
+.fa-6 {
+	font-size: 20em !important;
+}
+
 body {
 	
     background: url(../img/intro-bg.jpg) no-repeat center center;

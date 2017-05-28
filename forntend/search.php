@@ -22,6 +22,9 @@
    <body class="loading">
       <div id="navbar" class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
+			<li>
+			   <a href="index.php">Start</a>
+			</li>
             <li class="active"><a href="search.php">Wyszukiwarka</a></li>
             <li><a href="survey.php">Ankieta</a></li>
          </ul>
@@ -43,10 +46,8 @@
 						<th data-field="difficulity" data-sortable="true" data-formatter="diffFormatter">Poziom trudności</th>
 						<th data-field="author" data-formatter="authorNameFormatter" data-sortable="true">Promotor</th>
 						<th data-field="author.department" data-sortable="true">Wydział</th>
-						<th data-field="author.rates" data-sortable="true" data-formatter="rateFormatter" data-sorter="ratesSorter">Ocena promotora</th>
 						<th data-field="author.relatedTags" data-formatter="relatesTagFormatter">Powiązania</th>
-						<th data-field="author.mail">EMail</th>
-						<th data-field="author.phone">Telefon</th>
+						<th data-field="author.relatedTags" data-formatter="actionsFormatter">Akcje</th>
 					</tr>
 				</thead>
 			</table> 

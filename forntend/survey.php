@@ -14,6 +14,9 @@
   <body class="loading">
 	<div id="navbar" class="navbar-collapse collapse">
 	  <ul class="nav navbar-nav">
+		<li>
+		   <a href="index.php">Start</a>
+		</li>
 		<li><a href="search.php">Wyszukiwarka</a></li>
 		<li class="active"><a href="survey.php">Ankieta</a></li>
 	  </ul>

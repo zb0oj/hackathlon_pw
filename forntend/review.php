@@ -21,20 +21,24 @@
       <div id="navbar" class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
             <li class="active">
-               <a href="#search">Wyszukiwarka</a>
+               <a href="index.php">Start</a>
+            </li>
+            <li class="active">
+               <a href="search.php">Wyszukiwarka</a>
             </li>
             <li>
-               <a href="#about">Ankieta</a>
-            </li>
-         </ul>
-         <ul class="nav navbar-nav navbar-right">
-            <li>
-               <a href="#">O projekcie</a>
+               <a href="survey.php">Ankieta</a>
             </li>
          </ul>
       </div>
       <div class="container">
          <div class="well bs-component table-responsive">
+			<div class="thank-you hidden">
+               <h2><i class="fa fa-star fa-2" aria-hidden="true">&nbsp;</i>Ocena współpracy z promotorem</h2>
+				<br /><br />
+				<div class="col-sm-6"><i class="fa fa-thumbs-o-up fa-6" aria-hidden="true"></i></div>
+				<div class="info thank col-sm-6">Dziękujemy za Twoją opinię, pojawi się ona w serwisie niebawem.</div>
+			</div>
             <div class="main">
                <h2><i class="fa fa-star fa-2" aria-hidden="true">&nbsp;</i>Ocena współpracy z promotorem</h2>
                <div class="thesis-info">
@@ -136,7 +140,7 @@
                   </table>
                </div>
 			   <div class="summary">
-			   <a href="#" class="btn btn-default">Wyślij</a>
+			   <a href="#" class="btn btn-default" onclick="saveRate()">Wyślij</a>
 			   </div>
             </div>
          </div>

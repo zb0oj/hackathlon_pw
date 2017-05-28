@@ -71,8 +71,8 @@ function initMagicsuggest(p) {
     magicsuggest = $('#magicsuggest').magicSuggest({
 		data: tagUrl,
 		method: 'get',
-		displayField: 'tag',
-		valueField: 'tag',
+		displayField: 'tagValue',
+		valueField: 'tagValue',
 		cls: 'magic',
 		placeholder: 'Wpisz swoje zainteresowania',
 		renderer: function(data){

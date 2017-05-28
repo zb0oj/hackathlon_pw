@@ -49,6 +49,10 @@ function authorNameFormatter(value) {
 	name = value.name;
 	return '<a target="_BLANK" href="profile.php?id=' + id + '">' + name + '</a>';
 }
+
+function actionsFormatter(v) {
+	return '<a class="btn btn-default btn-xs" href="#">Podejmij</a>';
+}
  
  function ratesSorter(a, b) {
 	sumA = 0;

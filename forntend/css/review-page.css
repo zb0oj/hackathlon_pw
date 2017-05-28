@@ -62,3 +62,7 @@ table.review-table td:nth-child(2) {
 .summary a {
 	float:right;
 }
+
+.thank.info {
+	padding-top: 140px;
+}

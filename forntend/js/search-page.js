@@ -7,8 +7,8 @@ function initMagicsuggest() {
     magicsuggest = $('#magicsuggest').magicSuggest({
 		data: tagUrl,
 		method: 'post',
-		displayField: 'tag',
-		valueField: 'tag',
+		displayField: 'tagValue',
+		valueField: 'tagValue',
 		placeholder: 'Wpisz swoje zainteresowania',
 		value: queryArray,
 		renderer: function(data){

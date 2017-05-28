@@ -1,4 +1,4 @@
-Ôªø<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
@@ -31,14 +31,14 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Praca dyplomowa</h1>
-                        <h3>Znajd≈∫ z nami sw√≥j temat i promotora</h3>
+                        <h3>Znajdü z nami swÛj temat i promotora</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="survey.php" class="btn btn-default btn-lg"><i class="fa fa-medkit" aria-hidden="true"></i> Wype≈Çnij ankietƒô</span></a>
+                                <a href="survey.php" class="btn btn-default btn-lg"><i class="fa fa-medkit" aria-hidden="true"></i> Wype≥nij ankietÍ</span></a>
                             </li>
                             <li>
-                                <a href="search.php" class="btn btn-default btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Wyszukiwarka temat√≥w</span></a>
+                                <a href="search.php" class="btn btn-default btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Wyszukiwarka tematÛw</span></a>
                             </li>
                         </ul>
                     </div>
