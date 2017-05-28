@@ -17,7 +17,7 @@ function initMagicsuggest() {
 		}
     });
 	$(magicsuggest).on('selectionchange', function(e,m){
-	  initTable();
+	  updateTable();
 	  console.log('lorem');
 	});
 }
