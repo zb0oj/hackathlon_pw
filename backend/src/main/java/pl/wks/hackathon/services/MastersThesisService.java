@@ -1,6 +1,7 @@
 package pl.wks.hackathon.services;
 
 import pl.wks.hackathon.dto.MastersThesisDTO;
+import pl.wks.hackathon.dto.mini.MasterThesisTableDTO;
 import pl.wks.hackathon.model.MastersThesis;
 import pl.wks.hackathon.model.Tag;
 
@@ -14,6 +15,8 @@ import java.util.List;
 public interface MastersThesisService {
 
     MastersThesis getById(Long mastersThesisId);
+
+    MasterThesisTableDTO getMiniById(Long mastersThesisId);
 
     MastersThesis save(MastersThesis mastersThesis);
 

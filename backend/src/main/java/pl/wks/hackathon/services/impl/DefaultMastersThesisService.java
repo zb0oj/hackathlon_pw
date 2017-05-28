@@ -7,6 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.dozer.Mapper;
 import org.springframework.stereotype.Service;
 import pl.wks.hackathon.dto.MastersThesisDTO;
+import pl.wks.hackathon.dto.mini.MasterThesisTableDTO;
 import pl.wks.hackathon.model.MastersThesis;
 import pl.wks.hackathon.repository.MastersThesisRepository;
 import pl.wks.hackathon.services.MastersThesisService;
@@ -35,6 +36,12 @@ public class DefaultMastersThesisService implements MastersThesisService {
     @Override
     public MastersThesis getById(Long mastersThesisId) {
         return mastersThesisRepository.findOne(mastersThesisId);
+    }
+
+    @Override
+    public MasterThesisTableDTO getMiniById(Long mastersThesisId) {
+        MastersThesis thesis = getById(mastersThesisId);
+        return mapper.map(thesis, MasterThesisTableDTO.class);
     }
 
     @Override

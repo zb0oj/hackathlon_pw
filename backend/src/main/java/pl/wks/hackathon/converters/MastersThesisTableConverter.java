@@ -22,7 +22,7 @@ public class MastersThesisTableConverter extends DozerConverter<MastersThesis, M
     @Override
     public MasterThesisTableDTO convertTo(MastersThesis mastersThesis, MasterThesisTableDTO masterThesisTableDTO) {
         MasterThesisTableDTO result = new MasterThesisTableDTO();
-        if (Objects.isNull(masterThesisTableDTO)) {
+        if (Objects.nonNull(masterThesisTableDTO)) {
             result = masterThesisTableDTO;
         }
 

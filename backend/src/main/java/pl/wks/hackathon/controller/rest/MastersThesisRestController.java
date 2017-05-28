@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import pl.wks.hackathon.dto.MastersThesisDTO;
+import pl.wks.hackathon.dto.mini.MasterThesisTableDTO;
 import pl.wks.hackathon.dto.request.TagsQuery;
 import pl.wks.hackathon.services.MastersThesisService;
 
@@ -40,6 +41,11 @@ public class MastersThesisRestController {
     @RequestMapping(value = "/byPromotorIdArchive/{id}", method = RequestMethod.GET)
     public ResponseEntity<List<MastersThesisDTO>> getArchiveListByAuthorId(@PathVariable Long id) {
         return ResponseEntity.ok(defaultMastersThesisService.findArchivedByAuthorId(id));
+    }
+
+    @RequestMapping(value = "/mini/{id}", method = RequestMethod.GET)
+    public ResponseEntity<MasterThesisTableDTO> getMasterThesisMinById(@PathVariable Long id) {
+        return ResponseEntity.ok(defaultMastersThesisService.getMiniById(id));
     }
 
 }
