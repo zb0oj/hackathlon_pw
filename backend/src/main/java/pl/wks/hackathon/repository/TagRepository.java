@@ -1,7 +1,10 @@
 package pl.wks.hackathon.repository;
 
+import org.springframework.data.elasticsearch.annotations.Query;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import pl.wks.hackathon.model.Tag;
+
+import java.util.List;
 
 /**
  * Tags repository
@@ -10,4 +13,6 @@ import pl.wks.hackathon.model.Tag;
  */
 public interface TagRepository extends ElasticsearchRepository<Tag, Long> {
 
+    @Query("{\"query\":{\"query_string\":{\"query\":\"?0\"}}}")
+    List<Tag> inlineSearch(String query);
 }

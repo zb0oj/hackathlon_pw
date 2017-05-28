@@ -7,7 +7,7 @@ package pl.wks.hackathon.dto;
  */
 public class TagDTO {
 
-    private Long tagId;
+    private Long tagsValue;
 
     private String tagName;
 
@@ -18,18 +18,18 @@ public class TagDTO {
     }
 
     // constructor for all fields
-    public TagDTO(Long tagId, String tagName, Integer frequency) {
-        this.tagId = tagId;
+    public TagDTO(Long tagsValue, String tagName, Integer frequency) {
+        this.tagsValue = tagsValue;
         this.tagName = tagName;
         this.frequency = frequency;
     }
 
-    public Long getTagId() {
-        return tagId;
+    public Long getTagsValue() {
+        return tagsValue;
     }
 
-    public void setTagId(Long tagId) {
-        this.tagId = tagId;
+    public void setTagsValue(Long tagsValue) {
+        this.tagsValue = tagsValue;
     }
 
     public String getTagName() {
@@ -51,7 +51,7 @@ public class TagDTO {
     @Override
     public String toString() {
         return "TagDTO{" +
-                "tagId=" + tagId +
+                "tagsValue=" + tagsValue +
                 ", tagName='" + tagName + '\'' +
                 ", frequency=" + frequency +
                 '}';
